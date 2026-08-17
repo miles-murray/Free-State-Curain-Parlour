@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <style>
+      .bg { fill: #F7F4EC; }
+      .ink { fill: #151515; }
+      .charcoal { fill: #2F302D; }
+      .muted { fill: #777066; }
+      .linen { fill: #D8C7AE; }
+      .gold { fill: #B9965B; }
+      .brown { fill: #8A5A35; }
+      .white { fill: #F7F4EC; }
+      .serif { font-family: Georgia, "Times New Roman", serif; letter-spacing: 0; }
+      .sans { font-family: "Avenir Next", "Inter", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0; }
+      .label { font-family: "Avenir Next", "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 19px; font-weight: 700; letter-spacing: 0; }
+      .small { font-family: "Avenir Next", "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 22px; letter-spacing: 0; }
+      .body { font-family: "Avenir Next", "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 28px; letter-spacing: 0; }
+      .button { font-family: "Avenir Next", "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 21px; font-weight: 700; letter-spacing: 0; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="1000"/>
+
+  <text x="80" y="90" class="label ink">FREE STATE CURTAIN PARLOUR</text>
+  <text x="80" y="155" class="serif ink" font-size="66">Recommended Text And Font Direction</text>
+  <text x="80" y="205" class="small muted">Classic black-and-white typography, softened with warm showroom neutrals.</text>
+
+  <g transform="translate(80 275)">
+    <rect x="0" y="0" width="890" height="610" fill="#FFFDF8" stroke="#D8C7AE" stroke-width="2"/>
+    <line x1="58" y1="70" x2="165" y2="70" stroke="#B9965B" stroke-width="4"/>
+    <text x="58" y="125" class="label gold">EST. 1959 | WESTDENE SHOWROOM</text>
+    <text x="58" y="205" class="serif ink" font-size="70">
+      <tspan x="58" dy="0">Curtains, Blinds,</tspan>
+      <tspan x="58" dy="78">Wallpaper &amp; Decor</tspan>
+      <tspan x="58" dy="78">in Bloemfontein</tspan>
+    </text>
+    <text x="58" y="475" class="body muted">
+      <tspan x="58" dy="0">Established in 1959, Free State Curtain Parlour helps you</tspan>
+      <tspan x="58" dy="38">choose curtains, blinds, wallpaper, furniture and decor</tspan>
+      <tspan x="58" dy="38">finishes from our Westdene showroom.</tspan>
+    </text>
+    <rect x="58" y="540" width="190" height="56" fill="#151515"/>
+    <text x="88" y="576" class="button white">Visit Showroom</text>
+    <rect x="268" y="540" width="126" height="56" fill="#B9965B"/>
+    <text x="304" y="576" class="button ink">Call Us</text>
+  </g>
+
+  <g transform="translate(1030 275)">
+    <rect x="0" y="0" width="490" height="305" fill="#2F302D"/>
+    <text x="42" y="62" class="label gold">FONT PAIRING</text>
+    <text x="42" y="125" class="serif white" font-size="52">Refined Serif</text>
+    <text x="42" y="175" class="small linen">For hero headings and section titles.</text>
+    <text x="42" y="245" class="sans white" font-size="34" font-weight="600">Clean Modern Sans</text>
+    <text x="42" y="282" class="small linen">For body copy, buttons and navigation.</text>
+  </g>
+
+  <g transform="translate(1030 620)">
+    <text x="0" y="0" class="label ink">COLOUR USE</text>
+    <g transform="translate(0 32)">
+      <rect x="0" y="0" width="82" height="82" fill="#151515"/>
+      <text x="0" y="118" class="small ink">Black</text>
+    </g>
+    <g transform="translate(102 32)">
+      <rect x="0" y="0" width="82" height="82" fill="#F7F4EC" stroke="#D8C7AE"/>
+      <text x="0" y="118" class="small ink">Off-white</text>
+    </g>
+    <g transform="translate(204 32)">
+      <rect x="0" y="0" width="82" height="82" fill="#777066"/>
+      <text x="0" y="118" class="small ink">Grey</text>
+    </g>
+    <g transform="translate(306 32)">
+      <rect x="0" y="0" width="82" height="82" fill="#D8C7AE"/>
+      <text x="0" y="118" class="small ink">Linen</text>
+    </g>
+    <g transform="translate(408 32)">
+      <rect x="0" y="0" width="82" height="82" fill="#B9965B"/>
+      <text x="0" y="118" class="small ink">Gold</text>
+    </g>
+    <text x="0" y="210" class="body muted">
+      <tspan x="0" dy="0">Use gold sparingly for detail, not as a main</tspan>
+      <tspan x="0" dy="38">background. Let the photos carry the wood</tspan>
+      <tspan x="0" dy="38">brown and richer showroom warmth.</tspan>
+    </text>
+  </g>
+</svg>
