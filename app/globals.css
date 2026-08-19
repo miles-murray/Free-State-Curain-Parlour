@@ -2327,7 +2327,8 @@ p {
 
   .service-panel {
     aspect-ratio: 4 / 5;
-    min-height: 440px;
+    min-height: 0;
+    width: 100%;
   }
 
   .rating-block {
