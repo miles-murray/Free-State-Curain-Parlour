@@ -1629,6 +1629,14 @@ p {
   position: relative;
 }
 
+@media (min-width: 1001px) {
+  .visit-map {
+    align-self: stretch;
+    aspect-ratio: auto;
+    min-height: 0;
+  }
+}
+
 .visit-map iframe {
   border: 0;
   filter: grayscale(1) contrast(1.08) brightness(0.78);
