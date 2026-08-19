@@ -1,0 +1,1052 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/6tee63",
+    "id": "6tee63",
+    "slide": 9,
+    "layoutId": "07475e1f-0d61-4d34-9bb1-ff364c5b220c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1b9afe06-5436-4ab9-ace2-fa211d43eb10",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#171918",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Georgia"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "07475e1f-0d61-4d34-9bb1-ff364c5b220c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1b9afe06-5436-4ab9-ace2-fa211d43eb10",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1b9afe06-5436-4ab9-ace2-fa211d43eb10",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32psbudw",
+      "id": "1",
+      "bbox": [
+        72,
+        66,
+        48,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#F0D8AB",
+      "lineWidth": 1
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/43yt4zuh",
+      "id": "2",
+      "bbox": [
+        136,
+        58,
+        390,
+        24
+      ],
+      "geometry": "rect",
+      "text": "CUSTOMER EXPERIENCE",
+      "textPreview": "CUSTOMER EXPERIENCE",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#F0D8AB",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CUSTOMER EXPERIENCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CUSTOMER EXPERIENCE",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#F0D8AB",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CUSTOMER EXPERIENCE",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#F0D8AB",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/547ud4v2",
+      "id": "3",
+      "bbox": [
+        72,
+        120,
+        680,
+        120
+      ],
+      "geometry": "rect",
+      "text": "A simpler process makes the first enquiry feel easier.",
+      "textPreview": "A simpler process makes the first enquiry feel easier.",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 44,
+        "typeface": "Aptos",
+        "color": "#FBFAF6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A simpler process makes the"
+          },
+          {
+            "index": 2,
+            "text": "first enquiry feel easier."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A simpler process makes the first enquiry feel easier.",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "typeface": "Aptos",
+            "color": "#FBFAF6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A simpler process makes the first enquiry feel easier.",
+              "fontSize": 44,
+              "typeface": "Aptos",
+              "color": "#FBFAF6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxwby5cf",
+      "id": "4",
+      "bbox": [
+        92,
+        334,
+        100,
+        74
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 56,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 56,
+        "typeface": "Georgia",
+        "color": "#F0D8AB",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 56,
+            "typeface": "Georgia",
+            "color": "#F0D8AB",
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 56,
+              "typeface": "Georgia",
+              "color": "#F0D8AB",
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vyps7ad0",
+      "id": "5",
+      "bbox": [
+        92,
+        426,
+        260,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#60594F",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gzyt0ful",
+      "id": "6",
+      "bbox": [
+        92,
+        456,
+        260,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Start with your room",
+      "textPreview": "Start with your room",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Aptos",
+        "color": "#FBFAF6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Start with your room"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Start with your room",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Aptos",
+            "color": "#FBFAF6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Start with your room",
+              "fontSize": 25,
+              "typeface": "Aptos",
+              "color": "#FBFAF6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h07a9kv6",
+      "id": "7",
+      "bbox": [
+        92,
+        506,
+        270,
+        74
+      ],
+      "geometry": "rect",
+      "text": "Bring photos, measurements, ideas or problem areas.",
+      "textPreview": "Bring photos, measurements, ideas or problem areas.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "color": "#D6D1C8",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Bring photos, measurements,"
+          },
+          {
+            "index": 2,
+            "text": "ideas or problem areas."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Bring photos, measurements, ideas or problem areas.",
+          "lineSpacingPercent": 123000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#D6D1C8",
+            "alignment": "left",
+            "lineSpacing": 1.23
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Bring photos, measurements, ideas or problem areas.",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#D6D1C8",
+              "alignment": "left",
+              "lineSpacing": 1.23
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/et0ba9cj",
+      "id": "8",
+      "bbox": [
+        472,
+        334,
+        100,
+        74
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 56,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 56,
+        "typeface": "Georgia",
+        "color": "#F0D8AB",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 56,
+            "typeface": "Georgia",
+            "color": "#F0D8AB",
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 56,
+              "typeface": "Georgia",
+              "color": "#F0D8AB",
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu9cjed4",
+      "id": "9",
+      "bbox": [
+        472,
+        426,
+        260,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#60594F",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jid076lo",
+      "id": "10",
+      "bbox": [
+        472,
+        456,
+        260,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Compare in person",
+      "textPreview": "Compare in person",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Aptos",
+        "color": "#FBFAF6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Compare in person"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Compare in person",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Aptos",
+            "color": "#FBFAF6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Compare in person",
+              "fontSize": 25,
+              "typeface": "Aptos",
+              "color": "#FBFAF6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yh4jy143",
+      "id": "11",
+      "bbox": [
+        472,
+        506,
+        270,
+        74
+      ],
+      "geometry": "rect",
+      "text": "See colour, texture, scale and finish in the showroom.",
+      "textPreview": "See colour, texture, scale and finish in the showroom.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "color": "#D6D1C8",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "See colour, texture, scale and"
+          },
+          {
+            "index": 2,
+            "text": "finish in the showroom."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "See colour, texture, scale and finish in the showroom.",
+          "lineSpacingPercent": 123000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#D6D1C8",
+            "alignment": "left",
+            "lineSpacing": 1.23
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "See colour, texture, scale and finish in the showroom.",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#D6D1C8",
+              "alignment": "left",
+              "lineSpacing": 1.23
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkfi9w3u",
+      "id": "12",
+      "bbox": [
+        852,
+        334,
+        100,
+        74
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 56,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 56,
+        "typeface": "Georgia",
+        "color": "#F0D8AB",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 56,
+            "typeface": "Georgia",
+            "color": "#F0D8AB",
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 56,
+              "typeface": "Georgia",
+              "color": "#F0D8AB",
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kj610bm9",
+      "id": "13",
+      "bbox": [
+        852,
+        426,
+        260,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#60594F",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mx0b6l0",
+      "id": "14",
+      "bbox": [
+        852,
+        456,
+        260,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Bring it together",
+      "textPreview": "Bring it together",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Aptos",
+        "color": "#FBFAF6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Bring it together"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Bring it together",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Aptos",
+            "color": "#FBFAF6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Bring it together",
+              "fontSize": 25,
+              "typeface": "Aptos",
+              "color": "#FBFAF6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6loj214f",
+      "id": "15",
+      "bbox": [
+        852,
+        506,
+        270,
+        74
+      ],
+      "geometry": "rect",
+      "text": "Choose curtains, blinds, wallpaper, furniture and decor with one direction.",
+      "textPreview": "Choose curtains, blinds, wallpaper, furniture and decor with one direction.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "color": "#D6D1C8",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Choose curtains, blinds,"
+          },
+          {
+            "index": 2,
+            "text": "wallpaper, furniture and decor"
+          },
+          {
+            "index": 3,
+            "text": "with one direction."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Choose curtains, blinds, wallpaper, furniture and decor with one direction.",
+          "lineSpacingPercent": 123000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#D6D1C8",
+            "alignment": "left",
+            "lineSpacing": 1.23
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Choose curtains, blinds, wallpaper, furniture and decor with one direction.",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#D6D1C8",
+              "alignment": "left",
+              "lineSpacing": 1.23
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t8fidg3q",
+      "id": "16",
+      "bbox": [
+        72,
+        674,
+        420,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Free State Curtain Parlour website proposal",
+      "textPreview": "Free State Curtain Parlour website proposal",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#C8C0B4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Free State Curtain Parlour website proposal"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Free State Curtain Parlour website proposal",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#C8C0B4",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Free State Curtain Parlour website proposal",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#C8C0B4",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87614bm5",
+      "id": "17",
+      "bbox": [
+        1168,
+        664,
+        40,
+        28
+      ],
+      "geometry": "rect",
+      "text": "09",
+      "textPreview": "09",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Georgia",
+        "color": "#F0D8AB",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "09"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "09",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Georgia",
+            "color": "#F0D8AB",
+            "alignment": "right",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "09",
+              "fontSize": 16,
+              "typeface": "Georgia",
+              "color": "#F0D8AB",
+              "alignment": "right",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

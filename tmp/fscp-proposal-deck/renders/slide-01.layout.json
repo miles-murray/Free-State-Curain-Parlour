@@ -1,0 +1,472 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/gna645",
+    "id": "gna645",
+    "slide": 1,
+    "layoutId": "07475e1f-0d61-4d34-9bb1-ff364c5b220c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1b9afe06-5436-4ab9-ace2-fa211d43eb10",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#171918",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "07475e1f-0d61-4d34-9bb1-ff364c5b220c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1b9afe06-5436-4ab9-ace2-fa211d43eb10",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1b9afe06-5436-4ab9-ace2-fa211d43eb10",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/c3u58f2l",
+      "id": "1",
+      "bbox": [
+        500,
+        0,
+        780,
+        720
+      ],
+      "geometry": "rect",
+      "alt": "Free State Curtain Parlour showroom interior",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "15a5f9a5-2665-4e2a-bb84-3bed6c4fd719",
+        "contentType": "image/jpeg",
+        "byteLength": 3050889
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylorypoj",
+      "id": "2",
+      "bbox": [
+        500,
+        0,
+        780,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(0, 0, 0, 0.44)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zmxsru54",
+      "id": "3",
+      "bbox": [
+        0,
+        0,
+        600,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#171918",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/pgjmx0ju",
+      "id": "4",
+      "bbox": [
+        70,
+        56,
+        240,
+        92
+      ],
+      "geometry": "rect",
+      "alt": "Free State Curtain Parlour logo",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "aaab2b58-e8ad-4b8b-97f4-8c1e703348b0",
+        "contentType": "image/png",
+        "byteLength": 37219
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9szaxon6",
+      "id": "5",
+      "bbox": [
+        72,
+        198,
+        48,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#F0D8AB",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mp8r29ov",
+      "id": "6",
+      "bbox": [
+        136,
+        190,
+        390,
+        24
+      ],
+      "geometry": "rect",
+      "text": "WEBSITE CONCEPT PROPOSAL",
+      "textPreview": "WEBSITE CONCEPT PROPOSAL",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#F0D8AB",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "WEBSITE CONCEPT PROPOSAL"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "WEBSITE CONCEPT PROPOSAL",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#F0D8AB",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "WEBSITE CONCEPT PROPOSAL",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#F0D8AB",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qhsve5g",
+      "id": "7",
+      "bbox": [
+        72,
+        236,
+        520,
+        250
+      ],
+      "geometry": "rect",
+      "text": "Translating the showroom experience online.",
+      "textPreview": "Translating the showroom experience online.",
+      "resolvedFontSize": 56,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 56,
+        "typeface": "Aptos",
+        "color": "#FBFAF6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Translating the"
+          },
+          {
+            "index": 2,
+            "text": "showroom"
+          },
+          {
+            "index": 3,
+            "text": "experience online."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Translating the showroom experience online.",
+          "lineSpacingPercent": 96000,
+          "resolvedTextStyle": {
+            "fontSize": 56,
+            "typeface": "Aptos",
+            "color": "#FBFAF6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.96
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Translating the showroom experience online.",
+              "fontSize": 56,
+              "typeface": "Aptos",
+              "color": "#FBFAF6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.96
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovm9sf6h",
+      "id": "8",
+      "bbox": [
+        74,
+        522,
+        420,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Homepage direction, digital strategy and production plan",
+      "textPreview": "Homepage direction, digital strategy and production plan",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Aptos",
+        "color": "#D9D3CA",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Homepage direction, digital strategy and"
+          },
+          {
+            "index": 2,
+            "text": "production plan"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Homepage direction, digital strategy and production plan",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Aptos",
+            "color": "#D9D3CA",
+            "alignment": "left",
+            "lineSpacing": 1.25
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Homepage direction, digital strategy and production plan",
+              "fontSize": 22,
+              "typeface": "Aptos",
+              "color": "#D9D3CA",
+              "alignment": "left",
+              "lineSpacing": 1.25
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwfalkn2",
+      "id": "9",
+      "bbox": [
+        72,
+        620,
+        170,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#F0D8AB",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tkn2twri",
+      "id": "10",
+      "bbox": [
+        72,
+        638,
+        420,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Prepared for Free State Curtain Parlour",
+      "textPreview": "Prepared for Free State Curtain Parlour",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#F0D8AB",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Prepared for Free State Curtain Parlour"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Prepared for Free State Curtain Parlour",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#F0D8AB",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Prepared for Free State Curtain Parlour",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#F0D8AB",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

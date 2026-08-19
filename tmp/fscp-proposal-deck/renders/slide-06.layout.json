@@ -1,0 +1,683 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/n7a72e",
+    "id": "n7a72e",
+    "slide": 6,
+    "layoutId": "07475e1f-0d61-4d34-9bb1-ff364c5b220c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1b9afe06-5436-4ab9-ace2-fa211d43eb10",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#171918",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Georgia"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "07475e1f-0d61-4d34-9bb1-ff364c5b220c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1b9afe06-5436-4ab9-ace2-fa211d43eb10",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1b9afe06-5436-4ab9-ace2-fa211d43eb10",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/1krqxsze",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "alt": "Homepage hero showroom photograph",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "c302382c-6662-4ff2-9655-0094254ada8f",
+        "contentType": "image/jpeg",
+        "byteLength": 3050889
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bm9krqdg",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(0, 0, 0, 0.56)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/fypoviho",
+      "id": "3",
+      "bbox": [
+        72,
+        48,
+        200,
+        76
+      ],
+      "geometry": "rect",
+      "alt": "Free State Curtain Parlour logo",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "be13eb6a-c29c-48f2-bdf0-8e5e4ced5495",
+        "contentType": "image/png",
+        "byteLength": 37219
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lsb2xkvy",
+      "id": "4",
+      "bbox": [
+        76,
+        184,
+        570,
+        245
+      ],
+      "geometry": "rect",
+      "text": "Where fabric, furniture and finishing touches meet.",
+      "textPreview": "Where fabric, furniture and finishing touches meet.",
+      "resolvedFontSize": 50,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 50,
+        "typeface": "Aptos",
+        "color": "#FBFAF6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Where fabric, furniture"
+          },
+          {
+            "index": 2,
+            "text": "and finishing touches"
+          },
+          {
+            "index": 3,
+            "text": "meet."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Where fabric, furniture and finishing touches meet.",
+          "lineSpacingPercent": 98000,
+          "resolvedTextStyle": {
+            "fontSize": 50,
+            "typeface": "Aptos",
+            "color": "#FBFAF6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 0.98
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Where fabric, furniture and finishing touches meet.",
+              "fontSize": 50,
+              "typeface": "Aptos",
+              "color": "#FBFAF6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 0.98
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kr2l4fed",
+      "id": "5",
+      "bbox": [
+        80,
+        464,
+        530,
+        84
+      ],
+      "geometry": "rect",
+      "text": "The hero should answer three questions in seconds: who they are, what kind of business this is, and why someone should keep looking.",
+      "textPreview": "The hero should answer three questions in seconds: who they are, what kind of business this is, and why someone should keep looking.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Aptos",
+        "color": "#E3DED5",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The hero should answer three questions in seconds: who"
+          },
+          {
+            "index": 2,
+            "text": "they are, what kind of business this is, and why someone"
+          },
+          {
+            "index": 3,
+            "text": "should keep looking."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The hero should answer three questions in seconds: who they are, what kind of business this is, and why someone should keep looking.",
+          "lineSpacingPercent": 125000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#E3DED5",
+            "alignment": "left",
+            "lineSpacing": 1.25
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The hero should answer three questions in seconds: who they are, what kind of business this is, and why someone should keep looking.",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#E3DED5",
+              "alignment": "left",
+              "lineSpacing": 1.25
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqtkvads",
+      "id": "6",
+      "bbox": [
+        772,
+        150,
+        360,
+        390
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(23, 25, 24, 0.76)",
+      "lineColor": "#F0D8AB",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ypk325w7",
+      "id": "7",
+      "bbox": [
+        810,
+        190,
+        220,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Why it works",
+      "textPreview": "Why it works",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 26,
+        "typeface": "Aptos",
+        "color": "#F0D8AB",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Why it works"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Why it works",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Aptos",
+            "color": "#F0D8AB",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Why it works",
+              "fontSize": 26,
+              "typeface": "Aptos",
+              "color": "#F0D8AB",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1wr2lgve",
+      "id": "8",
+      "bbox": [
+        812,
+        252,
+        270,
+        210
+      ],
+      "geometry": "rect",
+      "text": "Real showroom imagery gives immediate credibility.\nThe headline is confident without becoming busy.\nShort copy respects how quickly visitors scan.\nClear calls to action move people toward a visit or call.",
+      "textPreview": "Real showroom imagery gives immediate credibility. | The headline is confident without becoming busy. | Short copy respects how quickly v...",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#ECE5DA",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Real showroom imagery gives"
+          },
+          {
+            "index": 2,
+            "text": "immediate credibility."
+          },
+          {
+            "index": 3,
+            "text": "• The headline is confident without"
+          },
+          {
+            "index": 4,
+            "text": "becoming busy."
+          },
+          {
+            "index": 5,
+            "text": "• Short copy respects how quickly"
+          },
+          {
+            "index": 6,
+            "text": "visitors scan."
+          },
+          {
+            "index": 7,
+            "text": "• Clear calls to action move people"
+          },
+          {
+            "index": 8,
+            "text": "toward a visit or call."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Real showroom imagery gives immediate credibility.",
+          "bulletCharacter": "•",
+          "marginLeft": 22,
+          "indent": -12,
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 10,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#ECE5DA",
+            "lineSpacing": 1.18
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Real showroom imagery gives immediate credibility.",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#ECE5DA",
+              "lineSpacing": 1.18
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "The headline is confident without becoming busy.",
+          "bulletCharacter": "•",
+          "marginLeft": 22,
+          "indent": -12,
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 10,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#ECE5DA",
+            "lineSpacing": 1.18
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The headline is confident without becoming busy.",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#ECE5DA",
+              "lineSpacing": 1.18
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Short copy respects how quickly visitors scan.",
+          "bulletCharacter": "•",
+          "marginLeft": 22,
+          "indent": -12,
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 10,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#ECE5DA",
+            "lineSpacing": 1.18
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Short copy respects how quickly visitors scan.",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#ECE5DA",
+              "lineSpacing": 1.18
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Clear calls to action move people toward a visit or call.",
+          "bulletCharacter": "•",
+          "marginLeft": 22,
+          "indent": -12,
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 10,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#ECE5DA",
+            "lineSpacing": 1.18
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Clear calls to action move people toward a visit or call.",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#ECE5DA",
+              "lineSpacing": 1.18
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0vi1sbet",
+      "id": "9",
+      "bbox": [
+        72,
+        674,
+        420,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Free State Curtain Parlour website proposal",
+      "textPreview": "Free State Curtain Parlour website proposal",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#C8C0B4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Free State Curtain Parlour website proposal"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Free State Curtain Parlour website proposal",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#C8C0B4",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Free State Curtain Parlour website proposal",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#C8C0B4",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y5wbatkb",
+      "id": "10",
+      "bbox": [
+        1168,
+        664,
+        40,
+        28
+      ],
+      "geometry": "rect",
+      "text": "06",
+      "textPreview": "06",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Georgia",
+        "color": "#F0D8AB",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Georgia",
+            "color": "#F0D8AB",
+            "alignment": "right",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06",
+              "fontSize": 16,
+              "typeface": "Georgia",
+              "color": "#F0D8AB",
+              "alignment": "right",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

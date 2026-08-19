@@ -1,0 +1,860 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/hwjije",
+    "id": "hwjije",
+    "slide": 10,
+    "layoutId": "d202f8a7-6ea5-4d00-98b5-f0b704e001eb",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "6c194bc0-d019-46ea-aab3-274630896cbb",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#171918",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Georgia"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "d202f8a7-6ea5-4d00-98b5-f0b704e001eb",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "6c194bc0-d019-46ea-aab3-274630896cbb",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "6c194bc0-d019-46ea-aab3-274630896cbb",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9o32tkra",
+      "id": "1",
+      "bbox": [
+        72,
+        66,
+        48,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#F0D8AB",
+      "lineWidth": 1
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1s3i5sz",
+      "id": "2",
+      "bbox": [
+        136,
+        58,
+        470,
+        24
+      ],
+      "geometry": "rect",
+      "text": "MOBILE EXPERIENCE",
+      "textPreview": "MOBILE EXPERIENCE",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#F0D8AB",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MOBILE EXPERIENCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MOBILE EXPERIENCE",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#F0D8AB",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MOBILE EXPERIENCE",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#F0D8AB",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n2lkra9k",
+      "id": "3",
+      "bbox": [
+        72,
+        118,
+        600,
+        120
+      ],
+      "geometry": "rect",
+      "text": "Mobile is designed deliberately, not just reduced.",
+      "textPreview": "Mobile is designed deliberately, not just reduced.",
+      "resolvedFontSize": 45,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 45,
+        "typeface": "Georgia",
+        "color": "#FBFAF6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Mobile is designed"
+          },
+          {
+            "index": 2,
+            "text": "deliberately, not just"
+          },
+          {
+            "index": 3,
+            "text": "reduced."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Mobile is designed deliberately, not just reduced.",
+          "lineSpacingPercent": 104000,
+          "resolvedTextStyle": {
+            "fontSize": 45,
+            "typeface": "Georgia",
+            "color": "#FBFAF6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.04
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Mobile is designed deliberately, not just reduced.",
+              "fontSize": 45,
+              "typeface": "Georgia",
+              "color": "#FBFAF6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.04
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wruloza1",
+      "id": "4",
+      "bbox": [
+        74,
+        270,
+        500,
+        80
+      ],
+      "geometry": "rect",
+      "text": "The same brand feeling needs to survive on a narrow screen while remaining practical to browse and contact from a phone.",
+      "textPreview": "The same brand feeling needs to survive on a narrow screen while remaining practical to browse and contact from a phone.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Aptos",
+        "color": "#D7D0C6",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The same brand feeling needs to survive on a narrow"
+          },
+          {
+            "index": 2,
+            "text": "screen while remaining practical to browse and contact"
+          },
+          {
+            "index": 3,
+            "text": "from a phone."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The same brand feeling needs to survive on a narrow screen while remaining practical to browse and contact from a phone.",
+          "lineSpacingPercent": 127000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#D7D0C6",
+            "alignment": "left",
+            "lineSpacing": 1.27
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The same brand feeling needs to survive on a narrow screen while remaining practical to browse and contact from a phone.",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#D7D0C6",
+              "alignment": "left",
+              "lineSpacing": 1.27
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xs32xkrm",
+      "id": "5",
+      "bbox": [
+        78,
+        408,
+        420,
+        142
+      ],
+      "geometry": "rect",
+      "text": "Typography adjusted for readability.\nImages cropped for vertical viewing.\nSections stacked with clearer spacing.\nCalls to action remain easy to find.",
+      "textPreview": "Typography adjusted for readability. | Images cropped for vertical viewing. | Sections stacked with clearer spacing. | Calls to action re...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "color": "#D7D0C6",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- Typography adjusted for readability."
+          },
+          {
+            "index": 2,
+            "text": "- Images cropped for vertical viewing."
+          },
+          {
+            "index": 3,
+            "text": "- Sections stacked with clearer spacing."
+          },
+          {
+            "index": 4,
+            "text": "- Calls to action remain easy to find."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Typography adjusted for readability.",
+          "bulletCharacter": "-",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 7,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#D7D0C6",
+            "lineSpacing": 1.18
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Typography adjusted for readability.",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#D7D0C6",
+              "lineSpacing": 1.18
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Images cropped for vertical viewing.",
+          "bulletCharacter": "-",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 7,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#D7D0C6",
+            "lineSpacing": 1.18
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Images cropped for vertical viewing.",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#D7D0C6",
+              "lineSpacing": 1.18
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Sections stacked with clearer spacing.",
+          "bulletCharacter": "-",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 7,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#D7D0C6",
+            "lineSpacing": 1.18
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sections stacked with clearer spacing.",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#D7D0C6",
+              "lineSpacing": 1.18
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Calls to action remain easy to find.",
+          "bulletCharacter": "-",
+          "marginLeft": 18,
+          "indent": -10,
+          "lineSpacingPercent": 118000,
+          "spaceAfter": 7,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#D7D0C6",
+            "lineSpacing": 1.18
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Calls to action remain easy to find.",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#D7D0C6",
+              "lineSpacing": 1.18
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/apc3mpsv",
+      "id": "6",
+      "bbox": [
+        700,
+        62,
+        246,
+        590
+      ],
+      "geometry": "rect",
+      "fillColor": "#0B0C0B",
+      "lineColor": "#D7BD92",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/61kbytwf",
+      "id": "7",
+      "bbox": [
+        714,
+        82,
+        218,
+        548
+      ],
+      "geometry": "roundRect",
+      "alt": "Mobile-oriented showroom image",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 5505"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "b93b64cb-4479-4ec8-89cc-41def0ba990f",
+        "contentType": "image/jpeg",
+        "byteLength": 3641175
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvalcvax",
+      "id": "8",
+      "bbox": [
+        714,
+        82,
+        218,
+        548
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(0, 0, 0, 0.16)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dwj2l0r2",
+      "id": "9",
+      "bbox": [
+        988,
+        174,
+        174,
+        320
+      ],
+      "geometry": "rect",
+      "fillColor": "#F4F1EA",
+      "lineColor": "#D7BD92",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pc7610ri",
+      "id": "10",
+      "bbox": [
+        1012,
+        222,
+        126,
+        70
+      ],
+      "geometry": "rect",
+      "text": "Phone-first decisions",
+      "textPreview": "Phone-first decisions",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Phone-firs"
+          },
+          {
+            "index": 2,
+            "text": "t decisions"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Phone-first decisions",
+          "lineSpacingPercent": 108000,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Aptos",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.08
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Phone-first decisions",
+              "fontSize": 24,
+              "typeface": "Aptos",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.08
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obypsvax",
+      "id": "11",
+      "bbox": [
+        1016,
+        332,
+        118,
+        68
+      ],
+      "geometry": "rect",
+      "text": "Preserve the style.\nImprove the scan.",
+      "textPreview": "Preserve the style. | Improve the scan.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#625E58",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Preserve the"
+          },
+          {
+            "index": 2,
+            "text": "style."
+          },
+          {
+            "index": 3,
+            "text": "Improve the"
+          },
+          {
+            "index": 4,
+            "text": "scan."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Preserve the style.",
+          "lineSpacingPercent": 122000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#625E58",
+            "alignment": "center",
+            "lineSpacing": 1.22
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Preserve the style.",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#625E58",
+              "alignment": "center",
+              "lineSpacing": 1.22
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Improve the scan.",
+          "lineSpacingPercent": 122000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#625E58",
+            "alignment": "center",
+            "lineSpacing": 1.22
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Improve the scan.",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#625E58",
+              "alignment": "center",
+              "lineSpacing": 1.22
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/napozqtc",
+      "id": "12",
+      "bbox": [
+        72,
+        674,
+        460,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Free State Curtain Parlour digital proposal",
+      "textPreview": "Free State Curtain Parlour digital proposal",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#C8C0B4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Free State Curtain Parlour digital proposal"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Free State Curtain Parlour digital proposal",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#C8C0B4",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Free State Curtain Parlour digital proposal",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#C8C0B4",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29w7q5sr",
+      "id": "13",
+      "bbox": [
+        1166,
+        664,
+        42,
+        28
+      ],
+      "geometry": "rect",
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Georgia",
+        "color": "#F0D8AB",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Georgia",
+            "color": "#F0D8AB",
+            "alignment": "right",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10",
+              "fontSize": 16,
+              "typeface": "Georgia",
+              "color": "#F0D8AB",
+              "alignment": "right",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,276 @@
+{"kind":"deck","id":"pr/rpqcak","name":"Deck"}
+{"kind":"layout","layoutId":"6c194bc0-d019-46ea-aab3-274630896cbb","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"d202f8a7-6ea5-4d00-98b5-f0b704e001eb","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/dc1zlz","slide":1,"title":"DIGITAL PROPOSAL","textShapes":4}
+{"kind":"shape","id":"sh/p0b6lsjm","slide":1,"bbox":[470,0,810,720]}
+{"kind":"shape","id":"sh/oz25snih","slide":1,"bbox":[0,0,575,720]}
+{"kind":"shape","id":"sh/a1knud07","slide":1,"bbox":[72,198,48,0]}
+{"kind":"textbox","id":"sh/x4v6psjy","slide":1,"text":"DIGITAL PROPOSAL","textPreview":"DIGITAL PROPOSAL","textChars":16,"textLines":1,"bbox":[136,190,470,24]}
+{"kind":"textbox","id":"sh/c3m5wnid","slide":1,"text":"A digital presence that reflects 67 years of trust.","textPreview":"A digital presence that reflects 67 years of trust.","textChars":51,"textLines":1,"bbox":[72,238,520,240]}
+{"kind":"textbox","id":"sh/z6dor214","slide":1,"text":"Website concept and Google Business Profile optimization","textPreview":"Website concept and Google Business Profile optimization","textChars":56,"textLines":1,"bbox":[76,526,440,58]}
+{"kind":"shape","id":"sh/y54nyx0j","slide":1,"bbox":[72,622,170,0]}
+{"kind":"textbox","id":"sh/4rm98ne1","slide":1,"text":"Prepared for Free State Curtain Parlour","textPreview":"Prepared for Free State Curtain Parlour","textChars":39,"textLines":1,"bbox":[72,640,430,24]}
+{"kind":"image","id":"im/ba50ze9s","slide":1,"name":"","geometry":"rect","alt":"Free State Curtain Parlour showroom interior","bbox":[470,0,810,720]}
+{"kind":"image","id":"im/2lcz298b","slide":1,"name":"","geometry":"rect","alt":"Free State Curtain Parlour logo","bbox":[72,54,240,92]}
+{"kind":"notes","id":"nt/dc1zlz","slide":1,"text":"Open by framing the presentation as a business proposal, not simply a website showcase.\nMention that the homepage concept demonstrates the proposed direction before the client commits to the full project.\n\n[Sources]\nUser-provided project brief in this Codex thread.\nLocal asset: public/showroom/hero-interior.jpeg.\nLocal asset: public/fscp-logo-transparent.png."}
+{"kind":"slide","id":"sl/chc34j","slide":2,"title":"CURRENT STAGE","textShapes":13}
+{"kind":"shape","id":"sh/f2l0ru9g","slide":2,"bbox":[72,66,48,0]}
+{"kind":"textbox","id":"sh/g3uhkza1","slide":2,"text":"CURRENT STAGE","textPreview":"CURRENT STAGE","textChars":13,"textLines":1,"bbox":[136,58,470,24]}
+{"kind":"textbox","id":"sh/143it4rm","slide":2,"text":"This is a concept, not the completed website.","textPreview":"This is a concept, not the completed website.","textChars":45,"textLines":1,"bbox":[72,124,820,105]}
+{"kind":"textbox","id":"sh/25czmps7","slide":2,"text":"The current homepage shows the visual direction, messaging approach and proposed customer journey. Full production work begins only once the project is approved.","textPreview":"The current homepage shows the visual direction, messaging approach and proposed customer journey. Full production work begins only once ...","textChars":161,"textLines":1,"bbox":[74,258,650,96]}
+{"kind":"shape","id":"sh/36l0vu9c","slide":2,"bbox":[80,416,940,0]}
+{"kind":"textbox","id":"sh/oru1ozax","slide":2,"text":"Now","textPreview":"Now","textChars":3,"textLines":1,"bbox":[80,432,210,30]}
+{"kind":"textbox","id":"sh/psnix4ri","slide":2,"text":"Homepage concept and direction","textPreview":"Homepage concept and direction","textChars":30,"textLines":1,"bbox":[314,434,660,30]}
+{"kind":"shape","id":"sh/qtwjq9s3","slide":2,"bbox":[80,486,940,0]}
+{"kind":"textbox","id":"sh/bu50ze9o","slide":2,"text":"After approval","textPreview":"After approval","textChars":14,"textLines":1,"bbox":[80,502,210,30]}
+{"kind":"textbox","id":"sh/fyx0bedk","slide":2,"text":"Complete multi-page React website","textPreview":"Complete multi-page React website","textChars":33,"textLines":1,"bbox":[314,504,660,30]}
+{"kind":"shape","id":"sh/uxozi9wz","slide":2,"bbox":[80,556,940,0]}
+{"kind":"textbox","id":"sh/h0fidovq","slide":2,"text":"Before launch","textPreview":"Before launch","textChars":13,"textLines":1,"bbox":[80,572,210,30]}
+{"kind":"textbox","id":"sh/gz6hkje5","slide":2,"text":"Optimization, testing, Google profile work and final QA","textPreview":"Optimization, testing, Google profile work and final QA","textChars":55,"textLines":1,"bbox":[314,574,660,30]}
+{"kind":"shape","id":"sh/7ud07edo","slide":2,"bbox":[930,114,198,198]}
+{"kind":"textbox","id":"sh/6t4ze9w3","slide":2,"text":"Direction first","textPreview":"Direction first","textChars":15,"textLines":1,"bbox":[956,168,146,36]}
+{"kind":"textbox","id":"sh/twvi94vu","slide":2,"text":"Production after approval","textPreview":"Production after approval","textChars":25,"textLines":1,"bbox":[960,222,136,52]}
+{"kind":"textbox","id":"sh/svmhgze9","slide":2,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/rqh0jyds","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"notes","id":"nt/chc34j","slide":2,"text":"This slide protects the sales context. Do not imply the full technical build is already complete.\nThe client should understand that the concept is intentionally pre-sale and the full production website is the deliverable if they proceed.\n\n[Sources]\nUser-provided project brief in this Codex thread."}
+{"kind":"slide","id":"sl/04mt7u","slide":3,"title":"BUSINESS UNDERSTANDING","textShapes":8}
+{"kind":"shape","id":"sh/q9kr6pwn","slide":3,"bbox":[0,0,500,720]}
+{"kind":"shape","id":"sh/rat8zuxs","slide":3,"bbox":[570,66,48,0]}
+{"kind":"textbox","id":"sh/47294feh","slide":3,"text":"BUSINESS UNDERSTANDING","textPreview":"BUSINESS UNDERSTANDING","textChars":22,"textLines":1,"bbox":[634,58,470,24]}
+{"kind":"textbox","id":"sh/p8bqxkf2","slide":3,"text":"Not simply a curtain shop.","textPreview":"Not simply a curtain shop.","textChars":26,"textLines":1,"bbox":[570,120,570,72]}
+{"kind":"textbox","id":"sh/2lkr25wb","slide":3,"text":"Free State Curtain Parlour helps homeowners complete interiors through curtains, blinds, fabrics, wallpaper, furniture, decor and personalised showroom guidance.","textPreview":"Free State Curtain Parlour helps homeowners complete interiors through curtains, blinds, fabrics, wallpaper, furniture, decor and persona...","textChars":161,"textLines":1,"bbox":[572,224,562,118]}
+{"kind":"textbox","id":"sh/36t8vaxw","slide":3,"text":"Approximately 67 years of history.\nA reputation supported by word of mouth and referrals.\nA physical showroom where customers can compare materials in person.\nA complete-room approach that brings separate choices together.","textPreview":"Approximately 67 years of history. | A reputation supported by word of mouth and referrals. | A physical showroom where customers can com...","textChars":222,"textLines":4,"bbox":[590,382,560,180]}
+{"kind":"textbox","id":"sh/o3m9gjel","slide":3,"text":"Strategic takeaway","textPreview":"Strategic takeaway","textChars":18,"textLines":1,"bbox":[570,602,170,22]}
+{"kind":"textbox","id":"sh/94fa94f6","slide":3,"text":"The website should represent the credibility that already exists offline.","textPreview":"The website should represent the credibility that already exists offline.","textChars":73,"textLines":1,"bbox":[570,628,550,42]}
+{"kind":"textbox","id":"sh/9k7uhcvm","slide":3,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/8jydo7e1","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"image","id":"im/cvqdsfyp","slide":3,"name":"","geometry":"rect","alt":"Free State Curtain Parlour showroom","bbox":[0,0,500,720]}
+{"kind":"notes","id":"nt/04mt7u","slide":3,"text":"This is where you prove you listened. The positioning is broader than curtains and is anchored in the showroom and complete-room advice.\n\n[Sources]\nUser-provided project brief in this Codex thread.\nLocal asset: public/showroom/showroom-entry.jpg."}
+{"kind":"slide","id":"sl/17yram","slide":4,"title":"DIGITAL OPPORTUNITY","textShapes":17}
+{"kind":"shape","id":"sh/l8b2xcby","slide":4,"bbox":[72,66,48,0]}
+{"kind":"textbox","id":"sh/yl03mxc7","slide":4,"text":"DIGITAL OPPORTUNITY","textPreview":"DIGITAL OPPORTUNITY","textChars":19,"textLines":1,"bbox":[136,58,470,24]}
+{"kind":"textbox","id":"sh/zmtkv2ts","slide":4,"text":"The online presence should catch up with the offline reputation.","textPreview":"The online presence should catch up with the offline reputation.","textChars":64,"textLines":1,"bbox":[72,122,780,120]}
+{"kind":"textbox","id":"sh/8b2ls7u9","slide":4,"text":"The goal is not to manufacture credibility from nothing. It is to make the established business easier to discover, understand, trust and visit.","textPreview":"The goal is not to manufacture credibility from nothing. It is to make the established business easier to discover, understand, trust and...","textChars":144,"textLines":1,"bbox":[76,276,620,98]}
+{"kind":"textbox","id":"sh/9cb21cbu","slide":4,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[80,438,72,42]}
+{"kind":"textbox","id":"sh/m9k3qxcj","slide":4,"text":"Google Search / Maps","textPreview":"Google Search / Maps","textChars":20,"textLines":1,"bbox":[80,498,214,48]}
+{"kind":"textbox","id":"sh/7atkz2t4","slide":4,"text":"Discovery","textPreview":"Discovery","textChars":9,"textLines":1,"bbox":[80,558,220,30]}
+{"kind":"shape","id":"sh/ofi1gnu5","slide":4,"bbox":[290,458,62,0]}
+{"kind":"textbox","id":"sh/pgr2psbq","slide":4,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[372,438,72,42]}
+{"kind":"textbox","id":"sh/p47a9s7a","slide":4,"text":"Optimized Business Profile","textPreview":"Optimized Business Profile","textChars":26,"textLines":1,"bbox":[372,498,214,48]}
+{"kind":"textbox","id":"sh/o3y907qp","slide":4,"text":"Clarity and relevance","textPreview":"Clarity and relevance","textChars":21,"textLines":1,"bbox":[372,558,220,30]}
+{"kind":"shape","id":"sh/32p872p4","slide":4,"bbox":[582,458,62,0]}
+{"kind":"textbox","id":"sh/21gryx8j","slide":4,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[664,438,72,42]}
+{"kind":"textbox","id":"sh/xsradc7m","slide":4,"text":"New website","textPreview":"New website","textChars":11,"textLines":1,"bbox":[664,498,214,48]}
+{"kind":"textbox","id":"sh/cri94761","slide":4,"text":"Depth, trust and style","textPreview":"Depth, trust and style","textChars":22,"textLines":1,"bbox":[664,558,220,30]}
+{"kind":"shape","id":"sh/bqpsb2pg","slide":4,"bbox":[874,458,62,0]}
+{"kind":"textbox","id":"sh/apgr2x8v","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[956,438,72,42]}
+{"kind":"textbox","id":"sh/lwrahw7i","slide":4,"text":"Visit or contact","textPreview":"Visit or contact","textChars":16,"textLines":1,"bbox":[956,498,214,48]}
+{"kind":"textbox","id":"sh/kvi98r6x","slide":4,"text":"Commercial action","textPreview":"Commercial action","textChars":17,"textLines":1,"bbox":[956,558,220,30]}
+{"kind":"textbox","id":"sh/4bal0fil","slide":4,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/5cj2tkjq","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"notes","id":"nt/17yram","slide":4,"text":"Use this as the joined-up digital presence story: Google profile and website are connected, not separate random services.\nAvoid promising rankings or enquiry numbers.\n\n[Sources]\nUser-provided project brief in this Codex thread."}
+{"kind":"slide","id":"sl/d7ofq2","slide":5,"title":"WEBSITE OBJECTIVE","textShapes":17}
+{"kind":"shape","id":"sh/z2loj25s","slide":5,"bbox":[72,66,48,0]}
+{"kind":"textbox","id":"sh/03u5c76x","slide":5,"text":"WEBSITE OBJECTIVE","textPreview":"WEBSITE OBJECTIVE","textChars":17,"textLines":1,"bbox":[136,58,470,24]}
+{"kind":"textbox","id":"sh/l436lcni","slide":5,"text":"The homepage follows a commercial journey.","textPreview":"The homepage follows a commercial journey.","textChars":42,"textLines":1,"bbox":[72,118,680,84]}
+{"kind":"textbox","id":"sh/m5cneho3","slide":5,"text":"Every section should move a residential homeowner from interest toward a showroom visit or enquiry.","textPreview":"Every section should move a residential homeowner from interest toward a showroom visit or enquiry.","textChars":99,"textLines":1,"bbox":[74,230,560,62]}
+{"kind":"shape","id":"sh/n6lonm5o","slide":5,"bbox":[80,354,980,0]}
+{"kind":"textbox","id":"sh/87epgr69","slide":5,"text":"Attention","textPreview":"Attention","textChars":9,"textLines":1,"bbox":[80,366,210,28]}
+{"kind":"textbox","id":"sh/98n6pwnu","slide":5,"text":"Strong photography and confident typography.","textPreview":"Strong photography and confident typography.","textChars":44,"textLines":1,"bbox":[330,368,620,28]}
+{"kind":"shape","id":"sh/29sn2doz","slide":5,"bbox":[80,410,980,0]}
+{"kind":"textbox","id":"sh/3a1obi5k","slide":5,"text":"Understanding","textPreview":"Understanding","textChars":13,"textLines":1,"bbox":[80,422,210,28]}
+{"kind":"textbox","id":"sh/fypsrqxw","slide":5,"text":"A broad interior offer, not only curtains.","textPreview":"A broad interior offer, not only curtains.","textChars":42,"textLines":1,"bbox":[330,424,620,28]}
+{"kind":"shape","id":"sh/uxwrylwb","slide":5,"bbox":[80,466,980,0]}
+{"kind":"textbox","id":"sh/h07at0f2","slide":5,"text":"Interest","textPreview":"Interest","textChars":8,"textLines":1,"bbox":[80,478,210,28]}
+{"kind":"textbox","id":"sh/gzyt0veh","slide":5,"text":"Products, rooms and showroom details.","textPreview":"Products, rooms and showroom details.","textChars":37,"textLines":1,"bbox":[330,480,620,28]}
+{"kind":"shape","id":"sh/7u5snqx0","slide":5,"bbox":[80,522,980,0]}
+{"kind":"textbox","id":"sh/6twrulwf","slide":5,"text":"Trust","textPreview":"Trust","textChars":5,"textLines":1,"bbox":[80,534,210,28]}
+{"kind":"textbox","id":"sh/twnapgfq","slide":5,"text":"History, physical presence and helpful guidance.","textPreview":"History, physical presence and helpful guidance.","textChars":48,"textLines":1,"bbox":[330,536,620,28]}
+{"kind":"shape","id":"sh/sve9wbel","slide":5,"bbox":[80,578,980,0]}
+{"kind":"textbox","id":"sh/jqlsj6xo","slide":5,"text":"Action","textPreview":"Action","textChars":6,"textLines":1,"bbox":[80,590,210,28]}
+{"kind":"textbox","id":"sh/i5crq1w3","slide":5,"text":"Visit, call or enquire about a room.","textPreview":"Visit, call or enquire about a room.","textChars":36,"textLines":1,"bbox":[330,592,620,28]}
+{"kind":"textbox","id":"sh/m1cb210b","slide":5,"text":"A website with a job","textPreview":"A website with a job","textChars":20,"textLines":1,"bbox":[860,132,250,40]}
+{"kind":"shape","id":"sh/n2lsb6hg","slide":5,"bbox":[904,188,160,160]}
+{"kind":"textbox","id":"sh/83ut4bi1","slide":5,"text":"Trust\n+\naction","textPreview":"Trust | + | action","textChars":14,"textLines":3,"bbox":[930,222,108,94]}
+{"kind":"textbox","id":"sh/9o3adgzm","slide":5,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/apcb6lg7","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"notes","id":"nt/d7ofq2","slide":5,"text":"This gives the client a simple mental model for the site. It is not decorative; it guides visitor behaviour.\n\n[Sources]\nUser-provided project brief in this Codex thread."}
+{"kind":"slide","id":"sl/abamg9","slide":6,"title":"DESIGN REASONING","textShapes":14}
+{"kind":"shape","id":"sh/ip03m9sj","slide":6,"bbox":[792,0,488,720]}
+{"kind":"shape","id":"sh/3q9kfu94","slide":6,"bbox":[72,66,48,0]}
+{"kind":"textbox","id":"sh/gni1kzat","slide":6,"text":"DESIGN REASONING","textPreview":"DESIGN REASONING","textChars":16,"textLines":1,"bbox":[136,58,470,24]}
+{"kind":"textbox","id":"sh/hor2d4re","slide":6,"text":"The design supports the interiors, not the other way around.","textPreview":"The design supports the interiors, not the other way around.","textChars":60,"textLines":1,"bbox":[72,114,680,124]}
+{"kind":"shape","id":"sh/ul0jipsn","slide":6,"bbox":[72,266,615,0]}
+{"kind":"textbox","id":"sh/vm9kbu98","slide":6,"text":"Photography","textPreview":"Photography","textChars":11,"textLines":1,"bbox":[72,278,210,26]}
+{"kind":"textbox","id":"sh/0jmlwjax","slide":6,"text":"Lets visitors feel the character of the showroom quickly.","textPreview":"Lets visitors feel the character of the showroom quickly.","textChars":57,"textLines":1,"bbox":[310,279,390,42]}
+{"kind":"shape","id":"sh/1kv2pori","slide":6,"bbox":[72,332,615,0]}
+{"kind":"textbox","id":"sh/58nu98zu","slide":6,"text":"Editorial type","textPreview":"Editorial type","textChars":14,"textLines":1,"bbox":[72,344,210,26]}
+{"kind":"textbox","id":"sh/47ut03i9","slide":6,"text":"Gives the business presence beyond a generic local template.","textPreview":"Gives the business presence beyond a generic local template.","textChars":60,"textLines":1,"bbox":[310,345,390,42]}
+{"kind":"shape","id":"sh/j6lc7yho","slide":6,"bbox":[72,398,615,0]}
+{"kind":"textbox","id":"sh/ilcbyt03","slide":6,"text":"Dark + warm neutrals","textPreview":"Dark + warm neutrals","textChars":20,"textLines":1,"bbox":[72,410,210,26]}
+{"kind":"textbox","id":"sh/hk3u58zi","slide":6,"text":"Works with the existing showroom mood and product materials.","textPreview":"Works with the existing showroom mood and product materials.","textChars":60,"textLines":1,"bbox":[310,411,390,42]}
+{"kind":"shape","id":"sh/wjutw3ix","slide":6,"bbox":[72,464,615,0]}
+{"kind":"textbox","id":"sh/vilc3yhs","slide":6,"text":"Whitespace","textPreview":"Whitespace","textChars":10,"textLines":1,"bbox":[72,476,210,26]}
+{"kind":"textbox","id":"sh/uhcbut07","slide":6,"text":"Prevents the offer from feeling like a crowded catalogue.","textPreview":"Prevents the offer from feeling like a crowded catalogue.","textChars":57,"textLines":1,"bbox":[310,477,390,42]}
+{"kind":"shape","id":"sh/1g7uhsz2","slide":6,"bbox":[72,530,615,0]}
+{"kind":"textbox","id":"sh/gfed8nih","slide":6,"text":"Asymmetry","textPreview":"Asymmetry","textChars":9,"textLines":1,"bbox":[72,542,210,26]}
+{"kind":"textbox","id":"sh/0jmdkb6d","slide":6,"text":"Creates a more custom, considered visual rhythm.","textPreview":"Creates a more custom, considered visual rhythm.","textChars":48,"textLines":1,"bbox":[310,543,390,42]}
+{"kind":"textbox","id":"sh/1kfedw7y","slide":6,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/eh4vi1on","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"image","id":"im/0zm9gz61","slide":6,"name":"","geometry":"rect","alt":"Decor and lighting display","bbox":[792,0,488,720]}
+{"kind":"notes","id":"nt/abamg9","slide":6,"text":"For every visual choice, use the pattern: decision, reasoning, business benefit.\nThe website should feel premium while letting the showroom photography do the selling.\n\n[Sources]\nUser-provided project brief in this Codex thread.\nLocal asset: public/showroom/decor-display.jpg."}
+{"kind":"slide","id":"sl/e2yq7z","slide":7,"title":"Where furniture, fabric, and finishing meet.","textShapes":6}
+{"kind":"shape","id":"sh/hkfa1svy","slide":7,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/3mxs3id4","slide":7,"text":"Where furniture, fabric, and finishing meet.","textPreview":"Where furniture, fabric, and finishing meet.","textChars":44,"textLines":1,"bbox":[72,184,600,220]}
+{"kind":"textbox","id":"sh/2loruxwj","slide":7,"text":"The hero establishes the broader positioning immediately: this is about complete interiors, not only a single product category.","textPreview":"The hero establishes the broader positioning immediately: this is about complete interiors, not only a single product category.","textChars":127,"textLines":1,"bbox":[76,438,540,72]}
+{"kind":"shape","id":"sh/poza5sva","slide":7,"bbox":[764,142,374,372]}
+{"kind":"textbox","id":"sh/4n69wnep","slide":7,"text":"What it communicates","textPreview":"What it communicates","textChars":20,"textLines":1,"bbox":[804,186,260,34]}
+{"kind":"textbox","id":"sh/rqhs72d0","slide":7,"text":"The showroom has depth and character.\nThe business offers a complete-room point of view.\nThe next action is simple: explore or contact.","textPreview":"The showroom has depth and character. | The business offers a complete-room point of view. | The next action is simple: explore or contact.","textChars":135,"textLines":3,"bbox":[806,252,292,160]}
+{"kind":"textbox","id":"sh/qp8ryxwf","slide":7,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/sz2pgna5","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"image","id":"im/f6ponu94","slide":7,"name":"","geometry":"rect","alt":"Homepage hero showroom image","bbox":[0,0,1280,720]}
+{"kind":"image","id":"im/1876p4ru","slide":7,"name":"","geometry":"rect","alt":"Free State Curtain Parlour logo","bbox":[72,50,210,78]}
+{"kind":"notes","id":"nt/e2yq7z","slide":7,"text":"This is the first homepage walkthrough slide. The message is about positioning and first impression.\nUse the actual hero wording from the concept.\n\n[Sources]\nUser-provided project brief in this Codex thread.\nLocal implementation: app/page.tsx hero section.\nLocal asset: public/showroom/hero-interior.jpeg."}
+{"kind":"slide","id":"sl/lcribz","slide":8,"title":"HOMEPAGE STRUCTURE","textShapes":11}
+{"kind":"shape","id":"sh/alo7qhkb","slide":8,"bbox":[72,66,48,0]}
+{"kind":"textbox","id":"sh/xof61wj2","slide":8,"text":"HOMEPAGE STRUCTURE","textPreview":"HOMEPAGE STRUCTURE","textChars":18,"textLines":1,"bbox":[136,58,470,24]}
+{"kind":"textbox","id":"sh/cn6psr2h","slide":8,"text":"Each section has a specific role in the sales story.","textPreview":"Each section has a specific role in the sales story.","textChars":52,"textLines":1,"bbox":[72,112,720,104]}
+{"kind":"shape","id":"sh/ypo7u1kn","slide":8,"bbox":[72,294,332,222]}
+{"kind":"textbox","id":"sh/lcf65wje","slide":8,"text":"Whole-room approach","textPreview":"Whole-room approach","textChars":19,"textLines":1,"bbox":[94,392,260,34]}
+{"kind":"textbox","id":"sh/kr6pwr2t","slide":8,"text":"Explains the bigger idea behind the products.","textPreview":"Explains the bigger idea behind the products.","textChars":45,"textLines":1,"bbox":[72,540,320,58]}
+{"kind":"shape","id":"sh/etknixkj","slide":8,"bbox":[454,294,332,222]}
+{"kind":"textbox","id":"sh/gr6h8nmh","slide":8,"text":"Service range","textPreview":"Service range","textChars":13,"textLines":1,"bbox":[476,392,260,34]}
+{"kind":"textbox","id":"sh/1sfi1sn2","slide":8,"text":"Shows the breadth without becoming a catalogue.","textPreview":"Shows the breadth without becoming a catalogue.","textChars":47,"textLines":1,"bbox":[454,540,320,58]}
+{"kind":"shape","id":"sh/fqx0zi5c","slide":8,"bbox":[836,294,332,222]}
+{"kind":"textbox","id":"sh/ov61cnmt","slide":8,"text":"Showroom proof","textPreview":"Showroom proof","textChars":14,"textLines":1,"bbox":[858,392,260,34]}
+{"kind":"textbox","id":"sh/pwfi5sne","slide":8,"text":"Turns the physical space into a conversion asset.","textPreview":"Turns the physical space into a conversion asset.","textChars":49,"textLines":1,"bbox":[836,540,320,58]}
+{"kind":"textbox","id":"sh/2tozad4n","slide":8,"text":"The result is a guided path from inspiration to action.","textPreview":"The result is a guided path from inspiration to action.","textChars":55,"textLines":1,"bbox":[72,626,700,30]}
+{"kind":"textbox","id":"sh/3ux03i58","slide":8,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/4zmh03m9","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"image","id":"im/ato3ytg3","slide":8,"name":"","geometry":"rect","alt":"Whole-room approach","bbox":[72,294,332,222]}
+{"kind":"image","id":"im/yxo32tgz","slide":8,"name":"","geometry":"rect","alt":"Service range","bbox":[454,294,332,222]}
+{"kind":"image","id":"im/1g7idc7e","slide":8,"name":"","geometry":"rect","alt":"Showroom proof","bbox":[836,294,332,222]}
+{"kind":"notes","id":"nt/lcribz","slide":8,"text":"Do not just describe the visible sections. Explain the job each section performs in moving the visitor forward.\n\n[Sources]\nUser-provided project brief in this Codex thread.\nLocal implementation: app/page.tsx intro, services and showroom sections.\nLocal assets: whole-room-approach-desktop.jpeg, service-curtains-fabrics.jpeg, curtain-lounge.jpg."}
+{"kind":"slide","id":"sl/51de61","slide":9,"title":"SHOWROOM STRATEGY","textShapes":7}
+{"kind":"shape","id":"sh/h83q5gze","slide":9,"bbox":[640,0,640,720]}
+{"kind":"shape","id":"sh/wnu9wbit","slide":9,"bbox":[72,66,48,0]}
+{"kind":"textbox","id":"sh/jal87qh4","slide":9,"text":"SHOWROOM STRATEGY","textPreview":"SHOWROOM STRATEGY","textChars":17,"textLines":1,"bbox":[136,58,470,24]}
+{"kind":"textbox","id":"sh/i9cryl0j","slide":9,"text":"A showroom visit is a conversion.","textPreview":"A showroom visit is a conversion.","textChars":33,"textLines":1,"bbox":[72,118,560,104]}
+{"kind":"textbox","id":"sh/5cnq90za","slide":9,"text":"For this business, the website does not need to complete the entire buying journey online. It should make people want to visit, compare materials and speak to the team.","textPreview":"For this business, the website does not need to complete the entire buying journey online. It should make people want to visit, compare m...","textChars":168,"textLines":1,"bbox":[74,258,500,120]}
+{"kind":"shape","id":"sh/4bu90vip","slide":9,"bbox":[74,456,430,0]}
+{"kind":"textbox","id":"sh/ze18v610","slide":9,"text":"Website role","textPreview":"Website role","textChars":12,"textLines":1,"bbox":[74,492,160,22]}
+{"kind":"textbox","id":"sh/yds7m10f","slide":9,"text":"Discover -> understand -> trust -> visit or contact.","textPreview":"Discover -> understand -> trust -> visit or contact.","textChars":52,"textLines":1,"bbox":[74,524,500,72]}
+{"kind":"textbox","id":"sh/kjitgz61","slide":9,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/5kru947m","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"image","id":"im/f2twba50","slide":9,"name":"","geometry":"rect","alt":"Showroom interior and decor display","bbox":[640,0,640,720]}
+{"kind":"notes","id":"nt/51de61","slide":9,"text":"This is one of the strongest strategic points: the showroom is part of the funnel, not just a contact detail.\n\n[Sources]\nUser-provided project brief in this Codex thread.\nLocal asset: public/showroom/whole-room-approach-desktop.jpeg."}
+{"kind":"slide","id":"sl/hwjije","slide":10,"title":"MOBILE EXPERIENCE","textShapes":8}
+{"kind":"shape","id":"sh/9o32tkra","slide":10,"bbox":[72,66,48,0]}
+{"kind":"textbox","id":"sh/m1s3i5sz","slide":10,"text":"MOBILE EXPERIENCE","textPreview":"MOBILE EXPERIENCE","textChars":17,"textLines":1,"bbox":[136,58,470,24]}
+{"kind":"textbox","id":"sh/n2lkra9k","slide":10,"text":"Mobile is designed deliberately, not just reduced.","textPreview":"Mobile is designed deliberately, not just reduced.","textChars":50,"textLines":1,"bbox":[72,118,600,120]}
+{"kind":"textbox","id":"sh/wruloza1","slide":10,"text":"The same brand feeling needs to survive on a narrow screen while remaining practical to browse and contact from a phone.","textPreview":"The same brand feeling needs to survive on a narrow screen while remaining practical to browse and contact from a phone.","textChars":120,"textLines":1,"bbox":[74,270,500,80]}
+{"kind":"textbox","id":"sh/xs32xkrm","slide":10,"text":"Typography adjusted for readability.\nImages cropped for vertical viewing.\nSections stacked with clearer spacing.\nCalls to action remain easy to find.","textPreview":"Typography adjusted for readability. | Images cropped for vertical viewing. | Sections stacked with clearer spacing. | Calls to action re...","textChars":149,"textLines":4,"bbox":[78,408,420,142]}
+{"kind":"shape","id":"sh/apc3mpsv","slide":10,"bbox":[700,62,246,590]}
+{"kind":"shape","id":"sh/cvalcvax","slide":10,"bbox":[714,82,218,548]}
+{"kind":"shape","id":"sh/dwj2l0r2","slide":10,"bbox":[988,174,174,320]}
+{"kind":"textbox","id":"sh/pc7610ri","slide":10,"text":"Phone-first decisions","textPreview":"Phone-first decisions","textChars":21,"textLines":1,"bbox":[1012,222,126,70]}
+{"kind":"textbox","id":"sh/obypsvax","slide":10,"text":"Preserve the style.\nImprove the scan.","textPreview":"Preserve the style. | Improve the scan.","textChars":37,"textLines":2,"bbox":[1016,332,118,68]}
+{"kind":"textbox","id":"sh/napozqtc","slide":10,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/29w7q5sr","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"image","id":"im/61kbytwf","slide":10,"name":"","geometry":"roundRect","alt":"Mobile-oriented showroom image","bbox":[714,82,218,548]}
+{"kind":"notes","id":"nt/hwjije","slide":10,"text":"Do not claim a specific share of visitors use mobile unless analytics later confirms it.\nThe point is that phone users need an experience designed for the device.\n\n[Sources]\nUser-provided project brief in this Codex thread.\nLocal asset: public/showroom/whole-room-approach.jpeg."}
+{"kind":"slide","id":"sl/ehc2x3","slide":11,"title":"FINAL WEBSITE SCOPE","textShapes":14}
+{"kind":"shape","id":"sh/lsb25wrq","slide":11,"bbox":[72,66,48,0]}
+{"kind":"textbox","id":"sh/ypkju18f","slide":11,"text":"FINAL WEBSITE SCOPE","textPreview":"FINAL WEBSITE SCOPE","textChars":19,"textLines":1,"bbox":[136,58,470,24]}
+{"kind":"textbox","id":"sh/zqtk369k","slide":11,"text":"The approved project becomes a custom multi-page React website.","textPreview":"The approved project becomes a custom multi-page React website.","textChars":63,"textLines":1,"bbox":[72,114,760,118]}
+{"kind":"textbox","id":"sh/c321srq9","slide":11,"text":"The exact page structure can be refined once final content is confirmed, but the current direction supports a practical marketing and lead-generation website.","textPreview":"The exact page structure can be refined once final content is confirmed, but the current direction supports a practical marketing and lea...","textChars":158,"textLines":1,"bbox":[74,264,650,84]}
+{"kind":"textbox","id":"sh/x4b21wru","slide":11,"text":"Home","textPreview":"Home","textChars":4,"textLines":1,"bbox":[96,424,208,34]}
+{"kind":"shape","id":"sh/a10jqh83","slide":11,"bbox":[96,472,190,0]}
+{"kind":"textbox","id":"sh/b29kzm9o","slide":11,"text":"About Us","textPreview":"About Us","textChars":8,"textLines":1,"bbox":[356,424,208,34]}
+{"kind":"shape","id":"sh/ozi1o7qx","slide":11,"bbox":[356,472,190,0]}
+{"kind":"textbox","id":"sh/p0r2xcri","slide":11,"text":"Our History","textPreview":"Our History","textChars":11,"textLines":1,"bbox":[616,424,208,34]}
+{"kind":"shape","id":"sh/14v6hcrq","slide":11,"bbox":[616,472,190,0]}
+{"kind":"textbox","id":"sh/g325o7q5","slide":11,"text":"Services","textPreview":"Services","textChars":8,"textLines":1,"bbox":[876,424,208,34]}
+{"kind":"shape","id":"sh/f2tof29k","slide":11,"bbox":[876,472,190,0]}
+{"kind":"textbox","id":"sh/e1knmx8z","slide":11,"text":"Showroom","textPreview":"Showroom","textChars":8,"textLines":1,"bbox":[96,510,208,34]}
+{"kind":"shape","id":"sh/t0b6dsre","slide":11,"bbox":[96,558,190,0]}
+{"kind":"textbox","id":"sh/sz25knq9","slide":11,"text":"Showroom Guide","textPreview":"Showroom Guide","textChars":14,"textLines":1,"bbox":[356,510,208,34]}
+{"kind":"shape","id":"sh/ryt4bi9o","slide":11,"bbox":[356,558,190,0]}
+{"kind":"textbox","id":"sh/6xknix83","slide":11,"text":"Contact Us","textPreview":"Contact Us","textChars":10,"textLines":1,"bbox":[616,510,208,34]}
+{"kind":"shape","id":"sh/5wbm9sri","slide":11,"bbox":[616,558,190,0]}
+{"kind":"textbox","id":"sh/4vi5gnqx","slide":11,"text":"Not e-commerce","textPreview":"Not e-commerce","textChars":14,"textLines":1,"bbox":[930,150,160,30]}
+{"kind":"textbox","id":"sh/wfm5wnyt","slide":11,"text":"The site is built to explain, build trust and generate visits or enquiries.","textPreview":"The site is built to explain, build trust and generate visits or enquiries.","textChars":75,"textLines":1,"bbox":[900,202,220,90]}
+{"kind":"textbox","id":"sh/xgv6psze","slide":11,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/ad4nudgn","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"notes","id":"nt/ehc2x3","slide":11,"text":"The client is not buying only the homepage concept. They are buying a complete multi-page React website after approval.\nMake clear this is a marketing and lead-generation website, not an online store.\n\n[Sources]\nUser-provided project brief in this Codex thread."}
+{"kind":"slide","id":"sl/pt7s52","slide":12,"title":"GOOGLE BUSINESS PROFILE","textShapes":16}
+{"kind":"shape","id":"sh/94re5o7q","slide":12,"bbox":[72,66,48,0]}
+{"kind":"textbox","id":"sh/m10vut8z","slide":12,"text":"GOOGLE BUSINESS PROFILE","textPreview":"GOOGLE BUSINESS PROFILE","textChars":23,"textLines":1,"bbox":[136,58,470,24]}
+{"kind":"textbox","id":"sh/729w3e9k","slide":12,"text":"The existing Google profile should reflect the full offering.","textPreview":"The existing Google profile should reflect the full offering.","textChars":61,"textLines":1,"bbox":[72,114,760,118]}
+{"kind":"textbox","id":"sh/kzydsjq9","slide":12,"text":"This is not profile creation from scratch. It is an audit, clean-up and optimization of the existing profile so Google and potential customers better understand the business.","textPreview":"This is not profile creation from scratch. It is an audit, clean-up and optimization of the existing profile so Google and potential cust...","textChars":174,"textLines":1,"bbox":[74,264,650,95]}
+{"kind":"shape","id":"sh/l07e1ore","slide":12,"bbox":[84,410,860,0]}
+{"kind":"textbox","id":"sh/yxgvq983","slide":12,"text":"Information","textPreview":"Information","textChars":11,"textLines":1,"bbox":[84,420,180,26]}
+{"kind":"textbox","id":"sh/zypwze9o","slide":12,"text":"Check business details, categories and services.","textPreview":"Check business details, categories and services.","textChars":48,"textLines":1,"bbox":[300,422,610,26]}
+{"kind":"shape","id":"sh/cvydozqx","slide":12,"bbox":[84,456,860,0]}
+{"kind":"textbox","id":"sh/xw7ex4ri","slide":12,"text":"Messaging","textPreview":"Messaging","textChars":9,"textLines":1,"bbox":[84,466,180,26]}
+{"kind":"textbox","id":"sh/h4j6dkfu","slide":12,"text":"Improve description and service representation.","textPreview":"Improve description and service representation.","textChars":47,"textLines":1,"bbox":[300,468,610,26]}
+{"kind":"shape","id":"sh/g3a54fe9","slide":12,"bbox":[84,502,860,0]}
+{"kind":"textbox","id":"sh/f21obaxo","slide":12,"text":"Photography","textPreview":"Photography","textChars":11,"textLines":1,"bbox":[84,512,180,26]}
+{"kind":"textbox","id":"sh/u1sn25wj","slide":12,"text":"Use strong showroom imagery where appropriate.","textPreview":"Use strong showroom imagery where appropriate.","textChars":46,"textLines":1,"bbox":[300,514,610,26]}
+{"kind":"shape","id":"sh/t0j69kfy","slide":12,"bbox":[84,548,860,0]}
+{"kind":"textbox","id":"sh/sza50fed","slide":12,"text":"Activity","textPreview":"Activity","textChars":8,"textLines":1,"bbox":[84,558,180,26]}
+{"kind":"textbox","id":"sh/7y1o7axs","slide":12,"text":"Create several initial Google Business Profile posts.","textPreview":"Create several initial Google Business Profile posts.","textChars":53,"textLines":1,"bbox":[300,560,610,26]}
+{"kind":"shape","id":"sh/6d8ny5w7","slide":12,"bbox":[84,594,860,0]}
+{"kind":"textbox","id":"sh/5czm50fm","slide":12,"text":"Connection","textPreview":"Connection","textChars":10,"textLines":1,"bbox":[84,604,180,26]}
+{"kind":"textbox","id":"sh/kbq5wve1","slide":12,"text":"Link the finished website clearly.","textPreview":"Link the finished website clearly.","textChars":34,"textLines":1,"bbox":[300,606,610,26]}
+{"kind":"shape","id":"sh/wfu5cvmx","slide":12,"bbox":[982,208,170,170]}
+{"kind":"textbox","id":"sh/xg36l0ni","slide":12,"text":"No ranking\npromises","textPreview":"No ranking | promises","textChars":19,"textLines":2,"bbox":[1002,258,130,58]}
+{"kind":"textbox","id":"sh/adcna5o7","slide":12,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/belojq5c","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"notes","id":"nt/pt7s52","slide":12,"text":"Explain that the Google profile and website work together: search visibility, business clarity, trust, then a visit or enquiry.\nAvoid keyword stuffing language and avoid promising first place rankings.\n\n[Sources]\nUser-provided project brief in this Codex thread."}
+{"kind":"slide","id":"sl/eujk9n","slide":13,"title":"PRODUCTION QUALITY","textShapes":14}
+{"kind":"shape","id":"sh/szil4bul","slide":13,"bbox":[72,66,48,0]}
+{"kind":"textbox","id":"sh/ryp4vqt0","slide":13,"text":"PRODUCTION QUALITY","textPreview":"PRODUCTION QUALITY","textChars":18,"textLines":1,"bbox":[136,58,470,24]}
+{"kind":"textbox","id":"sh/qxg32lcf","slide":13,"text":"The finished build should be technically strong and measurable.","textPreview":"The finished build should be technically strong and measurable.","textChars":63,"textLines":1,"bbox":[72,116,700,126]}
+{"kind":"textbox","id":"sh/1orm10b2","slide":13,"text":"Performance","textPreview":"Performance","textChars":11,"textLines":1,"bbox":[76,322,230,34]}
+{"kind":"textbox","id":"sh/0nil8vax","slide":13,"text":"Image compression, responsive image sizes and efficient loading.","textPreview":"Image compression, responsive image sizes and efficient loading.","textChars":64,"textLines":1,"bbox":[76,380,222,112]}
+{"kind":"shape","id":"sh/f294zqtc","slide":13,"bbox":[76,532,220,0]}
+{"kind":"textbox","id":"sh/e1036lcr","slide":13,"text":"SEO foundation","textPreview":"SEO foundation","textChars":14,"textLines":1,"bbox":[368,322,230,34]}
+{"kind":"textbox","id":"sh/hs72pwby","slide":13,"text":"Page titles, metadata, headings, alt text, sitemap and local relevance.","textPreview":"Page titles, metadata, headings, alt text, sitemap and local relevance.","textChars":71,"textLines":1,"bbox":[368,380,222,112]}
+{"kind":"shape","id":"sh/grelwrud","slide":13,"bbox":[368,532,220,0]}
+{"kind":"textbox","id":"sh/2t8bq5c3","slide":13,"text":"Accessibility","textPreview":"Accessibility","textChars":13,"textLines":1,"bbox":[660,322,230,34]}
+{"kind":"textbox","id":"sh/3ehczado","slide":13,"text":"Readable contrast, clear navigation and proper page structure.","textPreview":"Readable contrast, clear navigation and proper page structure.","textChars":62,"textLines":1,"bbox":[660,380,222,112]}
+{"kind":"shape","id":"sh/4fatsfu9","slide":13,"bbox":[660,532,220,0]}
+{"kind":"textbox","id":"sh/pgjulkvu","slide":13,"text":"Analytics","textPreview":"Analytics","textChars":9,"textLines":1,"bbox":[952,322,230,34]}
+{"kind":"textbox","id":"sh/qhsbupcf","slide":13,"text":"Measure visitors, traffic sources, pages viewed and key contact actions.","textPreview":"Measure visitors, traffic sources, pages viewed and key contact actions.","textChars":72,"textLines":1,"bbox":[952,380,222,112]}
+{"kind":"shape","id":"sh/ri1cnad0","slide":13,"bbox":[952,532,220,0]}
+{"kind":"shape","id":"sh/cjatwfu5","slide":13,"bbox":[842,146,318,100]}
+{"kind":"textbox","id":"sh/dkjupkvq","slide":13,"text":"Previous project proof","textPreview":"Previous project proof","textChars":22,"textLines":1,"bbox":[870,168,262,28]}
+{"kind":"textbox","id":"sh/elsvypcb","slide":13,"text":"Insert a real Lighthouse screenshot here if useful.","textPreview":"Insert a real Lighthouse screenshot here if useful.","textChars":51,"textLines":1,"bbox":[876,206,250,28]}
+{"kind":"textbox","id":"sh/zm1crudw","slide":13,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/bqlsfu94","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"notes","id":"nt/eujk9n","slide":13,"text":"This slide brings out the technical side without making the client responsible for web development jargon.\nUse actual previous Lighthouse results only if you have the screenshot available. Do not invent scores and do not imply those scores belong to FSCP.\n\n[Sources]\nUser-provided project brief in this Codex thread."}
+{"kind":"slide","id":"sl/7gh6by","slide":14,"title":"INVESTMENT AND NEXT STEPS","textShapes":16}
+{"kind":"shape","id":"sh/xori983a","slide":14,"bbox":[72,66,48,0]}
+{"kind":"textbox","id":"sh/a10jed4z","slide":14,"text":"INVESTMENT AND NEXT STEPS","textPreview":"INVESTMENT AND NEXT STEPS","textChars":25,"textLines":1,"bbox":[136,58,470,24]}
+{"kind":"textbox","id":"sh/bm907ilk","slide":14,"text":"Clear scope, clear cost, clear path forward.","textPreview":"Clear scope, clear cost, clear path forward.","textChars":44,"textLines":1,"bbox":[72,112,760,92]}
+{"kind":"shape","id":"sh/ozi1c3mt","slide":14,"bbox":[80,245,560,0]}
+{"kind":"textbox","id":"sh/90ri583e","slide":14,"text":"Custom multi-page React website","textPreview":"Custom multi-page React website","textChars":31,"textLines":1,"bbox":[80,258,390,28]}
+{"kind":"textbox","id":"sh/mx0jat4n","slide":14,"text":"R8,500","textPreview":"R8,500","textChars":6,"textLines":1,"bbox":[504,256,140,32]}
+{"kind":"shape","id":"sh/ny903yl8","slide":14,"bbox":[80,303,560,0]}
+{"kind":"textbox","id":"sh/0vyh8jmx","slide":14,"text":"Google Business Profile optimization","textPreview":"Google Business Profile optimization","textChars":36,"textLines":1,"bbox":[80,316,390,28]}
+{"kind":"textbox","id":"sh/1w7i1o3i","slide":14,"text":"R2,000","textPreview":"R2,000","textChars":6,"textLines":1,"bbox":[504,314,140,32]}
+{"kind":"shape","id":"sh/pgvm9k3a","slide":14,"bbox":[80,361,560,0]}
+{"kind":"textbox","id":"sh/ofmlgf2p","slide":14,"text":"Domain","textPreview":"Domain","textChars":6,"textLines":1,"bbox":[80,374,390,28]}
+{"kind":"textbox","id":"sh/3ed47al4","slide":14,"text":"R268","textPreview":"R268","textChars":4,"textLines":1,"bbox":[504,372,140,32]}
+{"kind":"shape","id":"sh/2d43e5kj","slide":14,"bbox":[80,454,560,70]}
+{"kind":"textbox","id":"sh/1cvm503e","slide":14,"text":"Total project cost","textPreview":"Total project cost","textChars":18,"textLines":1,"bbox":[108,476,280,30]}
+{"kind":"textbox","id":"sh/gbmlcv2t","slide":14,"text":"R10,768","textPreview":"R10,768","textChars":7,"textLines":1,"bbox":[456,468,150,42]}
+{"kind":"textbox","id":"sh/fat43ql8","slide":14,"text":"Payment structure","textPreview":"Payment structure","textChars":17,"textLines":1,"bbox":[744,254,270,34]}
+{"kind":"textbox","id":"sh/e9k3alkn","slide":14,"text":"Initial payment with domain: R5,518\nFinal service payment: R5,250\nTimeline: two weeks or less after official start","textPreview":"Initial payment with domain: R5,518 | Final service payment: R5,250 | Timeline: two weeks or less after official start","textChars":114,"textLines":3,"bbox":[746,310,430,114]}
+{"kind":"shape","id":"sh/tobm1032","slide":14,"bbox":[746,470,360,0]}
+{"kind":"textbox","id":"sh/sn2l8v2h","slide":14,"text":"Next steps","textPreview":"Next steps","textChars":10,"textLines":1,"bbox":[746,500,180,28]}
+{"kind":"textbox","id":"sh/kr6lovad","slide":14,"text":"Approve direction -> confirm project -> initial payment -> full build + Google profile optimization -> review -> final payment -> launch","textPreview":"Approve direction -> confirm project -> initial payment -> full build + Google profile optimization -> review -> final payment -> launch","textChars":136,"textLines":1,"bbox":[746,542,420,70]}
+{"kind":"textbox","id":"sh/5sfmh0by","slide":14,"text":"Free State Curtain Parlour digital proposal","textPreview":"Free State Curtain Parlour digital proposal","textChars":43,"textLines":1,"bbox":[72,674,460,18]}
+{"kind":"textbox","id":"sh/ipo3mls7","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1166,664,42,28]}
+{"kind":"notes","id":"nt/7gh6by","slide":14,"text":"Do not sound defensive about price. Present it as a clear professional service package.\nClarify that the professional service fees are R10,500 split 50/50, and the R268 domain is an additional external project cost.\nThe two-week timeline assumes timely client information, feedback and approval.\n\n[Sources]\nUser-provided project brief in this Codex thread."}

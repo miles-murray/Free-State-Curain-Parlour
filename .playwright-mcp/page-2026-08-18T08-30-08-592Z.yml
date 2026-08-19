@@ -1,0 +1,216 @@
+- main [ref=e2]:
+  - region [ref=e3]:
+    - img "Free State Curtain Parlour showroom interior with decor shelving, lighting and rugs" [ref=e4]
+    - generic [ref=e6]:
+      - link "Free State Curtain Parlour home" [ref=e7] [cursor=pointer]:
+        - /url: "#top"
+        - img "Free State Curtain Parlour, established 1959" [ref=e8]
+      - navigation "Primary navigation" [ref=e9]:
+        - link "Services" [ref=e10] [cursor=pointer]:
+          - /url: "#services"
+        - link "Guidance" [ref=e11] [cursor=pointer]:
+          - /url: "#advice"
+        - link "Showroom" [ref=e12] [cursor=pointer]:
+          - /url: "#showroom"
+        - link "Visit us" [ref=e13] [cursor=pointer]:
+          - /url: "#visit"
+    - generic [ref=e14]:
+      - paragraph [ref=e15]: Westdene, Bloemfontein
+      - heading "Where furniture, fabric, and finishing meet." [level=1] [ref=e16]
+      - paragraph [ref=e17]: From window treatments to wallpaper, soft furnishings, furniture and finishing decor, our Bloemfontein showroom helps you bring the whole room together.
+      - generic [ref=e18]:
+        - link "Explore the showroom" [ref=e19] [cursor=pointer]:
+          - /url: "#showroom"
+        - link "Call 051 430 3474" [ref=e20] [cursor=pointer]:
+          - /url: tel:+27514303474
+    - generic [ref=e21]:
+      - generic [ref=e22]: Curtains / Blinds / Wallpaper / Furniture / Decor / Interior advice
+      - generic [ref=e23]: Established 1959
+  - region "Introduction" [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - paragraph [ref=e27]: A whole-room approach
+        - heading "The room, considered as a whole." [level=2] [ref=e28]
+        - paragraph [ref=e29]: A curtain is never just a curtain. It changes the light, the mood and how everything else in the room comes together. Our showroom lets you consider the full picture before you choose.
+      - img "Decor, lighting and room details inside Free State Curtain Parlour" [ref=e32]
+  - generic [ref=e33]:
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - paragraph [ref=e36]: What you will find
+        - heading "More than a curtain shop." [level=2] [ref=e37]
+      - paragraph [ref=e38]: From the window treatment to the final object on the shelf, explore the pieces that make a room feel finished.
+    - generic [ref=e39]:
+      - article [ref=e40]:
+        - generic [ref=e41]: "01"
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - heading "Curtains & fabrics" [level=3] [ref=e46]
+            - paragraph [ref=e47]: Compare curtain fabrics, styles and finishes for your room. We help you choose textures, fullness and rails that suit the light, scale and mood of the space.
+          - link "Explore curtain options" [ref=e48] [cursor=pointer]:
+            - /url: "#advice"
+            - text: Explore curtain options
+            - generic [ref=e49]: →
+      - article [ref=e50]:
+        - generic [ref=e51]: "02"
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - heading "Blinds" [level=3] [ref=e56]
+            - paragraph [ref=e57]: Balance privacy and light control with a clean, practical finish. Choose blind options that work for daily use while still feeling considered in the room.
+          - link "Discuss window treatments" [ref=e58] [cursor=pointer]:
+            - /url: "#visit"
+            - text: Discuss window treatments
+            - generic [ref=e59]: →
+      - article [ref=e60]:
+        - generic [ref=e61]: "03"
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - heading "Wallpaper & decor" [level=3] [ref=e66]
+            - paragraph [ref=e67]: Add pattern, texture and character with wallpaper and decor. See how colours, objects and finishing pieces can connect the whole room.
+          - link "See showroom details" [ref=e68] [cursor=pointer]:
+            - /url: "#showroom"
+            - text: See showroom details
+            - generic [ref=e69]: →
+      - article [ref=e70]:
+        - generic [ref=e71]: "04"
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - heading "Furniture & room settings" [level=3] [ref=e76]
+            - paragraph [ref=e77]: See furniture, textiles and decor together in complete room settings. It makes it easier to choose pieces that feel layered, comfortable and connected.
+          - link "Plan a showroom visit" [ref=e78] [cursor=pointer]:
+            - /url: "#visit"
+            - text: Plan a showroom visit
+            - generic [ref=e79]: →
+  - generic [ref=e80]:
+    - img "Curtain display framing a styled lounge setting in the Free State Curtain Parlour showroom" [ref=e82]
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - paragraph [ref=e85]: Showroom guidance
+        - heading "Guidance that starts with your room." [level=2] [ref=e86]
+        - paragraph [ref=e87]: Bring your photos, measurements, ideas or problem areas. We help you compare fabrics, finishes, furniture and decor in the showroom so the choices work together in the room.
+      - generic [ref=e88]:
+        - article [ref=e89]:
+          - generic [ref=e91]:
+            - heading "Start with your room" [level=3] [ref=e92]
+            - paragraph [ref=e93]: Tell us what you are changing, what needs to work better and how you want the room to feel.
+        - article [ref=e94]:
+          - generic [ref=e96]:
+            - heading "Compare in person" [level=3] [ref=e97]
+            - paragraph [ref=e98]: See colour, texture, scale and finish in the showroom before making a decision.
+        - article [ref=e99]:
+          - generic [ref=e101]:
+            - heading "Bring it together" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Choose curtains, blinds, wallpaper, furniture and decor with one clear direction.
+  - region "Our heritage" [ref=e104]:
+    - generic [ref=e105]: "1959"
+    - generic [ref=e106]:
+      - paragraph [ref=e107]: Established in Bloemfontein
+      - heading "Decades of helping local rooms come together." [level=2] [ref=e108]
+      - paragraph [ref=e109]: Free State Curtain Parlour has been part of Bloemfontein since 1959. Today, that history lives on in a hands-on showroom where good advice and real materials still matter.
+      - link "Learn more" [ref=e110] [cursor=pointer]:
+        - /url: "#showroom"
+        - text: Learn more
+        - generic [ref=e111]: →
+  - generic [ref=e112]:
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - paragraph [ref=e115]: Inside the showroom
+        - heading "Come see it in real life." [level=2] [ref=e116]
+      - paragraph [ref=e117]: Walk through room settings, compare finishes and see how colour, pattern, fabric and furniture live together.
+    - generic [ref=e118]:
+      - figure "The Westdene showroom" [ref=e119]:
+        - img "Free State Curtain Parlour showroom with curtains, decor shelving and furniture" [ref=e120]
+      - figure "Curtains & soft furnishings" [ref=e122]:
+        - img "A curtain display framing a styled lounge setting" [ref=e123]
+      - figure "Objects & finishing pieces" [ref=e125]:
+        - img "Decor, lighting and natural wood displays inside the showroom" [ref=e126]
+      - figure "Furniture & room settings" [ref=e128]:
+        - img "A styled bedroom setting with layered cushions and textiles" [ref=e129]
+  - region "Google review rating" [ref=e131]:
+    - generic [ref=e132]:
+      - paragraph [ref=e133]: Customer feedback
+      - heading "Helpful advice makes the difference." [level=2] [ref=e134]
+      - paragraph [ref=e135]: Public reviews regularly mention friendly service, creative guidance and a welcoming showroom experience.
+    - generic [ref=e136]:
+      - generic [ref=e137]: "4.4"
+      - generic "4.4 out of 5 stars" [ref=e138]: ★★★★★
+      - generic [ref=e139]: Based on 23 Google reviews
+      - link "Read the reviews" [ref=e140] [cursor=pointer]:
+        - /url: https://www.google.com/search?q=Free+State+Curtain+Parlour+Bloemfontein+reviews
+        - text: Read the reviews
+        - generic [ref=e141]: →
+    - generic "Customer review highlights" [ref=e142]:
+      - generic [ref=e143]:
+        - article [ref=e144]:
+          - generic "5 out of 5 stars" [ref=e145]: ★★★★★
+          - paragraph [ref=e146]: Friendly, patient service and lovely ideas for pulling the whole room together.
+          - generic [ref=e147]: Local customer
+        - article [ref=e148]:
+          - generic "5 out of 5 stars" [ref=e149]: ★★★★★
+          - paragraph [ref=e150]: They helped us compare fabrics properly and choose something that suited the space.
+          - generic [ref=e151]: Showroom visitor
+        - article [ref=e152]:
+          - generic "5 out of 5 stars" [ref=e153]: ★★★★★
+          - paragraph [ref=e154]: Beautiful showroom with curtains, blinds, furniture and decor all in one place.
+          - generic [ref=e155]: Bloemfontein client
+        - article [ref=e156]:
+          - generic "5 out of 5 stars" [ref=e157]: ★★★★★
+          - paragraph [ref=e158]: The advice made the decision much easier, especially seeing the colours in person.
+          - generic [ref=e159]: Happy customer
+        - article [ref=e160]:
+          - generic "5 out of 5 stars" [ref=e161]: ★★★★★
+          - paragraph [ref=e162]: Warm service, good product knowledge and a showroom that gives you real ideas.
+          - generic [ref=e163]: Free State client
+        - article [ref=e164]:
+          - generic [ref=e165]: ★★★★★
+          - paragraph [ref=e166]: Friendly, patient service and lovely ideas for pulling the whole room together.
+          - generic [ref=e167]: Local customer
+        - article [ref=e168]:
+          - generic [ref=e169]: ★★★★★
+          - paragraph [ref=e170]: They helped us compare fabrics properly and choose something that suited the space.
+          - generic [ref=e171]: Showroom visitor
+        - article [ref=e172]:
+          - generic [ref=e173]: ★★★★★
+          - paragraph [ref=e174]: Beautiful showroom with curtains, blinds, furniture and decor all in one place.
+          - generic [ref=e175]: Bloemfontein client
+        - article [ref=e176]:
+          - generic [ref=e177]: ★★★★★
+          - paragraph [ref=e178]: The advice made the decision much easier, especially seeing the colours in person.
+          - generic [ref=e179]: Happy customer
+        - article [ref=e180]:
+          - generic [ref=e181]: ★★★★★
+          - paragraph [ref=e182]: Warm service, good product knowledge and a showroom that gives you real ideas.
+          - generic [ref=e183]: Free State client
+  - generic [ref=e184]:
+    - generic [ref=e185]:
+      - paragraph [ref=e186]: Visit the showroom
+      - heading "Let’s find what works in your room." [level=2] [ref=e187]
+      - generic [ref=e188]:
+        - link "Get directions" [ref=e189] [cursor=pointer]:
+          - /url: https://www.google.com/maps/search/?api=1&query=44+Second+Avenue+Westdene+Bloemfontein+9301
+        - link "Call the showroom" [ref=e190] [cursor=pointer]:
+          - /url: tel:+27514303474
+    - generic [ref=e191]:
+      - generic [ref=e192]:
+        - heading "Find us" [level=3] [ref=e193]
+        - generic [ref=e194]: 44 Second AvenueWestdene, Bloemfontein9301
+      - generic [ref=e195]:
+        - heading "Trading hours" [level=3] [ref=e196]
+        - paragraph [ref=e197]: "Monday-Friday: 8:30am-4:30pm"
+        - paragraph [ref=e198]: "Saturday: 8:30am-12pm"
+        - paragraph [ref=e199]: "Sunday: Closed"
+      - generic [ref=e200]:
+        - heading "Contact" [level=3] [ref=e201]
+        - link "051 430 3474" [ref=e202] [cursor=pointer]:
+          - /url: tel:+27514303474
+        - link "freestatecurtainparlour@gmail.com" [ref=e203] [cursor=pointer]:
+          - /url: mailto:freestatecurtainparlour@gmail.com
+  - generic [ref=e204]:
+    - img "Free State Curtain Parlour" [ref=e206]
+    - navigation "Footer navigation" [ref=e207]:
+      - link "Services" [ref=e208] [cursor=pointer]:
+        - /url: "#services"
+      - link "Showroom" [ref=e209] [cursor=pointer]:
+        - /url: "#showroom"
+      - link "Contact" [ref=e210] [cursor=pointer]:
+        - /url: "#visit"
+    - paragraph [ref=e211]: Established 1959 / Bloemfontein, South Africa

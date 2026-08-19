@@ -1,0 +1,219 @@
+- main [ref=f9e2]:
+  - region [ref=f9e3]:
+    - img "Free State Curtain Parlour showroom interior with decor shelving, lighting and rugs" [ref=f9e4]
+    - generic [ref=f9e6]:
+      - link "Free State Curtain Parlour home" [ref=f9e7] [cursor=pointer]:
+        - /url: "#top"
+        - img "Free State Curtain Parlour, established 1959" [ref=f9e8]
+      - navigation "Primary navigation" [ref=f9e9]:
+        - link "Visit us" [ref=f9e10] [cursor=pointer]:
+          - /url: "#visit"
+    - generic [ref=f9e11]:
+      - paragraph [ref=f9e12]: Westdene, Bloemfontein
+      - heading "Where furniture, fabric, and finishing meet." [level=1] [ref=f9e13]
+      - paragraph [ref=f9e14]: From window treatments to wallpaper, soft furnishings, furniture and finishing decor, our Bloemfontein showroom helps you bring the whole room together.
+      - generic [ref=f9e15]:
+        - link "Explore the showroom" [ref=f9e16] [cursor=pointer]:
+          - /url: "#showroom"
+        - link "Call 051 430 3474" [ref=f9e17] [cursor=pointer]:
+          - /url: tel:+27514303474
+    - generic [ref=f9e18]: Established 1959
+  - region "Introduction" [ref=f9e20]:
+    - generic [ref=f9e21]:
+      - generic [ref=f9e22]:
+        - paragraph [ref=f9e23]: A whole-room approach
+        - heading "The room, considered as a whole." [level=2] [ref=f9e24]
+        - paragraph [ref=f9e25]: A curtain is never just a curtain. It changes the light, the mood and how everything else in the room comes together. Our showroom lets you consider the full picture before you choose.
+      - img "Decor, lighting and room details inside Free State Curtain Parlour" [ref=f9e28]
+  - generic [ref=f9e29]:
+    - generic [ref=f9e30]:
+      - generic [ref=f9e31]:
+        - paragraph [ref=f9e32]: Curtains, blinds, wallpaper & decor
+        - heading "Complete interiors, considered together." [level=2] [ref=f9e33]
+      - paragraph [ref=f9e34]: From the window treatment to the final object on the shelf, explore the pieces that make a room feel finished.
+    - generic [ref=f9e35]:
+      - article [ref=f9e36]:
+        - heading "Curtains & fabrics" [level=3] [ref=f9e39]
+        - generic [ref=f9e40]:
+          - paragraph [ref=f9e42]: Compare curtain fabrics, styles and finishes for your room. We help you choose textures, fullness and rails that suit the light, scale and mood of the space.
+          - link "Explore curtain options" [ref=f9e43] [cursor=pointer]:
+            - /url: "#advice"
+            - text: Explore curtain options
+            - generic [ref=f9e44]: →
+      - article [ref=f9e45]:
+        - heading "Blinds" [level=3] [ref=f9e48]
+        - generic [ref=f9e49]:
+          - paragraph [ref=f9e51]: Balance privacy and light control with a clean, practical finish. Choose blind options that work for daily use while still feeling considered in the room.
+          - link "Discuss window treatments" [ref=f9e52] [cursor=pointer]:
+            - /url: "#visit"
+            - text: Discuss window treatments
+            - generic [ref=f9e53]: →
+      - article [ref=f9e54]:
+        - heading "Wallpaper & decor" [level=3] [ref=f9e57]
+        - generic [ref=f9e58]:
+          - paragraph [ref=f9e60]: Add pattern, texture and character with wallpaper and decor. See how colours, objects and finishing pieces can connect the whole room.
+          - link "See showroom details" [ref=f9e61] [cursor=pointer]:
+            - /url: "#showroom"
+            - text: See showroom details
+            - generic [ref=f9e62]: →
+      - article [ref=f9e63]:
+        - heading "Furniture & room settings" [level=3] [ref=f9e66]
+        - generic [ref=f9e67]:
+          - paragraph [ref=f9e69]: See furniture, textiles and decor together in complete room settings. It makes it easier to choose pieces that feel layered, comfortable and connected.
+          - link "Plan a showroom visit" [ref=f9e70] [cursor=pointer]:
+            - /url: "#visit"
+            - text: Plan a showroom visit
+            - generic [ref=f9e71]: →
+  - generic [ref=f9e73]:
+    - generic [ref=f9e74]:
+      - paragraph [ref=f9e75]: Showroom guidance
+      - heading "Guidance that starts with your room." [level=2] [ref=f9e76]
+      - img "Curtain display framing a styled lounge setting in the Free State Curtain Parlour showroom" [ref=f9e78]
+      - paragraph [ref=f9e79]: Bring your photos, measurements, ideas or problem areas. We help you compare fabrics, finishes, furniture and decor in the showroom so the choices work together in the room.
+    - generic [ref=f9e80]:
+      - article [ref=f9e81]:
+        - generic [ref=f9e83]:
+          - heading "Start with your room" [level=3] [ref=f9e84]
+          - paragraph [ref=f9e85]: Tell us what you are changing, what needs to work better and how you want the room to feel.
+      - article [ref=f9e86]:
+        - generic [ref=f9e88]:
+          - heading "Compare in person" [level=3] [ref=f9e89]
+          - paragraph [ref=f9e90]: See colour, texture, scale and finish in the showroom before making a decision.
+      - article [ref=f9e91]:
+        - generic [ref=f9e93]:
+          - heading "Bring it together" [level=3] [ref=f9e94]
+          - paragraph [ref=f9e95]: Choose curtains, blinds, wallpaper, furniture and decor with one clear direction.
+  - region "Our heritage" [ref=f9e96]:
+    - generic [ref=f9e97]: "1959"
+    - generic [ref=f9e98]:
+      - paragraph [ref=f9e99]: Established in Bloemfontein
+      - heading "Decades of helping local rooms come together." [level=2] [ref=f9e101]
+      - paragraph [ref=f9e102]: Free State Curtain Parlour has been part of Bloemfontein since 1959. 67 years of history lives on in our hands-on showroom, where good advice and real materials still matter.
+      - link "Learn more" [ref=f9e103] [cursor=pointer]:
+        - /url: "#showroom"
+        - text: Learn more
+        - generic [ref=f9e104]: →
+  - generic [ref=f9e105]:
+    - generic [ref=f9e106]:
+      - generic [ref=f9e107]:
+        - paragraph [ref=f9e108]: Inside the showroom
+        - heading "Come see what we do." [level=2] [ref=f9e109]
+      - paragraph [ref=f9e110]: Walk through room settings, compare finishes and see how colour, pattern, fabric and furniture live together.
+    - generic [ref=f9e111]:
+      - figure "The Westdene showroom" [ref=f9e112]:
+        - img "Free State Curtain Parlour showroom with curtains, decor shelving and furniture" [ref=f9e113]
+      - figure "Curtains & soft furnishings" [ref=f9e115]:
+        - img "A curtain display framing a styled lounge setting" [ref=f9e116]
+      - figure "Objects & finishing pieces" [ref=f9e118]:
+        - img "Decor, lighting and natural wood displays inside the showroom" [ref=f9e119]
+      - figure "Furniture & room settings" [ref=f9e121]:
+        - img "A styled bedroom setting with layered cushions and textiles" [ref=f9e122]
+    - link "View full showroom" [ref=f9e125] [cursor=pointer]:
+      - /url: "#visit"
+      - text: View full showroom
+      - generic [ref=f9e126]: →
+  - region "Google review rating" [ref=f9e127]:
+    - generic [ref=f9e128]:
+      - paragraph [ref=f9e129]: Customer feedback
+      - heading "Helpful advice makes the difference." [level=2] [ref=f9e130]
+      - paragraph [ref=f9e131]: Public reviews mention helpful staff, good quality products and friendly showroom service.
+    - generic [ref=f9e132]:
+      - generic [ref=f9e133]: "4.6"
+      - generic "4.6 out of 5 stars" [ref=f9e134]: ★★★★★
+      - generic [ref=f9e135]: Based on 19 public reviews
+      - link "Read the reviews" [ref=f9e136] [cursor=pointer]:
+        - /url: https://www.google.com/search?q=free+state+curtain+parlour+reviews#lrd=0x1e8fc5487d8b6e7f:0x2008387ce253b67a,1,,,,
+        - text: Read the reviews
+        - generic [ref=f9e137]: →
+    - generic "Customer review highlights" [ref=f9e138]:
+      - generic [ref=f9e139]:
+        - article [ref=f9e140]:
+          - text: “
+          - generic "5 out of 5 stars" [ref=f9e141]: ★★★★★
+          - paragraph [ref=f9e142]: Best service ever.
+          - generic [ref=f9e143]: Public review
+        - article [ref=f9e144]:
+          - text: “
+          - generic "5 out of 5 stars" [ref=f9e145]: ★★★★★
+          - paragraph [ref=f9e146]: Helpful staff.
+          - generic [ref=f9e147]: Public review
+        - article [ref=f9e148]:
+          - text: “
+          - generic "5 out of 5 stars" [ref=f9e149]: ★★★★★
+          - paragraph [ref=f9e150]: Good quality products.
+          - generic [ref=f9e151]: Public review
+        - article [ref=f9e152]:
+          - text: “
+          - generic "5 out of 5 stars" [ref=f9e153]: ★★★★★
+          - paragraph [ref=f9e154]: Creative, friendly and assertive personnel.
+          - generic [ref=f9e155]: Public review
+        - article [ref=f9e156]:
+          - text: “
+          - generic "5 out of 5 stars" [ref=f9e157]: ★★★★★
+          - paragraph [ref=f9e158]: The best.
+          - generic [ref=f9e159]: Public review
+        - article [ref=f9e160]:
+          - text: “
+          - generic [ref=f9e161]: ★★★★★
+          - paragraph [ref=f9e162]: Best service ever.
+          - generic [ref=f9e163]: Public review
+        - article [ref=f9e164]:
+          - text: “
+          - generic [ref=f9e165]: ★★★★★
+          - paragraph [ref=f9e166]: Helpful staff.
+          - generic [ref=f9e167]: Public review
+        - article [ref=f9e168]:
+          - text: “
+          - generic [ref=f9e169]: ★★★★★
+          - paragraph [ref=f9e170]: Good quality products.
+          - generic [ref=f9e171]: Public review
+        - article [ref=f9e172]:
+          - text: “
+          - generic [ref=f9e173]: ★★★★★
+          - paragraph [ref=f9e174]: Creative, friendly and assertive personnel.
+          - generic [ref=f9e175]: Public review
+        - article [ref=f9e176]:
+          - text: “
+          - generic [ref=f9e177]: ★★★★★
+          - paragraph [ref=f9e178]: The best.
+          - generic [ref=f9e179]: Public review
+  - generic [ref=f9e180]:
+    - generic [ref=f9e181]:
+      - generic [ref=f9e182]:
+        - paragraph [ref=f9e183]: Visit the showroom
+        - heading "Let’s find what works in your room." [level=2] [ref=f9e184]
+        - generic [ref=f9e185]:
+          - link "Get directions" [ref=f9e186] [cursor=pointer]:
+            - /url: https://www.google.com/maps/dir/?api=1&destination=44+Second+Avenue+Westdene+Bloemfontein+9301
+          - link "Call the showroom" [ref=f9e187] [cursor=pointer]:
+            - /url: tel:+27514303474
+      - generic "Map to Free State Curtain Parlour" [ref=f9e188]:
+        - iframe [ref=f9e189]
+        - link "Open directions" [ref=f9e190] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&destination=44+Second+Avenue+Westdene+Bloemfontein+9301
+          - generic [ref=f9e192]: →
+    - generic [ref=f9e193]:
+      - generic [ref=f9e194]:
+        - heading "Find us" [level=3] [ref=f9e195]
+        - generic [ref=f9e196]: 44 Second AvenueWestdene, Bloemfontein9301
+      - generic [ref=f9e197]:
+        - heading "Trading hours" [level=3] [ref=f9e198]
+        - paragraph [ref=f9e199]: "Monday-Friday: 8:30am-4:30pm"
+        - paragraph [ref=f9e200]: "Saturday: 8:30am-12pm"
+        - paragraph [ref=f9e201]: "Sunday: Closed"
+      - generic [ref=f9e202]:
+        - heading "Contact" [level=3] [ref=f9e203]
+        - link "051 430 3474" [ref=f9e204] [cursor=pointer]:
+          - /url: tel:+27514303474
+        - link "freestatecurtainparlour@gmail.com" [ref=f9e205] [cursor=pointer]:
+          - /url: mailto:freestatecurtainparlour@gmail.com
+  - generic [ref=f9e206]:
+    - img "Free State Curtain Parlour" [ref=f9e208]
+    - navigation "Footer navigation" [ref=f9e209]:
+      - link "Services" [ref=f9e210] [cursor=pointer]:
+        - /url: "#services"
+      - link "Showroom" [ref=f9e211] [cursor=pointer]:
+        - /url: "#showroom"
+      - link "Contact" [ref=f9e212] [cursor=pointer]:
+        - /url: "#visit"
+    - paragraph [ref=f9e213]: Established 1959 / Bloemfontein, South Africa
