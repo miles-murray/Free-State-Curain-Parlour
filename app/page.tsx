@@ -3,9 +3,9 @@ const services = [
     number: "01",
     title: "Curtains & fabrics",
     description:
-      "Compare curtain fabrics, textures and finishes in relation to the whole room. We help you choose fullness, lining, rods and rails that suit the light, scale and mood of the space.",
-    cta: "Explore curtain options",
-    href: "#advice",
+      "Compare curtain fabrics, textures and finishes in relation to the whole room. We help you choose fullness, lining, rods and rails, then install and dress the curtains so the finished space feels right.",
+    cta: "Plan curtains & installation",
+    href: "#installation",
     image: "/showroom/service-curtains-fabrics.jpeg",
     position: "34% center",
   },
@@ -57,6 +57,12 @@ const guidanceSteps = [
     title: "Bring it together",
     text: "Choose window treatments, fabrics, wallpaper, furniture and decor with one clear direction.",
   },
+];
+
+const installationSteps = [
+  { title: "Measure", icon: "measure" },
+  { title: "Prepare", icon: "prepare" },
+  { title: "Install", icon: "install" },
 ];
 
 const gallery = [
@@ -146,6 +152,7 @@ export default function Home() {
           </a>
           <nav className="site-nav" aria-label="Primary navigation">
             <a href="#services">Services</a>
+            <a href="#installation">Installation</a>
             <a href="#advice">Guidance</a>
             <a href="#showroom">Showroom</a>
             <a className="nav-contact" href="#visit">Visit us</a>
@@ -167,7 +174,7 @@ export default function Home() {
         </div>
 
         <div className="hero-foot">
-          <span>Curtains / Blinds / Wallpaper / Furniture / Decor / Showroom guidance</span>
+          <span>Curtains / Installation / Blinds / Wallpaper / Furniture / Decor / Showroom guidance</span>
           <span className="heritage-mark">Established 1959</span>
         </div>
       </section>
@@ -247,6 +254,36 @@ export default function Home() {
             </article>
           ))}
         </div>
+      </section>
+
+      <section className="installation-section" id="installation">
+        <div className="installation-copy">
+          <p className="eyebrow">Curtain installation</p>
+          <h2>Chosen in the showroom. Installed in your home.</h2>
+          <p className="installation-description">
+            <span className="desktop-copy">
+              Free State Curtain Parlour does more than help you pick the fabric.
+              The team can measure, prepare the hanging details and install your
+              curtains so they sit properly, move well and finish the room the way
+              they were intended to.
+            </span>
+            <span className="mobile-copy">
+              We measure, prepare and install your curtains so they hang properly
+              and finish the room.
+            </span>
+          </p>
+        </div>
+        <div className="installation-frame">
+          <div className="installation-media">
+            <img
+              src="/showroom/installation-fabric-display.jpg"
+              alt="Fabric and curtain sample displays inside the Free State Curtain Parlour showroom"
+            />
+          </div>
+        </div>
+        <a className="button button-primary installation-link" href="#visit">
+          Ask about installation <span aria-hidden="true">→</span>
+        </a>
       </section>
 
       <section className="guidance-section" id="advice">
