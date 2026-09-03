@@ -1,137 +1,27 @@
-const services = [
-  {
-    number: "01",
-    title: "Curtains & fabrics",
-    description:
-      "Compare curtain fabrics, textures and finishes in relation to the whole room. We help you choose fullness, lining, rods and rails, then install and dress the curtains so the finished space feels right.",
-    cta: "Plan curtains & installation",
-    href: "#installation",
-    image: "/showroom/service-curtains-fabrics.jpeg",
-    position: "34% center",
-  },
-  {
-    number: "02",
-    title: "Blinds",
-    description:
-      "Balance privacy, light control and everyday use with a clean, practical finish. Choose blind options that work with the rest of the room rather than feeling separate from it.",
-    cta: "Plan window treatments",
-    href: "#visit",
-    image: "/showroom/service-blinds.jpeg",
-    position: "22% center",
-  },
-  {
-    number: "03",
-    title: "Wallpaper & decor",
-    description:
-      "Add pattern, texture and character with wallpaper, decor and finishing touches. See how colour, objects and surfaces can connect the whole room.",
-    cta: "Explore finishing touches",
-    href: "#showroom",
-    image: "/showroom/service-wallpaper-decor.jpeg",
-    position: "center center",
-  },
-  {
-    number: "04",
-    title: "Furniture & room settings",
-    description:
-      "See furniture, soft furnishings and decor together in complete room settings. It makes it easier to choose pieces that feel layered, comfortable and connected.",
-    cta: "Plan a showroom visit",
-    href: "#visit",
-    image: "/showroom/service-furniture-room-settings.jpeg",
-    position: "center center",
-  },
-];
+import { SiteFooter } from "./components/SiteFooter";
+import { SiteHeader } from "./components/SiteHeader";
+import { MobileMenu } from "./components/MobileMenu";
+import {
+  gallery,
+  reviews,
+  services,
+  teamRoles,
+  workshopSteps,
+} from "./content";
 
-const guidanceSteps = [
-  {
-    icon: "room",
-    title: "Start with your room",
-    text: "Tell us what you are changing, what needs to work better and how you want the room to feel.",
-  },
-  {
-    icon: "compare",
-    title: "Compare in person",
-    text: "See colour, texture, scale and finish in the showroom before making a decision.",
-  },
-  {
-    icon: "together",
-    title: "Bring it together",
-    text: "Choose window treatments, fabrics, wallpaper, furniture and decor with one clear direction.",
-  },
-];
+function splitWorkshopStep(step: string) {
+  const match = step.match(/^([^,\s]+),?\s+(.+)$/);
 
-const installationSteps = [
-  { title: "Measure", icon: "measure" },
-  { title: "Prepare", icon: "prepare" },
-  { title: "Install", icon: "install" },
-];
-
-const gallery = [
-  {
-    src: "/showroom/showroom-entry.jpg",
-    alt: "Free State Curtain Parlour showroom with curtains, decor shelving and furniture",
-    label: "The Westdene showroom",
-    className: "gallery-wide",
-  },
-  {
-    src: "/showroom/curtain-lounge.jpg",
-    alt: "A curtain display framing a styled lounge setting",
-    label: "Curtains & soft furnishings",
-    className: "gallery-tall",
-  },
-  {
-    src: "/showroom/decor-display.jpg",
-    alt: "Decor, lighting and natural wood displays inside the showroom",
-    label: "Objects & finishing pieces",
-    className: "gallery-small",
-  },
-  {
-    src: "/showroom/bedroom-setting.jpg",
-    alt: "A styled bedroom setting with layered cushions and textiles",
-    label: "Furniture & room settings",
-    className: "gallery-small",
-  },
-];
-
-const reviews = [
-  {
-    quote: "Best place to visit when you want to update your home",
-    name: "SR",
-    detail: "Local Guide · 82 reviews",
-    date: "9 months ago",
-    rating: 5,
-    avatar: "/reviewers/sr.png",
-  },
-  {
-    quote:
-      "This picture is not related to FS Curtain Parlour, but you will find the most creative, friendly and assertive staff here.",
-    name: "Jacques Groenewald",
-    detail: "Local Guide · 128 reviews",
-    date: "5 years ago",
-    rating: 4,
-    avatar: "/reviewers/jacques-groenewald.png",
-  },
-  {
-    quote:
-      "If you're looking for decorating advice this is the place to go. Thank you Johan for all your help.",
-    name: "Matthew Cockcroft",
-    detail: "Local Guide · 153 reviews",
-    date: "6 years ago",
-    rating: 5,
-    avatar: "/reviewers/matthew-cockcroft.png",
-  },
-  {
-    quote: "Best service ever",
-    name: "Doreen Dikobo",
-    detail: "Local Guide · 31 reviews",
-    date: "5 years ago",
-    rating: 5,
-    avatar: "/reviewers/doreen-dikobo.png",
-  },
-];
+  return {
+    action: match?.[1] ?? step,
+    detail: match?.[2] ?? "",
+  };
+}
 
 export default function Home() {
   return (
-    <main>
+    <main className="home-page">
+      <MobileMenu />
       <section className="hero" aria-labelledby="home-title">
         <img
           className="hero-image"
@@ -140,41 +30,28 @@ export default function Home() {
         />
         <div className="hero-shade" />
 
-        <header className="site-header">
-          <a className="brand" href="#top" aria-label="Free State Curtain Parlour home">
-            <img
-              className="brand-logo"
-              src="/fscp-logo-transparent.png"
-              alt="Free State Curtain Parlour, established 1959"
-              width="1627"
-              height="621"
-            />
-          </a>
-          <nav className="site-nav" aria-label="Primary navigation">
-            <a href="#services">Services</a>
-            <a href="#installation">Installation</a>
-            <a href="#advice">Guidance</a>
-            <a href="#showroom">Showroom</a>
-            <a className="nav-contact" href="#visit">Visit us</a>
-          </nav>
-        </header>
+        <SiteHeader />
 
         <div className="hero-content" id="top">
           <p className="eyebrow light">Westdene, Bloemfontein</p>
           <h1 id="home-title">Where fabric, furniture and finishing touches meet.</h1>
           <p className="hero-lede">
-            From window treatments to wallpaper, soft furnishings, furniture
-            and finishing decor, our Bloemfontein showroom helps you bring the
-            whole room together.
+            From curtains and blinds to wallpaper, bespoke furniture, wall
+            units, soft furnishings and finishing decor, our Bloemfontein
+            showroom helps you bring the whole room together.
           </p>
           <div className="hero-actions">
-            <a className="button button-primary" href="#showroom">Explore the showroom</a>
-            <a className="button button-ghost" href="tel:+27514303474">Call 051 430 3474</a>
+            <a className="button button-primary" href="/services">
+              Explore services
+            </a>
+            <a className="button button-ghost" href="tel:+27514303474">
+              Call 051 430 3474
+            </a>
           </div>
         </div>
 
         <div className="hero-foot">
-          <span>Curtains / Installation / Blinds / Wallpaper / Furniture / Decor / Showroom guidance</span>
+          <span>Curtains / Installation / Blinds / Wallpaper / Bespoke furniture / Wall units / Decor / Showroom guidance</span>
           <span className="heritage-mark">Established 1959</span>
         </div>
       </section>
@@ -183,7 +60,10 @@ export default function Home() {
         <div className="intro-grid">
           <div className="intro-copy">
             <p className="eyebrow">A whole-room approach</p>
-            <h2>The room, considered as a whole.</h2>
+            <h2 className="intro-title">
+              <span>The room, considered</span>{" "}
+              <span>as a whole.</span>
+            </h2>
             <p>
               Every choice changes the room, from the way light enters to the
               colours, textures, furniture and finishing pieces around it. Our
@@ -191,13 +71,11 @@ export default function Home() {
               choose.
             </p>
             <p className="intro-extra">
-              Bring in your colours, measurements or photos, and we will help
-              you look at the room as one complete setting, from window
-              treatments and fabrics to furniture, wallpaper and finishing decor.
+              Bring photos, colours, measurements, ideas or problem areas. We
+              will help you look at the room as one complete setting, from
+              window treatments and fabrics to furniture, wallpaper and
+              finishing decor.
             </p>
-            <a className="text-link intro-link" href="#advice">
-              Discuss your room <span aria-hidden="true">→</span>
-            </a>
           </div>
           <div className="intro-image">
             <picture>
@@ -217,7 +95,7 @@ export default function Home() {
       <section className="services-section" id="services">
         <div className="section-heading heading-row">
           <div>
-            <p className="eyebrow light">Curtains, blinds, wallpaper, furniture & decor</p>
+            <p className="eyebrow light">Services</p>
             <h2 className="services-title">
               <span>Complete interiors,</span>
               <span>considered together.</span>
@@ -256,72 +134,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="installation-section" id="installation">
-        <div className="installation-copy">
-          <p className="eyebrow">Curtain installation</p>
-          <h2>Chosen in the showroom. Installed in your home.</h2>
-          <p className="installation-description">
-            <span className="desktop-copy">
-              Free State Curtain Parlour does more than help you pick the fabric.
-              The team can measure, prepare the hanging details and install your
-              curtains so they sit properly, move well and finish the room the way
-              they were intended to.
-            </span>
-            <span className="mobile-copy">
-              We measure, prepare and install your curtains so they hang properly
-              and finish the room.
-            </span>
-          </p>
-        </div>
-        <div className="installation-frame">
-          <div className="installation-media">
-            <img
-              src="/showroom/installation-fabric-display.jpg"
-              alt="Fabric and curtain sample displays inside the Free State Curtain Parlour showroom"
-            />
-          </div>
-        </div>
-        <a className="button button-primary installation-link" href="#visit">
-          Ask about installation <span aria-hidden="true">→</span>
-        </a>
-      </section>
-
-      <section className="guidance-section" id="advice">
-        <div className="guidance-image">
-          <img
-            src="/showroom/curtain-lounge.jpg"
-            alt="Curtain display framing a styled lounge setting in the Free State Curtain Parlour showroom"
-          />
-        </div>
-        <div className="guidance-panel">
-          <div className="guidance-intro">
-            <p className="eyebrow">Showroom guidance</p>
-            <h2>Guidance that starts with your room.</h2>
-            <div className="guidance-mobile-image">
-              <img
-                src="/showroom/curtain-lounge.jpg"
-                alt="Curtain display framing a styled lounge setting in the Free State Curtain Parlour showroom"
-              />
-            </div>
-            <p>
-              Bring your photos, measurements, ideas or problem areas. We help
-              you compare window treatments, fabrics, wallpaper, furniture and
-              decor in the showroom so the choices work together in the room.
-            </p>
-          </div>
-          <div className="guidance-steps">
-            {guidanceSteps.map((step) => (
-              <article key={step.title}>
-                <div>
-                  <h3>{step.title}</h3>
-                  <p>{step.text}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="showroom-section" id="showroom">
         <div className="section-heading heading-row showroom-heading">
           <div>
@@ -337,18 +149,82 @@ export default function Home() {
           {gallery.map((item) => (
             <figure className={item.className} key={item.src}>
               <img src={item.src} alt={item.alt} />
-              <figcaption>{item.label}</figcaption>
             </figure>
           ))}
         </div>
         <div className="showroom-cta">
-          <a className="button button-primary" href="#visit">
-            View full showroom <span aria-hidden="true">→</span>
+          <a className="button button-primary" href="/showroom">
+            View showroom page <span aria-hidden="true">→</span>
           </a>
         </div>
       </section>
 
-      <section className="heritage-section" aria-label="Our heritage">
+      <section className="workshop-section" id="workshop">
+        <div className="workshop-shell">
+          <div className="workshop-rail">
+            <p className="eyebrow">Workshop</p>
+          </div>
+          <div className="workshop-content">
+            <figure className="workshop-media-band">
+              <img
+                src="/showroom/workshop-ai-placeholder.png"
+                alt="Temporary workshop scene with curtain fabrics, measuring tools and sewing equipment"
+              />
+            </figure>
+            <div className="workshop-copy">
+              <h2>
+                <span>Measured, made and</span>
+                <span>finished for the room.</span>
+              </h2>
+              <div className="workshop-process-row">
+                {workshopSteps.map((step) => {
+                  const { action, detail } = splitWorkshopStep(step);
+
+                  return (
+                    <article key={step}>
+                      <p>
+                        <strong>{action}</strong>
+                        {detail && <span> {detail}</span>}
+                      </p>
+                    </article>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+          <div className="workshop-actions">
+            <a className="text-link workshop-link" href="/workshop">
+              Visit the workshop page <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className="team-section" id="team">
+        <div className="section-heading heading-row">
+          <div>
+            <p className="eyebrow">Team & roles</p>
+            <h2>Who helps you through the work.</h2>
+          </div>
+        </div>
+        <div className="team-role-grid">
+          {teamRoles.map((role) => (
+            <article className="team-role-card" key={role.title}>
+              <img className="team-role-media" src={role.image} alt={role.alt} />
+              <div className="team-role-body">
+                <h3>{role.title}</h3>
+                <p>{role.text}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+        <a className="text-link team-link" href="/team">
+          <span className="team-link-label">See who helps with each step</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </section>
+
+      <section className="heritage-section" id="history">
         <div className="heritage-number">1959</div>
         <div className="heritage-copy">
           <p className="eyebrow light heritage-eyebrow">Established in Bloemfontein</p>
@@ -357,12 +233,9 @@ export default function Home() {
           </div>
           <p>
             Free State Curtain Parlour has been part of Bloemfontein interiors since 1959.
-            A history of 67 years lives on in our hands-on showroom,
-            where good advice and real materials still matter.
+            The history page will hold the newspaper articles, old photographs and
+            local story behind the business.
           </p>
-          <a className="text-link light-link heritage-link" href="#showroom">
-            Learn more about FSCP <span aria-hidden="true">→</span>
-          </a>
         </div>
       </section>
 
@@ -379,14 +252,6 @@ export default function Home() {
           <span className="rating-number">4.4</span>
           <span className="rating-stars" aria-label="4.4 out of 5 stars">★★★★★</span>
           <span>Based on 23 Google reviews</span>
-          <a
-            className="text-link"
-            href="https://www.google.com/search?q=free+state+curtain+parlour+reviews#lrd=0x1e8fc5487d8b6e7f:0x2008387ce253b67a,1,,,,"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Read reviews <span aria-hidden="true">→</span>
-          </a>
         </div>
         <div className="review-carousel" aria-label="Customer review highlights">
           <div className="review-track">
@@ -423,7 +288,7 @@ export default function Home() {
         <div className="visit-intro">
           <div className="visit-copy">
             <p className="eyebrow light">Visit the showroom</p>
-            <h2>Let’s find what works in your room.</h2>
+            <h2>Let us find what works in your room.</h2>
             <p className="visit-support">
               You are welcome to visit the showroom, speak to the team and compare
               fabrics, finishes and furniture in person before choosing what feels
@@ -438,7 +303,9 @@ export default function Home() {
               >
                 Get directions
               </a>
-              <a className="button button-ghost" href="tel:+27514303474">Call the showroom</a>
+              <a className="button button-ghost" href="/contact">
+                Contact details
+              </a>
             </div>
           </div>
           <div className="visit-map" aria-label="Map to Free State Curtain Parlour">
@@ -484,23 +351,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="site-footer">
-        <div className="footer-brand">
-          <img
-            className="footer-logo"
-            src="/fscp-logo-transparent.png"
-            alt="Free State Curtain Parlour"
-            width="1627"
-            height="621"
-          />
-        </div>
-        <nav aria-label="Footer navigation">
-          <a href="#services">Services</a>
-          <a href="#showroom">Showroom</a>
-          <a href="#visit">Contact</a>
-        </nav>
-        <p>Established 1959 / Bloemfontein, South Africa</p>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Free State Curtain Parlour | Curtains, Blinds & Decor in Bloemfontein",
   description:
-    "Visit Free State Curtain Parlour in Westdene, Bloemfontein for curtains, blinds, wallpaper, furniture and decor advice.",
+    "Visit Free State Curtain Parlour in Westdene, Bloemfontein for curtains, blinds, wallpaper, bespoke furniture, wall units and decor advice.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
