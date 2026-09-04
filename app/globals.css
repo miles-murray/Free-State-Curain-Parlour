@@ -831,11 +831,12 @@ p {
   gap: 18px;
   justify-content: space-between;
   min-height: 54px;
+  min-width: 244px;
   padding: 0 28px;
   position: absolute;
   right: clamp(28px, 5vw, 84px);
   text-transform: uppercase;
-  width: min(100%, 300px);
+  width: max-content;
 }
 
 .service-cta:hover {
@@ -952,8 +953,9 @@ p {
   .service-cta {
     font-size: 12px;
     min-height: 50px;
+    min-width: 236px;
     padding: 0 26px;
-    width: min(100%, 290px);
+    width: max-content;
   }
 
   .service-row:nth-child(odd) .service-cta {
@@ -2132,7 +2134,7 @@ p {
   }
 
   .intro-band {
-    padding: 64px clamp(24px, 7vw, 34px) 56px;
+    padding: 60px 0 56px;
   }
 
   .intro-grid,
@@ -2175,11 +2177,13 @@ p {
     justify-self: end;
     left: auto;
     margin: 28px 0 0 auto;
+    max-width: 100%;
     min-height: 50px;
+    min-width: 236px;
     padding: 0 24px;
     position: relative;
     right: auto;
-    width: min(100%, 318px);
+    width: max-content;
   }
 
   .service-row:nth-child(even) .service-text,
@@ -2232,14 +2236,19 @@ p {
     aspect-ratio: 4 / 5;
     justify-self: center;
     max-height: none;
+    max-width: none;
     order: 2;
-    width: min(100%, 420px);
+    width: 100%;
   }
 
   .intro-grid {
-    gap: 24px;
+    gap: 28px;
     justify-items: center;
+    margin: 0 auto;
+    max-width: 430px;
     min-height: 0;
+    padding: 0 clamp(24px, 6.5vw, 32px);
+    width: 100%;
   }
 
   .intro-image picture,
@@ -2269,7 +2278,7 @@ p {
   .intro-copy > p {
     font-size: clamp(15px, 4vw, 17px);
     line-height: 1.55;
-    max-width: min(100%, 330px);
+    max-width: 100%;
   }
 
   .intro-extra {
@@ -2306,12 +2315,12 @@ p {
 
   .intro-copy h2 {
     margin-bottom: 0;
-    max-width: min(100%, 390px);
+    max-width: 100%;
   }
 
   .intro-copy h2 span {
     display: block;
-    white-space: nowrap;
+    white-space: normal;
   }
 
   .reverse-feature .feature-image,
