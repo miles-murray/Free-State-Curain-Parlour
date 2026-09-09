@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { InteriorPage } from "../../../components/InteriorPage";
 
 export const metadata: Metadata = {
-  title: "Wall Units Examples | Free State Curtain Parlour",
+  title: "Wall Units & Custom Pieces Examples | Free State Curtain Parlour",
   description:
-    "View wall unit, display shelving and fitted storage examples from Free State Curtain Parlour.",
+    "View wall unit, display shelving, fitted storage and custom piece examples from Free State Curtain Parlour.",
 };
 
 const examples = [
@@ -33,9 +33,9 @@ const examples = [
 export default function WallUnitsExamplesPage() {
   return (
     <InteriorPage
-      eyebrow="Wall units"
+      eyebrow="Wall units & custom pieces"
       title="Examples of shelving, display and fitted storage."
-      intro="A closer look at wall units and display pieces that shape how the room stores, shows and lives with everyday objects."
+      intro="A closer look at wall units, display pieces and custom ideas that shape how the room stores, shows and lives with everyday objects."
       image="/showroom/wall-units-example-02.jpeg"
     >
       <section className="page-section page-section-light service-examples-section">

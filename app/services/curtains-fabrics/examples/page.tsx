@@ -2,69 +2,90 @@ import type { Metadata } from "next";
 import { InteriorPage } from "../../../components/InteriorPage";
 
 export const metadata: Metadata = {
-  title: "Curtains & Fabrics Examples | Free State Curtain Parlour",
+  title: "Curtain Options | Free State Curtain Parlour",
   description:
-    "View curtain fabric, texture and showroom examples from Free State Curtain Parlour.",
+    "Explore custom curtain options, fabrics, textures, tracks and finishes from Free State Curtain Parlour.",
 };
 
 const examples = [
   {
     src: "/showroom/curtains-fabrics-example-01.jpeg",
-    caption: "Curtain fabric samples",
+    title: "Custom curtain fabrics",
+    description:
+      "Compare colour, texture, weight and pattern before choosing the fabric direction for the room.",
   },
   {
     src: "/showroom/curtains-fabrics-example-02.jpeg",
-    caption: "Textured finishes",
+    title: "Textured curtain finishes",
+    description:
+      "Use richer textures when the curtain needs to add warmth, depth or a more finished look.",
   },
   {
     src: "/showroom/curtains-fabrics-example-03.jpeg",
-    caption: "Layered rug and fabric textures",
+    title: "Room-coordinated curtains",
+    description:
+      "Plan curtains alongside rugs, upholstery and decor so the room feels considered as one whole space.",
   },
   {
     src: "/showroom/curtains-fabrics-example-04.jpeg",
-    caption: "Fabric library",
+    title: "Fabric library",
+    description:
+      "Browse fabric books and samples in the showroom to narrow down practical and decorative options.",
   },
   {
     src: "/showroom/curtains-fabrics-example-05.jpeg",
-    caption: "Stain-free fabric ranges",
+    title: "Practical fabric ranges",
+    description:
+      "Look at durable, easy-living fabric choices for homes, guesthouses and rooms used every day.",
   },
   {
     src: "/showroom/curtains-fabrics-example-06.jpeg",
-    caption: "Showroom fabric wall",
+    title: "Full fabric wall",
+    description:
+      "See a broader range of colours and textures together before deciding what suits the light in the room.",
   },
   {
     src: "/showroom/curtains-fabrics-example-07.jpeg",
-    caption: "Hertex samples",
+    title: "Designer fabric samples",
+    description:
+      "Compare supplier ranges and designer samples for custom curtains, blinds and soft furnishings.",
   },
   {
     src: "/showroom/curtains-fabrics-example-08.jpeg",
-    caption: "Close fabric comparison",
+    title: "Close fabric comparison",
+    description:
+      "Place fabrics side by side to check tone, texture, pattern scale and how they work with other finishes.",
   },
   {
     src: "/showroom/curtains-fabrics-example-09.jpeg",
-    caption: "Full-length curtain detail",
+    title: "Finished curtain detail",
+    description:
+      "Review the final hang, fullness and finish once the curtain style and fitting details come together.",
   },
 ];
 
 export default function CurtainsFabricsExamplesPage() {
   return (
     <InteriorPage
-      eyebrow="Curtains & fabrics"
-      title="Examples of fabrics, textures and finished curtain choices."
-      intro="A closer look at fabric weight, pattern, texture and showroom ranges before the final room decision is made."
+      eyebrow="Curtains"
+      title="Curtain options, fabrics and finishes."
+      intro="Use this as a starting point for custom curtains, hall curtains, stage curtains, electric curtains, Wi-Fi operated curtains, tracks, rods, rails, measuring and installation."
       image="/showroom/curtains-fabrics-example-01.jpeg"
     >
       <section className="page-section page-section-light service-examples-section">
         <div className="service-examples-inner">
           <div className="service-examples-heading">
-            <p className="eyebrow light">Examples</p>
-            <h2>Compare the details in person.</h2>
+            <p className="eyebrow light">Curtain choices</p>
+            <h2>Start with the type of curtain, then refine the fabric.</h2>
           </div>
           <div className="service-examples-gallery">
             {examples.map((example) => (
               <figure className="service-example-card" key={example.src}>
                 <img src={example.src} alt="" />
-                <figcaption>{example.caption}</figcaption>
+                <figcaption>
+                  <strong>{example.title}</strong>
+                  <span>{example.description}</span>
+                </figcaption>
               </figure>
             ))}
           </div>
