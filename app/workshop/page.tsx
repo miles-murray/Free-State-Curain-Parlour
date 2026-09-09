@@ -4,49 +4,49 @@ import { InteriorPage } from "../components/InteriorPage";
 export const metadata: Metadata = {
   title: "Process | Free State Curtain Parlour",
   description:
-    "See the Free State Curtain Parlour process for curtain advice, blind measuring, quotes, custom curtain making and installation in Bloemfontein.",
+    "See the Free State Curtain Parlour process for showroom advice, measuring, quotes, sourcing, custom work and installation in Bloemfontein.",
 };
 
 const workshopStages = [
   {
     number: "01",
     title: "Advise",
-    text: "Start with the room, the light, the privacy and the way the space needs to feel.",
+    text: "Start with the room, the style, the practical needs and the way the space should feel.",
     image: "/workshop/workshop-consultation-temp.png",
     alt: "Hands comparing fabric, wallpaper and finish samples on a showroom worktable.",
   },
   {
     number: "02",
     title: "Measure",
-    text: "Check the practical details: windows, walls, rails, drops and fitting points.",
+    text: "Check the sizes, walls, windows, furniture placement and fitting points that shape the work.",
     image: "/team/measuring-installation-temp.png",
     alt: "A measuring tape being used beside a curtain installation.",
   },
   {
     number: "03",
     title: "Quote",
-    text: "Confirm the fabric, finish, supplier details and installation approach before work begins.",
+    text: "Confirm the materials, finishes, supplier details and installation approach before work begins.",
     image: "/showroom/installation-fabric-display.jpg",
     alt: "Fabric and decor samples arranged in the showroom.",
   },
   {
     number: "04",
     title: "Prepare",
-    text: "Curtains are made in-house; blinds and specialist pieces are ordered or coordinated.",
+    text: "The right pieces are made, ordered, sourced or coordinated with trusted specialists.",
     image: "/workshop/workshop-making-temp.png",
     alt: "Hands measuring and marking curtain fabric on a workshop cutting table.",
   },
   {
     number: "05",
     title: "Check",
-    text: "Finished work is checked against the agreed direction before handover or fitting.",
+    text: "Finished pieces are checked against the agreed direction before handover or fitting.",
     image: "/team/workshop-custom-temp.png",
     alt: "Workshop details being checked before installation.",
   },
   {
     number: "06",
     title: "Install",
-    text: "The final pieces are fitted neatly in the room they were made for.",
+    text: "The final details are fitted, placed or handed over in the room they were chosen for.",
     image: "/workshop/workshop-fitting-temp.png",
     alt: "Installer adjusting finished curtain folds in a completed room.",
   },
@@ -56,8 +56,8 @@ export default function WorkshopPage() {
   return (
     <InteriorPage
       eyebrow="Process"
-      title="From showroom advice to final installation."
-      intro="A simple look at how an idea for curtains, blinds or room finishes becomes finished work: advised, measured, quoted, prepared, checked and installed."
+      title="From showroom advice to the finished room."
+      intro="A simple look at how an idea for a room becomes finished work: advised, measured, quoted, prepared, checked and installed."
       image="/workshop/workshop-making-temp.png"
       className="workshop-page-hero"
     >
@@ -66,9 +66,9 @@ export default function WorkshopPage() {
           <p className="eyebrow">The process</p>
           <h2>Step-by-step process.</h2>
           <p>
-            From showroom advice in Bloemfontein to measuring, quoting, making,
-            ordering and final installation, each project follows a clear
-            process shaped around the room.
+            From showroom advice in Bloemfontein to measuring, quoting,
+            sourcing, custom work and final installation, each project follows a
+            clear process shaped around the room.
           </p>
         </div>
 
@@ -94,9 +94,9 @@ export default function WorkshopPage() {
             <p className="eyebrow light">Visit the showroom</p>
             <h2>Start the process in the room.</h2>
             <p className="visit-support">
-              Bring photos, measurements, fabric ideas or problem areas. The
+              Bring photos, measurements, room ideas or problem areas. The
               showroom team can help you compare options and decide the next
-              step before anything is measured, quoted or made.
+              step before anything is measured, quoted, sourced or made.
             </p>
             <div className="visit-actions">
               <a

@@ -1,30 +1,35 @@
 import type { Metadata } from "next";
 import { InteriorPage } from "../components/InteriorPage";
-import { teamRoles } from "../content";
+import { teamPeople } from "../content";
 
 export const metadata: Metadata = {
   title: "Team & Roles | Free State Curtain Parlour",
   description:
-    "Meet the customer-facing, installation and workshop roles behind Free State Curtain Parlour in Bloemfontein.",
+    "Meet the customer-facing, financial, installation and specialist support roles behind Free State Curtain Parlour in Bloemfontein.",
 };
 
 export default function TeamPage() {
   return (
-    <InteriorPage
+      <InteriorPage
       eyebrow="Team & roles"
       title="The people behind the finished room."
-      intro="A customer does not only choose a product. They speak to people, invite people into the practical details of their home, and trust people to carry the work through. This page explains the roles behind that experience."
-      image="/showroom/showroom-entry.jpg"
+      image="/team/team-hero-ai.png"
     >
-      <section className="page-section page-section-light">
+      <section className="page-section page-section-light team-page-section">
+        <div className="team-page-intro">
+          <h2>Meet the team.</h2>
+          <p>
+            The people who help guide each room from first conversation to
+            finished detail.
+          </p>
+        </div>
         <div className="team-page-grid">
-          {teamRoles.map((role) => (
-            <article className="role-card team-role-card" key={role.title}>
-              <img className="team-role-media" src={role.image} alt={role.alt} />
+          {teamPeople.map((person) => (
+            <article className="role-card team-role-card" key={person.name}>
+              <span className="team-role-label">{person.role}</span>
+              <img className="team-role-media" src={person.image} alt={person.alt} />
               <div className="team-role-body">
-                <h2>{role.title}</h2>
-                <p>{role.detail}</p>
-                <p className="team-role-benefit">{role.benefit}</p>
+                <h2>{person.name}</h2>
               </div>
             </article>
           ))}
