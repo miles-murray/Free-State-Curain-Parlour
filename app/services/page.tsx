@@ -6,15 +6,16 @@ const serviceCtaLabels = {
   "curtains-fabrics": "See curtain work",
   blinds: "See blind options",
   wallpaper: "See wallpaper options",
-  "furniture-decor": "Explore room pieces",
-  "bespoke-furniture": "View custom work",
+  "upholstery-soft-furnishings": "See soft furnishing ideas",
+  "rugs-lighting-decor": "Explore finishing pieces",
+  "interior-guidance": "Plan the room",
   "wall-units": "See wall unit ideas",
 } as const;
 
 export const metadata: Metadata = {
   title: "Services | Free State Curtain Parlour",
   description:
-    "Explore curtains, blinds, wallpaper, furniture and decor, custom furniture and wall units from Free State Curtain Parlour in Bloemfontein.",
+    "Explore curtains, blinds, wallpaper, upholstery, soft furnishings, rugs, lighting, decor, interior guidance, wall units and custom pieces from Free State Curtain Parlour in Bloemfontein.",
 };
 
 export default function ServicesPage() {
@@ -32,7 +33,6 @@ export default function ServicesPage() {
         const ctaLabel =
           serviceCtaLabels[service.slug as keyof typeof serviceCtaLabels];
         const isCurtains = service.slug === "curtains-fabrics";
-        const isFurnitureDecor = service.slug === "furniture-decor";
         const isWallUnits = service.slug === "wall-units";
 
         return (
@@ -82,11 +82,9 @@ export default function ServicesPage() {
                     href={
                       isCurtains
                         ? "/services/curtains-fabrics/examples"
-                        : isFurnitureDecor
-                          ? "/services/furniture-decor/examples"
-                          : isWallUnits
-                            ? "/services/wall-units/examples"
-                            : service.href
+                        : isWallUnits
+                          ? "/services/wall-units/examples"
+                          : service.href
                     }
                   >
                     <span>{ctaLabel}</span>
@@ -106,8 +104,8 @@ export default function ServicesPage() {
             <h2>See the services in the room.</h2>
             <p className="visit-support">
               Visit the showroom to compare curtains, blinds, wallpaper,
-              furniture, decor and custom details in person before choosing what
-              feels right for your space.
+              upholstery, rugs, lighting, decor, wall unit ideas and custom
+              pieces in person before choosing what feels right for your space.
             </p>
             <div className="visit-actions">
               <a

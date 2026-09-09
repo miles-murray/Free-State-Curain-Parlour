@@ -3,9 +3,8 @@ import { SiteHeader } from "./components/SiteHeader";
 import { MobileMenu } from "./components/MobileMenu";
 import {
   gallery,
+  homepageServices,
   reviews,
-  services,
-  teamRoles,
   workshopSteps,
 } from "./content";
 
@@ -36,9 +35,9 @@ export default function Home() {
           <p className="eyebrow light">Westdene, Bloemfontein</p>
           <h1 id="home-title">Where fabric, furniture and finishing touches meet.</h1>
           <p className="hero-lede">
-            From curtains and blinds to wallpaper, bespoke furniture, wall
-            units, soft furnishings and finishing decor, our Bloemfontein
-            showroom helps you bring the whole room together.
+            From curtains, blinds and upholstery to wallpaper, rugs, lighting,
+            decor and wall units, our Bloemfontein showroom helps you bring the
+            whole room together.
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="/services">
@@ -73,7 +72,7 @@ export default function Home() {
             <p className="intro-extra">
               Bring photos, colours, measurements, ideas or problem areas. We
               will help you look at the room as one complete setting, from
-              window treatments and fabrics to furniture, wallpaper and
+              window treatments and upholstery to wallpaper, rugs, lighting and
               finishing decor.
             </p>
           </div>
@@ -102,12 +101,13 @@ export default function Home() {
             </h2>
           </div>
           <p>
-            From the window treatment to the final finishing detail, explore
-            the pieces that make a room feel complete.
+            Start with the main area you need help with, then visit the full
+            Services page for the smaller details, specialist work and custom
+            possibilities.
           </p>
         </div>
         <div className="service-grid">
-          {services.map((service) => (
+          {homepageServices.map((service, index) => (
             <article className="service-row" key={service.title}>
               <div className="service-panel">
                 <img
@@ -116,7 +116,9 @@ export default function Home() {
                   style={{ objectPosition: service.position }}
                 />
                 <div className="service-overlay" />
-                <span className="service-number">{service.number}</span>
+                <span className="service-number">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
                 <h3 className="service-image-title">{service.title}</h3>
               </div>
               <div className="service-copy">
@@ -162,7 +164,7 @@ export default function Home() {
       <section className="workshop-section" id="workshop">
         <div className="workshop-shell">
           <div className="workshop-rail">
-            <p className="eyebrow">Workshop</p>
+            <p className="eyebrow">Process</p>
           </div>
           <div className="workshop-content">
             <figure className="workshop-media-band">
@@ -194,34 +196,10 @@ export default function Home() {
           </div>
           <div className="workshop-actions">
             <a className="text-link workshop-link" href="/workshop">
-              Visit the workshop page <span aria-hidden="true">→</span>
+              View the process <span aria-hidden="true">→</span>
             </a>
           </div>
         </div>
-      </section>
-
-      <section className="team-section" id="team">
-        <div className="section-heading heading-row">
-          <div>
-            <p className="eyebrow">Team & roles</p>
-            <h2>Who helps you through the work.</h2>
-          </div>
-        </div>
-        <div className="team-role-grid">
-          {teamRoles.map((role) => (
-            <article className="team-role-card" key={role.title}>
-              <img className="team-role-media" src={role.image} alt={role.alt} />
-              <div className="team-role-body">
-                <h3>{role.title}</h3>
-                <p>{role.text}</p>
-              </div>
-            </article>
-          ))}
-        </div>
-        <a className="text-link team-link" href="/team">
-          <span className="team-link-label">See who helps with each step</span>
-          <span aria-hidden="true">→</span>
-        </a>
       </section>
 
       <section className="heritage-section" id="history">
