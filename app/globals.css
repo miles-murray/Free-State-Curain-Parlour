@@ -5922,6 +5922,12 @@ section.team-page-section {
 }
 
 @media (max-width: 720px) {
+  .showroom-heading h2 {
+    font-size: 40px;
+    max-width: none;
+    white-space: nowrap;
+  }
+
   .services-title,
   .intro-title,
   .showroom-heading h2,
