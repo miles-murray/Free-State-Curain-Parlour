@@ -557,7 +557,7 @@ export const teamPeople = [
     alt: "Hands choosing fabric and timber finishes beside a custom furniture unit",
   },
   {
-    name: "Veli Vermeulen & Anton Beukes",
+    name: "Willie Vermeulen & Anton Beukes",
     role: "Installation team",
     text: "Handle measuring, practical fitting and installation work in the client's space, from site details to the final fit.",
     image: "/team/measuring-installation-temp.png",
@@ -588,18 +588,18 @@ export const workshopSteps = [
 export const historyItems = [
   {
     title: "Established in 1959",
-    text: "Free State Curtain Parlour has been part of Bloemfontein homes for generations, with a story built around curtains, fabrics, wallpaper and practical interior advice.",
+    text: "Free State Curtain Parlour has been part of Bloemfontein interiors for generations, with a story built around curtains, fabrics, wallpaper and practical room advice.",
   },
   {
     title: "Curtains to carpets",
-    text: "An early newspaper feature records how Mrs S. S. Jackson began the curtaining business in 1965 and how the Jackson family grew the work beyond a sideline.",
+    text: "An early newspaper feature records Mrs S. S. Jackson's curtaining work and how the Jackson family grew the business beyond a sideline.",
   },
   {
     title: "Westdene showroom",
-    text: "Later newspaper coverage and local adverts mark the move into Westdene, showing a business known locally for fabrics, finishes and personal service.",
+    text: "Later newspaper coverage and local adverts show the Westdene showroom becoming a familiar place for fabrics, finishes and personal service.",
   },
   {
     title: "Still room-led",
-    text: "The same story continues today through showroom guidance, measuring, installation, bespoke furniture, wall units and decor chosen around the whole room.",
+    text: "The same room-led approach continues today through showroom guidance, measuring, installation, bespoke pieces, wall units and decor chosen together.",
   },
 ];

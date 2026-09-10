@@ -2,65 +2,65 @@ import type { Metadata } from "next";
 import { InteriorPage } from "../../../components/InteriorPage";
 
 export const metadata: Metadata = {
-  title: "Curtain Options | Free State Curtain Parlour",
+  title: "Curtain Types | Free State Curtain Parlour",
   description:
-    "Explore custom curtain options, fabrics, textures, tracks and finishes from Free State Curtain Parlour.",
+    "Explore curtain types from Free State Curtain Parlour in Bloemfontein, including custom curtains, sheer curtains, blockout curtains, wave curtains, pinch pleat curtains, pencil pleat curtains, eyelet curtains, stage curtains and electric curtains.",
 };
 
-const examples = [
+const curtainTypes = [
   {
     src: "/showroom/curtains-fabrics-example-01.jpeg",
-    title: "Custom curtain fabrics",
+    title: "Custom curtains",
     description:
-      "Compare colour, texture, weight and pattern before choosing the fabric direction for the room.",
+      "Made-to-measure curtains planned around the room, window size, fabric choice, lining, track or rod and final installation.",
   },
   {
     src: "/showroom/curtains-fabrics-example-02.jpeg",
-    title: "Textured curtain finishes",
+    title: "Sheer curtains",
     description:
-      "Use richer textures when the curtain needs to add warmth, depth or a more finished look.",
+      "Lightweight curtains for soft daylight, privacy and layering, often paired with blockout or lined curtains.",
   },
   {
     src: "/showroom/curtains-fabrics-example-03.jpeg",
-    title: "Room-coordinated curtains",
+    title: "Blockout and lined curtains",
     description:
-      "Plan curtains alongside rugs, upholstery and decor so the room feels considered as one whole space.",
+      "Curtains with lining or blockout fabric for bedrooms, TV rooms and spaces that need more privacy or light control.",
   },
   {
     src: "/showroom/curtains-fabrics-example-04.jpeg",
-    title: "Fabric library",
+    title: "Wave curtains",
     description:
-      "Browse fabric books and samples in the showroom to narrow down practical and decorative options.",
+      "A clean, modern curtain style with soft, even folds that works well on tracks in contemporary rooms.",
   },
   {
     src: "/showroom/curtains-fabrics-example-05.jpeg",
-    title: "Practical fabric ranges",
+    title: "Pinch pleat curtains",
     description:
-      "Look at durable, easy-living fabric choices for homes, guesthouses and rooms used every day.",
+      "A tailored heading style with structured pleats, suited to formal living rooms, bedrooms and finished interiors.",
   },
   {
     src: "/showroom/curtains-fabrics-example-06.jpeg",
-    title: "Full fabric wall",
+    title: "Pencil pleat curtains",
     description:
-      "See a broader range of colours and textures together before deciding what suits the light in the room.",
+      "A flexible gathered heading that can suit many rooms, fabrics and track or rod choices.",
   },
   {
     src: "/showroom/curtains-fabrics-example-07.jpeg",
-    title: "Designer fabric samples",
+    title: "Eyelet curtains",
     description:
-      "Compare supplier ranges and designer samples for custom curtains, blinds and soft furnishings.",
+      "Curtains with metal eyelets for a simple, relaxed look on a curtain rod.",
   },
   {
     src: "/showroom/curtains-fabrics-example-08.jpeg",
-    title: "Close fabric comparison",
+    title: "Stage and hall curtains",
     description:
-      "Place fabrics side by side to check tone, texture, pattern scale and how they work with other finishes.",
+      "Larger curtain projects for halls, stages and public spaces, measured and made around the space.",
   },
   {
     src: "/showroom/curtains-fabrics-example-09.jpeg",
-    title: "Finished curtain detail",
+    title: "Electric and Wi-Fi operated curtains",
     description:
-      "Review the final hang, fullness and finish once the curtain style and fitting details come together.",
+      "Motorised curtain options for easier opening and closing, including electric tracks and Wi-Fi operated curtain systems.",
   },
 ];
 
@@ -68,23 +68,25 @@ export default function CurtainsFabricsExamplesPage() {
   return (
     <InteriorPage
       eyebrow="Curtains"
-      title="Curtain options, fabrics and finishes."
-      intro="Use this as a starting point for custom curtains, hall curtains, stage curtains, electric curtains, Wi-Fi operated curtains, tracks, rods, rails, measuring and installation."
+      title="Curtain types, fabrics and finishes."
+      intro="Explore the main curtain types available through Free State Curtain Parlour, then choose the fabric, lining, track, rod and finish that suits the room."
       image="/showroom/curtains-fabrics-example-01.jpeg"
     >
       <section className="page-section page-section-light service-examples-section">
         <div className="service-examples-inner">
           <div className="service-examples-heading">
-            <p className="eyebrow light">Curtain choices</p>
-            <h2>Start with the type of curtain, then refine the fabric.</h2>
+            <p className="eyebrow light">Curtain types</p>
+            <h2>Choose the curtain style first, then refine the finish.</h2>
           </div>
           <div className="service-examples-gallery">
-            {examples.map((example) => (
-              <figure className="service-example-card" key={example.src}>
-                <img src={example.src} alt="" />
+            {curtainTypes.map((curtain) => (
+              <figure className="service-example-card" key={curtain.title}>
+                <div className="curtain-type-image">
+                  <img src={curtain.src} alt="" />
+                  <strong>{curtain.title}</strong>
+                </div>
                 <figcaption>
-                  <strong>{example.title}</strong>
-                  <span>{example.description}</span>
+                  <span>{curtain.description}</span>
                 </figcaption>
               </figure>
             ))}

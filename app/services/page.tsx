@@ -3,13 +3,24 @@ import { InteriorPage } from "../components/InteriorPage";
 import { serviceDetails, services } from "../content";
 
 const serviceCtaLabels = {
-  "curtains-fabrics": "See curtain work",
-  blinds: "See blind options",
-  wallpaper: "See wallpaper options",
-  "upholstery-soft-furnishings": "See soft furnishing ideas",
-  "rugs-lighting-decor": "Explore finishing pieces",
-  "interior-guidance": "Plan the room",
-  "wall-units": "See wall unit ideas",
+  "curtains-fabrics": "View curtain types",
+  blinds: "View blind options",
+  wallpaper: "View wallpaper options",
+  "upholstery-soft-furnishings": "View upholstery options",
+  "rugs-lighting-decor": "View finishing options",
+  "interior-guidance": "View guidance options",
+  "wall-units": "View wall unit options",
+} as const;
+
+const serviceCtaHrefs = {
+  "curtains-fabrics": "/services/curtains-fabrics/examples",
+  blinds: "/services/blinds/examples",
+  wallpaper: "/services/wallpaper/examples",
+  "upholstery-soft-furnishings":
+    "/services/upholstery-soft-furnishings/examples",
+  "rugs-lighting-decor": "/services/rugs-lighting-decor/examples",
+  "interior-guidance": "/services/interior-guidance/examples",
+  "wall-units": "/services/wall-units/examples",
 } as const;
 
 export const metadata: Metadata = {
@@ -32,8 +43,9 @@ export default function ServicesPage() {
           serviceDetails[service.slug as keyof typeof serviceDetails];
         const ctaLabel =
           serviceCtaLabels[service.slug as keyof typeof serviceCtaLabels];
+        const ctaHref =
+          serviceCtaHrefs[service.slug as keyof typeof serviceCtaHrefs];
         const isCurtains = service.slug === "curtains-fabrics";
-        const isWallUnits = service.slug === "wall-units";
 
         return (
           <section
@@ -79,13 +91,7 @@ export default function ServicesPage() {
                 <div className="service-story-actions">
                   <a
                     className="button button-primary"
-                    href={
-                      isCurtains
-                        ? "/services/curtains-fabrics/examples"
-                        : isWallUnits
-                          ? "/services/wall-units/examples"
-                          : service.href
-                    }
+                    href={ctaHref}
                   >
                     <span>{ctaLabel}</span>
                     <span aria-hidden="true">→</span>

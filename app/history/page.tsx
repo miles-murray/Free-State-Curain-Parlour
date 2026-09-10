@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { InteriorPage } from "../components/InteriorPage";
-import { historyItems } from "../content";
 
 export const metadata: Metadata = {
   title: "History | Free State Curtain Parlour",
@@ -12,89 +11,117 @@ export default function HistoryPage() {
   return (
     <InteriorPage
       eyebrow="Established 1959"
-      title="A Bloemfontein family story."
-      image="/showroom/hero-interior.jpeg"
+      title="A Bloemfontein interiors story since 1959."
+      intro="A short look at the heritage behind Free State Curtain Parlour and its place in Westdene, Bloemfontein."
+      image="/history/westdene-showroom-frontage.jpeg"
+      className="history-hero"
     >
-      <section className="page-section page-section-light history-story-section">
-        <div className="history-story-grid">
-          <div>
-            <p className="eyebrow">From the beginning</p>
-            <h2>
-              Built through rooms, families and word of mouth.
-            </h2>
-          </div>
-          <div className="history-story-copy">
-            <p>
-              The archive tells a simple, strong story: a local business that
-              started with curtaining, grew through family involvement, and
-              became part of how Bloemfontein homes choose fabrics, finishes and
-              furnishings.
-            </p>
-            <p>
-              Instead of making the history feel like a list of dates, this page
-              uses the newspaper articles as proof of a business that has been
-              seen, trusted and spoken about locally over time.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="page-section page-section-dark history-page-section">
-        <div className="history-timeline-wrap">
-          <p className="eyebrow light">Timeline</p>
-          <div className="history-timeline">
-            {historyItems.map((item) => (
-              <article key={item.title}>
-                <span>{item.title}</span>
-                <p>{item.text}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section
-        className="page-section page-section-light history-archive-section"
-        aria-labelledby="archive-title"
+        className="page-section page-section-light history-simple-section"
+        aria-labelledby="history-title"
       >
-        <div className="history-archive-heading">
-          <p className="eyebrow">Newspaper archive</p>
-          <h2 id="archive-title">In the papers.</h2>
-          <p>
-            These restored clippings give the history page something real to
-            hold onto: names, places, old adverts and the kind of local proof
-            that cannot be faked by polished copy.
-          </p>
-        </div>
-
-        <div className="archive-feature">
-          <figure className="archive-clipping archive-clipping-feature">
-            <img
-              src="/history/curtains-to-carpets-article-polished.png"
-              alt="Historic newspaper article titled Curtains to carpets, featuring the Jackson family and Free State Curtain Parlour"
-            />
-          </figure>
-          <div className="archive-note">
-            <span>Archive feature</span>
-            <h3>Curtains, wallpaper and a family business.</h3>
+        <div className="history-simple-grid">
+          <div className="history-simple-copy">
+            <p className="eyebrow">Our heritage</p>
+            <h2 id="history-title">Rooted in curtains, homes and local trust.</h2>
             <p>
-              The article connects the early curtaining story to Mrs S. S.
-              Jackson and the Jackson family, placing the business firmly inside
-              Bloemfontein's local interiors history.
+              Free State Curtain Parlour has been part of Bloemfontein's
+              interiors story since 1959. The business first started in the
+              Bloemfontein CBD, where it became known for curtain work, fabrics
+              and practical advice for local homes.
             </p>
+            <p>
+              In 2002, an old newspaper feature marked an important new chapter:
+              the established curtain shop moved to Westdene. The move gave
+              customers a showroom where fabrics, window treatments, wallpaper
+              and interior finishes could be seen, compared and discussed in
+              person.
+            </p>
+            <p>
+              The business has changed with the times, but the heart of it has
+              stayed familiar. Free State Curtain Parlour is still built around
+              rooms, relationships and helping Bloemfontein homes feel properly
+              finished.
+            </p>
+          </div>
+          <figure className="history-simple-image">
+            <img
+              src="/history/westdene-newspaper-page-polished.png"
+              alt="Historic newspaper page featuring Free State Curtain Parlour and its move to Westdene"
+            />
+            <figcaption>
+              A newspaper archive page featuring Free State Curtain Parlour's
+              Westdene showroom.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section className="visit-section" id="visit">
+        <div className="visit-intro">
+          <div className="visit-copy">
+            <p className="eyebrow light">Visit the showroom</p>
+            <h2>See the story in Westdene today.</h2>
+            <p className="visit-support">
+              Visit the showroom to compare fabrics, wallpaper, blinds, rugs,
+              lighting and decor in person, and speak to the team about what
+              will work in your room.
+            </p>
+            <div className="visit-actions">
+              <a
+                className="button button-primary"
+                href="https://www.google.com/maps/dir/?api=1&destination=44+Second+Avenue+Westdene+Bloemfontein+9301"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Get directions
+              </a>
+              <a className="button button-ghost" href="/contact">
+                Contact details
+              </a>
+            </div>
+          </div>
+          <div className="visit-map" aria-label="Map to Free State Curtain Parlour">
+            <iframe
+              src="https://www.google.com/maps?q=44+Second+Avenue+Westdene+Bloemfontein+9301&output=embed"
+              title="Map to Free State Curtain Parlour"
+              loading="lazy"
+            />
+            <a
+              className="visit-map-link"
+              href="https://www.google.com/maps/dir/?api=1&destination=44+Second+Avenue+Westdene+Bloemfontein+9301"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Open directions</span>
+              <span aria-hidden="true">→</span>
+            </a>
           </div>
         </div>
 
-        <figure className="archive-newspaper-page">
-          <img
-            src="/history/westdene-newspaper-page-polished.png"
-            alt="Historic Bloemfontein newspaper page with Westdene showroom coverage and local fabric adverts"
-          />
-          <figcaption>
-            A later newspaper page showing the Westdene showroom story,
-            supplier messages and the local fabric world around the business.
-          </figcaption>
-        </figure>
+        <div className="visit-details">
+          <div>
+            <h3>Find us</h3>
+            <address>
+              44 Second Avenue<br />
+              Westdene, Bloemfontein<br />
+              9301
+            </address>
+          </div>
+          <div>
+            <h3>Trading hours</h3>
+            <p>Monday-Friday: 8:30am-4:30pm</p>
+            <p>Saturday: 8:30am-12pm</p>
+            <p>Sunday: Closed</p>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <a href="tel:+27514303474">051 430 3474</a>
+            <a href="mailto:freestatecurtainparlour@gmail.com">
+              freestatecurtainparlour@gmail.com
+            </a>
+          </div>
+        </div>
       </section>
     </InteriorPage>
   );
