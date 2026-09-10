@@ -24,6 +24,12 @@ export default function HistoryPage() {
           <div className="history-simple-copy">
             <p className="eyebrow">Our heritage</p>
             <h2 id="history-title">Rooted in curtains, homes and local trust.</h2>
+            <figure className="history-simple-image">
+              <img
+                src="/history/westdene-newspaper-page-polished.png"
+                alt="Historic newspaper page featuring Free State Curtain Parlour and its move to Westdene"
+              />
+            </figure>
             <p>
               Free State Curtain Parlour has been part of Bloemfontein's
               interiors story since 1959. The business first started in the
@@ -44,16 +50,6 @@ export default function HistoryPage() {
               finished.
             </p>
           </div>
-          <figure className="history-simple-image">
-            <img
-              src="/history/westdene-newspaper-page-polished.png"
-              alt="Historic newspaper page featuring Free State Curtain Parlour and its move to Westdene"
-            />
-            <figcaption>
-              A newspaper archive page featuring Free State Curtain Parlour's
-              Westdene showroom.
-            </figcaption>
-          </figure>
         </div>
       </section>
 
