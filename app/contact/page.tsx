@@ -20,8 +20,8 @@ export default function ContactPage() {
           <div>
             <h2>Trading hours</h2>
             <p>
-              Monday-Friday: 8:30am-4:30pm<br />
-              Saturday: 8:30am-12pm<br />
+              Monday-Friday: 8am-4:30pm<br />
+              Saturday: 8am-12pm<br />
               Sunday: Closed
             </p>
           </div>

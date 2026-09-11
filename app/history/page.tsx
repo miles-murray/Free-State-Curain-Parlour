@@ -106,8 +106,8 @@ export default function HistoryPage() {
           </div>
           <div>
             <h3>Trading hours</h3>
-            <p>Monday-Friday: 8:30am-4:30pm</p>
-            <p>Saturday: 8:30am-12pm</p>
+            <p>Monday-Friday: 8am-4:30pm</p>
+            <p>Saturday: 8am-12pm</p>
             <p>Sunday: Closed</p>
           </div>
           <div>
