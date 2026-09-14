@@ -61,7 +61,7 @@ export default function ServicesPage() {
               <figure
                 className={`service-story-media${
                   !isCurtains ? " service-story-media-soft" : ""
-                }`}
+                } service-story-media-${service.slug}`}
               >
                 <div className="service-story-heading">
                   <h2>{service.title}</h2>

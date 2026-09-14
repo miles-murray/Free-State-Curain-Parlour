@@ -15,16 +15,22 @@ const blindOptions = [
       "Slatted blinds for flexible light control, privacy and a clean window finish.",
   },
   {
-    src: "/showroom/service-blinds-generated.png",
+    src: "/showroom/roller-blinds-window.png",
     title: "Roller blinds",
     description:
       "Simple roll-up blinds for bedrooms, living rooms, offices and everyday light control.",
   },
   {
-    src: "/showroom/showroom-gallery-01.jpeg",
+    src: "/showroom/roman-blinds-window.jpg",
     title: "Roman blinds",
     description:
       "Fabric blinds with a softer, more decorative finish for rooms that need warmth and texture.",
+  },
+  {
+    src: "/showroom/relaxed-roman-blinds.png",
+    title: "Relaxed Roman blinds",
+    description:
+      "Soft fabric blinds with a relaxed lower fold, suited to bathrooms, bedrooms and spaces that need a softer window finish.",
   },
   {
     src: "/showroom/showroom-gallery-02.jpeg",

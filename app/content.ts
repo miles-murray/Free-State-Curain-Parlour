@@ -1,8 +1,9 @@
 export const primaryNav = [
   { label: "Services", href: "/services" },
   { label: "Showroom", href: "/showroom" },
-  { label: "Process", href: "/workshop" },
+  { label: "Process", href: "/process" },
   { label: "Projects", href: "/projects" },
+  { label: "Workshop", href: "/workshop" },
   { label: "Team & roles", href: "/team" },
   { label: "History", href: "/history" },
 ];
@@ -22,8 +23,8 @@ export const services = [
       "Custom curtains made around the room, from fabric and lining choices to curtain tracks, rods, rails, measuring, installation and final dressing.",
     cta: "Learn about curtains",
     href: "/services#curtains-fabrics",
-    image: "/showroom/service-curtains-fabrics.jpeg",
-    position: "34% center",
+    image: "/showroom/room-finish-coordination.png",
+    position: "center center",
   },
   {
     number: "02",
@@ -33,7 +34,7 @@ export const services = [
       "Choose blinds that suit the room's privacy, light and everyday use. We help you compare finishes and make sure the blinds work with the rest of the space.",
     cta: "Learn about blinds",
     href: "/services#blinds",
-    image: "/showroom/service-blinds-generated.png",
+    image: "/showroom/roller-blinds-window.png",
     position: "center center",
   },
   {
@@ -44,7 +45,7 @@ export const services = [
       "Choose wallpaper, texture, pattern and interior finishes with the curtains, upholstery, furniture and overall room direction in mind.",
     cta: "Learn about wallpaper",
     href: "/services#wallpaper",
-    image: "/showroom/service-wallpaper-decor.jpeg",
+    image: "/showroom/feature-wall-bedroom.png",
     position: "center center",
   },
   {
@@ -55,7 +56,7 @@ export const services = [
       "Refresh existing furniture or plan soft details with fabric advice, reupholstery, headboards, ottomans and trimmings considered around the room.",
     cta: "Learn about upholstery",
     href: "/services#upholstery-soft-furnishings",
-    image: "/showroom/furniture-decor-example-02.jpeg",
+    image: "/showroom/upholstery-leather-chair-selected.jpeg",
     position: "center center",
   },
   {
@@ -66,7 +67,7 @@ export const services = [
       "Choose rugs, lamps, LED touches, mirrors and decor pieces as the final layers that bring the room together.",
     cta: "Explore finishing pieces",
     href: "/services#rugs-lighting-decor",
-    image: "/showroom/service-furniture-room-settings.jpeg",
+    image: "/showroom/interior-finishes-lounge.png",
     position: "center center",
   },
   {
@@ -77,7 +78,7 @@ export const services = [
       "Use the showroom and on-site advice to choose fabrics, finishes, layouts and the right next step for the full interior.",
     cta: "Learn about guidance",
     href: "/services#interior-guidance",
-    image: "/showroom/bedroom-setting.jpg",
+    image: "/showroom/interior-guidance-dining-room.png",
     position: "center center",
   },
   {
@@ -88,7 +89,7 @@ export const services = [
       "Plan wall units, sourced custom pieces and practical built-in ideas around the room's scale, finish, storage and display needs.",
     cta: "Learn about custom pieces",
     href: "/services#wall-units",
-    image: "/showroom/decor-display.jpg",
+    image: "/showroom/wall-units-shelves-lamp.jpeg",
     position: "center center",
   },
 ];
@@ -100,8 +101,8 @@ export const homepageServices = [
       "Custom curtains, curtain tracks, electric tracks, all types of blinds, measuring and installation for windows that need privacy, light control and a finished look.",
     cta: "View curtains & blinds",
     href: "/services#curtains-fabrics",
-    image: "/showroom/service-curtains-fabrics.jpeg",
-    position: "34% center",
+    image: "/showroom/room-finish-coordination.png",
+    position: "center center",
   },
   {
     title: "Upholstery & soft furnishings",
@@ -109,7 +110,7 @@ export const homepageServices = [
       "Reupholstery, furniture revamps, leather products, scatter cushions, headboards, ottomans, trimmings and soft details that help the room feel layered and complete.",
     cta: "View upholstery",
     href: "/services#upholstery-soft-furnishings",
-    image: "/showroom/furniture-decor-example-02.jpeg",
+    image: "/showroom/upholstery-leather-chair-selected.jpeg",
     position: "center center",
   },
   {
@@ -118,7 +119,7 @@ export const homepageServices = [
       "Wallpaper, textures, pattern choices and room finishes selected around the curtains, furniture and overall interior direction.",
     cta: "View wallpaper",
     href: "/services#wallpaper",
-    image: "/showroom/service-wallpaper-decor.jpeg",
+    image: "/showroom/feature-wall-bedroom.png",
     position: "center center",
   },
   {
@@ -127,7 +128,7 @@ export const homepageServices = [
       "Rugs, LED lighting touches, lamps, mirrors, quilts, decor pieces and final details chosen to bring the whole room together.",
     cta: "View finishing pieces",
     href: "/services#rugs-lighting-decor",
-    image: "/showroom/service-furniture-room-settings.jpeg",
+    image: "/showroom/interior-finishes-lounge.png",
     position: "center center",
   },
   {
@@ -136,7 +137,7 @@ export const homepageServices = [
       "Practical showroom and on-site advice for fabric choices, wood finishes, furniture painting, layouts and the right next step for the room.",
     cta: "View interior guidance",
     href: "/services#interior-guidance",
-    image: "/showroom/bedroom-setting.jpg",
+    image: "/showroom/interior-guidance-dining-room.png",
     position: "center center",
   },
   {
@@ -145,7 +146,7 @@ export const homepageServices = [
       "Wall units for storage, display or media use, planned around the scale, wood finish, colour and practical needs of the room.",
     cta: "View wall units",
     href: "/services#wall-units",
-    image: "/showroom/decor-display.jpg",
+    image: "/showroom/wall-units-shelves-lamp.jpeg",
     position: "center center",
   },
 ];
@@ -156,7 +157,7 @@ export const serviceDetails = {
     eyebrow: "Custom curtains",
     summary:
       "Curtain work starts with the room: how much light comes in, how private it needs to feel, where the furniture sits and what finish will suit the space.",
-    image: "/showroom/service-curtains-fabrics.jpeg",
+    image: "/showroom/room-finish-coordination.png",
     points: [
       "Choose fabric weight, texture, colour, lining, fullness and heading style",
       "Decide on rods, rails, curtain tracks, electric tracks, brackets, drops and how the curtain should hang",
@@ -181,7 +182,7 @@ export const serviceDetails = {
     eyebrow: "Window treatments",
     summary:
       "Blind work starts with how the room is used each day: privacy, glare, heat, window shape and how much control the client wants over the light.",
-    image: "/showroom/service-blinds-generated.png",
+    image: "/showroom/roller-blinds-window.png",
     points: [
       "Compare blind types, fabrics, colours, textures and light-filtering options",
       "Check recess depth, wall space, window handles and how the blind will operate",
@@ -202,7 +203,7 @@ export const serviceDetails = {
     eyebrow: "Wall and room finishes",
     summary:
       "Wallpaper starts with the wall and the room around it: whether it should be a feature, a full-room finish or a quiet texture behind the furniture.",
-    image: "/showroom/service-wallpaper-decor.jpeg",
+    image: "/showroom/feature-wall-bedroom.png",
     points: [
       "Choose pattern scale, colour, texture, repeat and surface finish",
       "Consider natural light, wall size, furniture placement and room proportions",
@@ -223,7 +224,7 @@ export const serviceDetails = {
     eyebrow: "Complete rooms",
     summary:
       "Furniture and decor work best when they are chosen with the room already in mind: scale, comfort, colour, texture and how each piece sits with the rest.",
-    image: "/showroom/service-furniture-room-settings.jpeg",
+    image: "/showroom/interior-finishes-lounge.png",
     points: [
       "Choose chairs, tables, soft furnishings, lamps, mirrors, rugs and decor pieces",
       "Check scale, layout, movement through the room and everyday comfort",
@@ -236,7 +237,7 @@ export const serviceDetails = {
     eyebrow: "Fabric and comfort",
     summary:
       "Upholstery and soft furnishings start with what should be refreshed, softened or made more comfortable, then move into the fabric, finish and practical details.",
-    image: "/showroom/furniture-decor-example-02.jpeg",
+    image: "/showroom/upholstery-leather-chair-selected.jpeg",
     points: [
       "Choose fabrics, textures, trims, colours and finishes with the full room in mind",
       "Plan reupholstery, furniture revamps, headboards, ottomans and soft furnishing details",
@@ -261,7 +262,7 @@ export const serviceDetails = {
     eyebrow: "Finishing layers",
     summary:
       "Finishing pieces are chosen after the bigger room decisions are clear, so rugs, lamps, LED details, mirrors and decor feel connected instead of added at random.",
-    image: "/showroom/service-furniture-room-settings.jpeg",
+    image: "/showroom/interior-finishes-lounge.png",
     points: [
       "Choose rugs, lamps, mirrors, objects, scatter cushions, quilts and decor pieces for the room",
       "Consider LED touches and lighting direction with the right electrical support when needed",
@@ -285,7 +286,7 @@ export const serviceDetails = {
     eyebrow: "Whole-room advice",
     summary:
       "Interior guidance helps clients move from many separate choices to one practical direction for the room, whether they start in the showroom or need on-site advice.",
-    image: "/showroom/bedroom-setting.jpg",
+    image: "/showroom/interior-guidance-dining-room.png",
     points: [
       "Discuss how the room is used, what feels unfinished and what needs to change",
       "Compare fabrics, wallpaper, blinds, rugs, lighting, wood finishes and decor in one direction",
@@ -309,7 +310,7 @@ export const serviceDetails = {
     eyebrow: "Storage, display and sourced pieces",
     summary:
       "Wall units and custom pieces start with what the room needs to hold, hide or solve, then move into the right proportions, finish and practical coordination.",
-    image: "/showroom/decor-display.jpg",
+    image: "/showroom/wall-units-shelves-lamp.jpeg",
     points: [
       "Plan built-in or freestanding wall units around storage, display and media needs",
       "Measure wall width, height, depth, plug points, skirtings and clearances",
@@ -404,7 +405,7 @@ export const projects = [
     summary:
       "A temporary project set for wallpaper, feature walls, textured finishes and room details that support the full interior direction.",
     images: [
-      "/showroom/service-wallpaper-decor.jpeg",
+      "/showroom/feature-wall-bedroom.png",
       "/showroom/showroom-real-vignette.jpeg",
       "/showroom/showroom-gallery-07.jpeg",
     ],
@@ -432,7 +433,7 @@ export const projects = [
     images: [
       "/showroom/service-furniture-room-settings.jpeg",
       "/showroom/showroom-real-lighting.jpeg",
-      "/showroom/decor-display.jpg",
+      "/showroom/wall-units-shelves-lamp.jpeg",
     ],
     testimonial: "Best service ever",
     testimonialName: "Doreen Dikobo",
@@ -455,7 +456,7 @@ export const projects = [
       "A mock section for larger room-led projects where fabrics, finishes, wallpaper, rugs, lighting and installation all come together.",
     images: [
       "/showroom/showroom-real-room-setting.jpeg",
-      "/showroom/bedroom-setting.jpg",
+      "/showroom/interior-guidance-dining-room.png",
       "/showroom/whole-room-approach.jpeg",
     ],
     testimonial:
@@ -560,15 +561,15 @@ export const teamPeople = [
     name: "Willie Vermeulen & Anton Beukes",
     role: "Installation team",
     text: "Handle measuring, practical fitting and installation work in the client's space, from site details to the final fit.",
-    image: "/team/measuring-installation-temp.png",
-    alt: "Hands measuring beside a curtain rail and window in a finished room",
+    image: "/team/installation-team-veli-anton.jpg",
+    alt: "Willie Vermeulen and Anton Beukes standing in front of a wood-panel backdrop",
   },
   {
     name: "Seamstresses",
     role: "Workshop team",
     text: "Make and finish the curtain work in the workshop, including fabric preparation, sewing, lining and heading details.",
-    image: "/team/workshop-custom-temp.png",
-    alt: "Hands choosing fabric and timber finishes beside a custom furniture unit",
+    image: "/team/seamstresses-showroom-team.jpeg",
+    alt: "Free State Curtain Parlour workshop team standing in front of fabric sample displays",
   },
   {
     name: "General workers & specialist support",

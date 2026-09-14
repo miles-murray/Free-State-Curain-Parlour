@@ -13,8 +13,9 @@ export function SiteFooter() {
       <nav aria-label="Footer navigation">
         <a href="/services">Services</a>
         <a href="/showroom">Showroom</a>
-        <a href="/workshop">Process</a>
+        <a href="/process">Process</a>
         <a href="/projects">Projects</a>
+        <a href="/workshop">Workshop</a>
         <a href="/team">Team</a>
         <a href="/history">History</a>
         <a href="/contact">Contact</a>

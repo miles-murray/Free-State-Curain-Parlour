@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 
 const curtainTypes = [
   {
-    src: "/showroom/curtains-fabrics-example-01.jpeg",
+    src: "/showroom/custom-curtains-workshop.jpeg",
     title: "Custom curtains",
     description:
-      "Made-to-measure curtains planned around the room, window size, fabric choice, lining, track or rod and final installation.",
+      "Curtains made in the workshop from selected fabric, measured, prepared and finished around the room.",
   },
   {
     src: "/showroom/curtains-fabrics-example-02.jpeg",
@@ -27,16 +27,16 @@ const curtainTypes = [
       "Curtains with lining or blockout fabric for bedrooms, TV rooms and spaces that need more privacy or light control.",
   },
   {
-    src: "/showroom/curtains-fabrics-example-04.jpeg",
+    src: "/showroom/wave-curtains.png",
     title: "Wave curtains",
     description:
-      "A clean, modern curtain style with soft, even folds that works well on tracks in contemporary rooms.",
+      "Curtains made with soft, even folds that create a clean wave effect across wide windows or sliding doors.",
   },
   {
-    src: "/showroom/curtains-fabrics-example-05.jpeg",
+    src: "/showroom/pinch-pleat-curtains.png",
     title: "Pinch pleat curtains",
     description:
-      "A tailored heading style with structured pleats, suited to formal living rooms, bedrooms and finished interiors.",
+      "Structured curtains with neat pleated headings, made to hang with fuller folds and a more tailored finish.",
   },
   {
     src: "/showroom/curtains-fabrics-example-06.jpeg",

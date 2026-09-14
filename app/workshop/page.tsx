@@ -2,97 +2,101 @@ import type { Metadata } from "next";
 import { InteriorPage } from "../components/InteriorPage";
 
 export const metadata: Metadata = {
-  title: "Process | Free State Curtain Parlour",
+  title: "Workshop | Free State Curtain Parlour",
   description:
-    "See the Free State Curtain Parlour process for showroom advice, measuring, quotes, sourcing, custom work and installation in Bloemfontein.",
+    "See the workshop behind Free State Curtain Parlour's curtain making, soft furnishings, custom details and finishing work in Bloemfontein.",
 };
 
-const workshopStages = [
+const workshopAreas = [
   {
-    number: "01",
-    title: "Advise",
-    text: "Start with the room, the style, the practical needs and the way the space should feel.",
-    image: "/workshop/workshop-consultation-temp.png",
-    alt: "Hands comparing fabric, wallpaper and finish samples on a showroom worktable.",
+    title: "Fabric preparation",
+    text: "This is where selected fabrics move from showroom choice to practical work. Lengths are checked, marked, cut and prepared around the measurements for each room.",
+    image: "/workshop/workshop-fabric-preparation.jpeg",
+    alt: "A workshop team member preparing patterned fabric on a cutting table.",
   },
   {
-    number: "02",
-    title: "Measure",
-    text: "Check the sizes, walls, windows, furniture placement and fitting points that shape the work.",
-    image: "/team/measuring-installation-temp.png",
-    alt: "A measuring tape being used beside a curtain installation.",
+    title: "Sewing and making",
+    text: "Curtains, linings, headings and soft furnishings are made up with the finished space in mind, so the details work with the fabric, track and room.",
+    image: "/workshop/workshop-sewing-making.jpeg",
+    alt: "A seamstress sewing fabric at a workshop sewing machine.",
   },
   {
-    number: "03",
-    title: "Quote",
-    text: "Confirm the materials, finishes, supplier details and installation approach before work begins.",
-    image: "/showroom/installation-fabric-display.jpg",
-    alt: "Fabric and decor samples arranged in the showroom.",
+    title: "Details and coordination",
+    text: "The workshop also supports the smaller finishing decisions: trims, cushions, custom details and the pieces that need to arrive together before installation.",
+    image: "/workshop/workshop-details-coordination.jpeg",
+    alt: "A workshop team member finishing patterned fabric details by hand.",
   },
   {
-    number: "04",
-    title: "Prepare",
-    text: "The right pieces are made, ordered, sourced or coordinated with trusted specialists.",
-    image: "/workshop/workshop-making-temp.png",
-    alt: "Hands measuring and marking curtain fabric on a workshop cutting table.",
-  },
-  {
-    number: "05",
-    title: "Check",
-    text: "Finished pieces are checked against the agreed direction before handover or fitting.",
-    image: "/team/workshop-custom-temp.png",
-    alt: "Workshop details being checked before installation.",
-  },
-  {
-    number: "06",
-    title: "Install",
-    text: "The final details are fitted, placed or handed over in the room they were chosen for.",
-    image: "/workshop/workshop-fitting-temp.png",
-    alt: "Installer adjusting finished curtain folds in a completed room.",
+    title: "Ready for the room",
+    text: "Before anything leaves the workshop, finished work is checked so it is ready for handover or installation in the room it was made for.",
+    image: "/workshop/floral-curtains-finished-room.png",
+    alt: "Finished floral curtains hanging in a completed room.",
   },
 ];
 
 export default function WorkshopPage() {
   return (
     <InteriorPage
-      eyebrow="Process"
-      title="From showroom advice to the finished room."
-      intro="A simple look at how an idea for a room becomes finished work: advised, measured, quoted, prepared, checked and installed."
-      image="/workshop/workshop-making-temp.png"
+      eyebrow="Workshop"
+      title="Inside the workshop."
+      intro="A simple look at the place where fabrics are prepared, curtains are made and finished work is checked before it goes into a home."
+      image="/workshop/workshop-hero-sewing-machine.jpeg"
       className="workshop-page-hero"
     >
-      <section className="page-section page-section-light workshop-process-page">
+      <section className="page-section page-section-light workshop-story-page workshop-intro-section">
         <div className="workshop-page-intro">
-          <p className="eyebrow">The process</p>
-          <h2>Step-by-step process.</h2>
-          <p>
-            From showroom advice in Bloemfontein to measuring, quoting,
-            sourcing, custom work and final installation, each project follows a
-            clear process shaped around the room.
+          <p className="eyebrow">Behind the work</p>
+          <h2>
+            <span>A working space</span>
+            <span>behind the showroom.</span>
+          </h2>
+          <figure className="workshop-intro-image">
+            <img
+              src="/workshop/workshop-room-overview.jpeg"
+              alt="Free State Curtain Parlour workshop with sewing stations, cutting tables and fabric storage."
+            />
+          </figure>
+          <p className="workshop-intro-copy">
+            The workshop is not a second showroom. It is the practical space
+            where selected fabric, details and measurements become finished
+            curtains for Bloemfontein homes.
           </p>
         </div>
+      </section>
 
-        <ol className="workshop-timeline">
-          {workshopStages.map((stage) => (
-            <li key={stage.title}>
+      <section className="page-section page-section-light workshop-story-page workshop-areas-section">
+        <div className="workshop-section-divider" aria-hidden="true" />
+        <div className="workshop-story-feature">
+          <div>
+            <p className="eyebrow">What happens here</p>
+            <h3>Making, checking and preparing the work.</h3>
+            <p>
+              Every piece moves through careful hands before it is ready for
+              fitting, delivery or collection.
+            </p>
+          </div>
+        </div>
+
+        <div className="workshop-story-grid">
+          {workshopAreas.map((area) => (
+            <article key={area.title}>
               <figure>
-                <img src={stage.image} alt={stage.alt} />
+                <img src={area.image} alt={area.alt} />
                 <figcaption>
-                  <span>{stage.number}</span>
-                  <h3>{stage.title}</h3>
-                  <p>{stage.text}</p>
+                  <h3>{area.title}</h3>
                 </figcaption>
               </figure>
-            </li>
+              <p>{area.text}</p>
+            </article>
           ))}
-        </ol>
+        </div>
       </section>
 
       <section className="visit-section" id="visit">
         <div className="visit-intro">
           <div className="visit-copy">
             <p className="eyebrow light">Visit the showroom</p>
-            <h2>Start the process in the room.</h2>
+            <h2>Start in the showroom, then the workshop can follow.</h2>
             <p className="visit-support">
               Bring photos, measurements, room ideas or problem areas. The
               showroom team can help you compare options and decide the next

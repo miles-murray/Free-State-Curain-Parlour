@@ -161,7 +161,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="workshop-section" id="workshop">
+      <section className="workshop-section" id="process">
         <div className="workshop-shell">
           <div className="workshop-rail">
             <p className="eyebrow">Process</p>
@@ -195,7 +195,7 @@ export default function Home() {
             </div>
           </div>
           <div className="workshop-actions">
-            <a className="text-link workshop-link" href="/workshop">
+            <a className="text-link workshop-link" href="/process">
               View the process <span aria-hidden="true">→</span>
             </a>
           </div>

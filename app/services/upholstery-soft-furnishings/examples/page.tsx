@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const upholsteryOptions = [
   {
-    src: "/showroom/furniture-decor-example-02.jpeg",
+    src: "/showroom/custom-upholstery-fabric-close-up.jpeg",
     title: "Custom upholstery",
     description:
       "Upholstery choices planned around the furniture shape, fabric direction and how the room should feel.",
@@ -51,7 +51,7 @@ const upholsteryOptions = [
       "Ottomans planned as practical soft pieces for bedrooms, lounges and layered room settings.",
   },
   {
-    src: "/showroom/showroom-real-room-setting.jpeg",
+    src: "/showroom/upholstery-scatter-cushions-sofa.png",
     title: "Scatter cushions",
     description:
       "Custom soft furnishing details used to pull fabric, colour and texture together in the room.",
@@ -69,7 +69,7 @@ const upholsteryOptions = [
       "Decorative trims and finishing details selected to complete curtains, upholstery and soft furnishings.",
   },
   {
-    src: "/showroom/furniture-decor-example-05.jpeg",
+    src: "/showroom/leather-products-chair.jpeg",
     title: "Leather products",
     description:
       "Leather product and specialist upholstery work coordinated where the piece needs that finish.",

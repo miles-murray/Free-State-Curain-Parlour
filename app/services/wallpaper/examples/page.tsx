@@ -9,19 +9,19 @@ export const metadata: Metadata = {
 
 const wallpaperOptions = [
   {
-    src: "/showroom/service-wallpaper-decor.jpeg",
+    src: "/showroom/wallpaper-bedroom-finish.png",
     title: "Wallpaper",
     description:
       "Wallpaper selected around colour, pattern, room size, light and the furniture already in the space.",
   },
   {
-    src: "/showroom/showroom-real-vignette.jpeg",
+    src: "/showroom/feature-wall-bedroom.png",
     title: "Feature walls",
     description:
       "A stronger wall moment for rooms that need pattern, depth or a clear focal point.",
   },
   {
-    src: "/showroom/showroom-gallery-10.jpeg",
+    src: "/showroom/custom-wallpaper-bedroom.png",
     title: "Custom wallpaper",
     description:
       "Custom wallpaper planned around the room direction, scale, colour palette and final installation needs.",
@@ -33,19 +33,19 @@ const wallpaperOptions = [
       "Installation planned around wall size, repeat, joins, quantities and the final direction of the room.",
   },
   {
-    src: "/showroom/showroom-gallery-04.jpeg",
+    src: "/showroom/textured-wall-finish-room.png",
     title: "Textured wall finishes",
     description:
       "Quiet texture and surface detail for rooms that need depth without a heavy pattern.",
   },
   {
-    src: "/showroom/showroom-gallery-05.jpeg",
+    src: "/showroom/interior-finishes-lounge.png",
     title: "Interior finishes",
     description:
       "Room finishes chosen with curtains, blinds, upholstery, rugs, lighting and decor in mind.",
   },
   {
-    src: "/showroom/wall-units-example-04.jpeg",
+    src: "/showroom/wood-finishes-close-up.jpeg",
     title: "Wood finishes",
     description:
       "Wood tones and finish direction chosen to sit properly with wall units, furniture and the rest of the room.",
@@ -57,7 +57,7 @@ const wallpaperOptions = [
       "Paint colour and finish direction used when furniture, woodwork or room details need a refreshed look.",
   },
   {
-    src: "/showroom/showroom-real-vignette.jpeg",
+    src: "/showroom/room-finish-coordination.png",
     title: "Room finish coordination",
     description:
       "Wallpaper, wood finishes, paint direction and decor details considered together before final choices are made.",
