@@ -1,52 +1,104 @@
-import type { Metadata } from "next";
-import { InteriorPage } from "../components/InteriorPage";
+import { MobileMenu } from "../components/MobileMenu";
+import { SiteFooter } from "../components/SiteFooter";
+import { SiteHeader } from "../components/SiteHeader";
+import { createPageMetadata } from "../seo";
+import Image from "next/image";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Process | Free State Curtain Parlour",
   description:
     "See the Free State Curtain Parlour process for showroom advice, measuring, quotes, sourcing, custom work and installation in Bloemfontein.",
-};
+  path: "/process",
+});
 
 const processStages = [
   {
     number: "01",
     title: "Advise",
-    text: "Start with the room, the style, the practical needs and the way the space should feel.",
+    text: "Start with the room, the style, the practical needs and the way the space should feel. We look at photos, colours, fabrics, light, privacy and the pieces already in the room before suggesting a direction.",
+    points: [
+      "Review the room, style and practical needs.",
+      "Compare photos, colours, fabrics and finishes.",
+      "Consider light, privacy and existing furniture.",
+      "Suggest a clear direction before measuring.",
+    ],
+    support: "Bring photos, measurements, fabric ideas, room colours or problem areas.",
+    outcome: "Outcome: a clear direction before anything is measured, quoted or made.",
     image: "/workshop/workshop-consultation-temp.png",
     alt: "Hands comparing fabric, wallpaper and finish samples on a showroom worktable.",
   },
   {
     number: "02",
     title: "Measure",
-    text: "Check the sizes, walls, windows, furniture placement and fitting points that shape the work.",
+    text: "Check the sizes, walls, windows, furniture placement and fitting points that shape the work. Measurements help confirm what can be made, what needs space to operate and how the finished piece will sit in the room.",
+    points: [
+      "Check window sizes, wall space and floor length.",
+      "Review furniture placement and fitting points.",
+      "Confirm how each curtain or blind will operate.",
+      "Record the details needed for accurate quoting.",
+    ],
+    support: "Have access to the windows, recesses, walls and any furniture that affects the fit.",
+    outcome: "Outcome: accurate measurements and practical notes for quoting.",
     image: "/workshop/process-measure-thread-machine.jpeg",
     alt: "Workshop sewing machine with thread cones and measuring tape.",
   },
   {
     number: "03",
     title: "Quote",
-    text: "Confirm the materials, finishes, supplier details and installation approach before work begins.",
+    text: "Confirm the materials, finishes, supplier details and installation approach before work begins. The quote brings the agreed choices together so everyone understands what is being made, ordered or coordinated.",
+    points: [
+      "Confirm fabrics, finishes and supplier details.",
+      "Separate made-to-measure and sourced items.",
+      "Clarify installation, fitting or handover needs.",
+      "Bring the agreed choices into one clear quote.",
+    ],
+    support: "Review the selected fabric, finish, supplier items and any fitting details before approval.",
+    outcome: "Outcome: a clear quote and confirmed scope of work.",
     image: "/showroom/process-quote-reception.jpeg",
     alt: "Free State Curtain Parlour reception counter with pendant lights and wallpaper.",
   },
   {
     number: "04",
     title: "Prepare",
-    text: "The right pieces are made, ordered, sourced or coordinated with trusted specialists.",
+    text: "The right pieces are made, ordered, sourced or coordinated with trusted specialists. Fabric, lining, tracks, furniture, wallpaper or finishing pieces are prepared according to the approved direction.",
+    points: [
+      "Order or source the agreed materials.",
+      "Prepare fabric, lining, tracks and hardware.",
+      "Coordinate specialist work where needed.",
+      "Make each piece to the approved room direction.",
+    ],
+    support: "The workshop and trusted suppliers prepare the approved pieces in the background.",
+    outcome: "Outcome: made, sourced or coordinated items ready for final checking.",
     image: "/workshop/process-prepare-green-shirt.jpeg",
     alt: "Workshop team member preparing light fabric on a cutting table.",
   },
   {
     number: "05",
     title: "Check",
-    text: "Finished pieces are checked against the agreed direction before handover or fitting.",
+    text: "Finished pieces are checked against the agreed direction before handover or fitting. This gives the team a final moment to review the detail, finish and practical fit before the work leaves the workshop.",
+    points: [
+      "Review the finish against the agreed direction.",
+      "Check practical fit, details and presentation.",
+      "Confirm pieces are ready for handover or fitting.",
+      "Resolve final details before installation.",
+    ],
+    support: "Finished work is checked before it leaves the workshop or is handed over.",
+    outcome: "Outcome: pieces are ready for fitting, delivery or collection.",
     image: "/workshop/process-check-pink-jacket.jpeg",
     alt: "Workshop team member checking finished curtain fabric on a long table.",
   },
   {
     number: "06",
     title: "Install",
-    text: "The final details are fitted, placed or handed over in the room they were chosen for.",
+    text: "The final details are fitted, placed or handed over in the room they were chosen for. Curtains, blinds, furniture and finishing pieces are dressed, positioned or handed over so the room can come together properly.",
+    points: [
+      "Fit curtains, blinds, tracks or finishing pieces.",
+      "Dress and position items in the chosen room.",
+      "Check the final look and everyday operation.",
+      "Hand over the completed work neatly.",
+    ],
+    support: "Make sure the room is accessible and ready for fitting or final placement.",
+    outcome: "Outcome: the finished details sit properly in the room they were chosen for.",
     image: "/workshop/process-install-finished-curtains.jpg",
     alt: "Finished curtains installed around a bright patio room with a chair and plant.",
   },
@@ -54,33 +106,54 @@ const processStages = [
 
 export default function ProcessPage() {
   return (
-    <InteriorPage
-      eyebrow="Process"
-      title="From showroom advice to the finished room."
-      intro="A simple look at how an idea for a room becomes finished work: advised, measured, quoted, prepared, checked and installed."
-      image="/workshop/workshop-making-temp.png"
-      className="workshop-page-hero"
-    >
-      <section className="page-section page-section-light workshop-process-page">
-        <div className="workshop-page-intro">
-          <p className="eyebrow">The process</p>
-          <h2>Step-by-step process.</h2>
-          <p>
-            From showroom advice in Bloemfontein to measuring, quoting,
-            sourcing, custom work and final installation, each project follows a
-            clear process shaped around the room.
-          </p>
+    <main className="showroom-page process-page">
+      <MobileMenu />
+      <div className="mobile-page-hero mobile-page-hero-process">
+        <div className="showroom-page-top">
+          <SiteHeader />
         </div>
 
+        <section className="page-section page-section-light workshop-process-page mobile-page-hero-section">
+          <div className="simple-page-intro process-page-intro">
+            <p className="eyebrow">Process</p>
+            <h1>From showroom advice to the finished room.</h1>
+            <p>
+              A simple look at how an idea for a room becomes finished work:
+              advised, measured, quoted, prepared, checked and installed.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <section className="page-section page-section-light workshop-process-page process-timeline-section">
         <ol className="workshop-timeline">
           {processStages.map((stage) => (
             <li key={stage.title}>
               <figure>
-                <img src={stage.image} alt={stage.alt} />
+                <Image
+                  src={stage.image}
+                  alt={stage.alt}
+                  width={1200}
+                  height={1500}
+                  sizes="(max-width: 720px) 100vw, 42vw"
+                />
                 <figcaption>
-                  <span>{stage.number}</span>
                   <h3>{stage.title}</h3>
-                  <p>{stage.text}</p>
+                  {stage.points ? (
+                    <>
+                      <ul className="workshop-step-points">
+                        {stage.points.map((point) => (
+                          <li key={point}>{point}</li>
+                        ))}
+                      </ul>
+                      <div className="workshop-step-extra">
+                        <p>{stage.support}</p>
+                        <strong>{stage.outcome}</strong>
+                      </div>
+                    </>
+                  ) : (
+                    <p>{stage.text}</p>
+                  )}
                 </figcaption>
               </figure>
             </li>
@@ -154,6 +227,8 @@ export default function ProcessPage() {
           </div>
         </div>
       </section>
-    </InteriorPage>
+
+      <SiteFooter />
+    </main>
   );
 }

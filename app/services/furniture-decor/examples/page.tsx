@@ -1,11 +1,17 @@
-import type { Metadata } from "next";
 import { InteriorPage } from "../../../components/InteriorPage";
+import {
+  ServiceBreadcrumbs,
+  ServicePageLinks,
+} from "../../../components/ServicePageNavigation";
+import { createPageMetadata } from "../../../seo";
+import Image from "next/image";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Furniture & Decor Examples | Free State Curtain Parlour",
   description:
     "View furniture, soft furnishing and decor examples from Free State Curtain Parlour.",
-};
+  path: "/services/furniture-decor/examples",
+});
 
 const examples = [
   {
@@ -44,6 +50,7 @@ export default function FurnitureDecorExamplesPage() {
     >
       <section className="page-section page-section-light service-examples-section">
         <div className="service-examples-inner">
+          <ServiceBreadcrumbs currentPath="/services/furniture-decor/examples" />
           <div className="service-examples-heading">
             <p className="eyebrow light">Examples</p>
             <h2>See how the room is layered.</h2>
@@ -51,17 +58,18 @@ export default function FurnitureDecorExamplesPage() {
           <div className="service-examples-gallery">
             {examples.map((example) => (
               <figure className="service-example-card" key={example.src}>
-                <img src={example.src} alt="" />
+                <Image
+                  src={example.src}
+                  alt={`${example.caption} at Free State Curtain Parlour`}
+                  width={1200}
+                  height={1620}
+                  sizes="(max-width: 720px) 100vw, 33vw"
+                />
                 <figcaption>{example.caption}</figcaption>
               </figure>
             ))}
           </div>
-          <div className="service-examples-actions">
-            <a className="button button-primary" href="/services">
-              <span>Back to services</span>
-              <span aria-hidden="true">→</span>
-            </a>
-          </div>
+          <ServicePageLinks currentPath="/services/furniture-decor/examples" />
         </div>
       </section>
     </InteriorPage>

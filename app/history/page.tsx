@@ -1,11 +1,14 @@
-import type { Metadata } from "next";
 import { InteriorPage } from "../components/InteriorPage";
+import { createPageMetadata } from "../seo";
+import Image from "next/image";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "History | Free State Curtain Parlour",
   description:
     "The history, heritage and newspaper articles of Free State Curtain Parlour, established in Bloemfontein in 1959.",
-};
+  path: "/history",
+  image: "/history/westdene-showroom-frontage.jpeg",
+});
 
 export default function HistoryPage() {
   return (
@@ -24,18 +27,21 @@ export default function HistoryPage() {
           <div className="history-simple-copy">
             <p className="eyebrow">Our heritage</p>
             <h2 id="history-title">Rooted in curtains, homes and local trust.</h2>
-            <figure className="history-simple-image">
-              <img
-                src="/history/westdene-newspaper-page-polished.png"
-                alt="Historic newspaper page featuring Free State Curtain Parlour and its move to Westdene"
-              />
-            </figure>
             <p>
-              Free State Curtain Parlour has been part of Bloemfontein's
+              Free State Curtain Parlour has been part of Bloemfontein&apos;s
               interiors story since 1959. The business first started in the
               Bloemfontein CBD, where it became known for curtain work, fabrics
               and practical advice for local homes.
             </p>
+            <figure className="history-mobile-newspaper">
+              <Image
+                src="/history/curtains-to-carpets-article-polished.png"
+                alt="Historic Curtains to carpets newspaper article about Free State Curtain Parlour"
+                width={1085}
+                height={1450}
+                sizes="(max-width: 720px) 100vw, 50vw"
+              />
+            </figure>
             <p>
               In 2002, an old newspaper feature marked an important new chapter:
               the established curtain shop moved to Westdene. The move gave
@@ -50,6 +56,24 @@ export default function HistoryPage() {
               finished.
             </p>
           </div>
+          <figure className="history-desktop-newspaper">
+            <Image
+              src="/history/curtains-to-carpets-article-polished.png"
+              alt="Historic Curtains to carpets newspaper article about Free State Curtain Parlour"
+              width={1085}
+              height={1450}
+              sizes="(max-width: 1000px) 100vw, 28vw"
+            />
+          </figure>
+          <figure className="history-simple-image">
+            <Image
+              src="/history/westdene-newspaper-page-polished.png"
+              alt="Historic newspaper page featuring Free State Curtain Parlour and its move to Westdene"
+              width={1086}
+              height={1448}
+              sizes="(max-width: 720px) 100vw, 40vw"
+            />
+          </figure>
         </div>
       </section>
 

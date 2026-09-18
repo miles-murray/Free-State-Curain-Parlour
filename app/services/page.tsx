@@ -1,6 +1,9 @@
-import type { Metadata } from "next";
-import { InteriorPage } from "../components/InteriorPage";
+import { MobileMenu } from "../components/MobileMenu";
+import { SiteFooter } from "../components/SiteFooter";
+import { SiteHeader } from "../components/SiteHeader";
 import { serviceDetails, services } from "../content";
+import { createPageMetadata } from "../seo";
+import Image from "next/image";
 
 const serviceCtaLabels = {
   "curtains-fabrics": "View curtain types",
@@ -23,21 +26,53 @@ const serviceCtaHrefs = {
   "wall-units": "/services/wall-units/examples",
 } as const;
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Services | Free State Curtain Parlour",
   description:
     "Explore curtains, blinds, wallpaper, upholstery, soft furnishings, rugs, lighting, decor, interior guidance, wall units and custom pieces from Free State Curtain Parlour in Bloemfontein.",
-};
+  path: "/services",
+});
 
 export default function ServicesPage() {
   return (
-    <InteriorPage
-      eyebrow="Services"
-      title="Everything the room needs, considered together."
-      intro="Start with one service, or use the showroom to bring the whole room together."
-      image="/showroom/service-furniture-room-settings.jpeg"
-      className="services-hero"
-    >
+    <main className="showroom-page services-page">
+      <MobileMenu />
+      <div className="showroom-page-top">
+        <SiteHeader />
+      </div>
+
+      <section className="page-section page-section-light services-intro-section">
+        <Image
+          className="services-mobile-hero-logo"
+          src="/fscp-logo-transparent.png"
+          alt="Free State Curtain Parlour"
+          width={1627}
+          height={621}
+          sizes="188px"
+        />
+        <figure className="services-mobile-hero-media" aria-hidden="true">
+          <Image
+            src="/showroom/service-furniture-room-settings.jpeg"
+            alt=""
+            fill
+            priority
+            sizes="100vw"
+          />
+        </figure>
+        <div className="simple-page-intro">
+          <p className="eyebrow">Services</p>
+          <h1>
+            Everything the room needs,
+            <br />
+            considered together.
+          </h1>
+          <p>
+            Start with one service, or use the showroom to bring the whole room
+            together.
+          </p>
+        </div>
+      </section>
+
       {services.map((service, index) => {
         const detail =
           serviceDetails[service.slug as keyof typeof serviceDetails];
@@ -45,7 +80,6 @@ export default function ServicesPage() {
           serviceCtaLabels[service.slug as keyof typeof serviceCtaLabels];
         const ctaHref =
           serviceCtaHrefs[service.slug as keyof typeof serviceCtaHrefs];
-        const isCurtains = service.slug === "curtains-fabrics";
 
         return (
           <section
@@ -59,20 +93,21 @@ export default function ServicesPage() {
               }`}
             >
               <figure
-                className={`service-story-media${
-                  !isCurtains ? " service-story-media-soft" : ""
-                } service-story-media-${service.slug}`}
+                className={`service-story-media service-story-media-soft service-story-media-${service.slug}`}
               >
-                <div className="service-story-heading">
-                  <h2>{service.title}</h2>
-                </div>
-                <img
+                <Image
                   src={service.image}
-                  alt=""
+                  alt={`${service.title} service example from Free State Curtain Parlour`}
+                  width={1200}
+                  height={1305}
+                  sizes="(max-width: 720px) 87vw, 45vw"
                   style={{ objectPosition: service.position }}
                 />
               </figure>
               <div className="service-story-detail">
+                <div className="service-story-heading service-story-heading-inline">
+                  <h2>{service.title}</h2>
+                </div>
                 <p>{detail.summary}</p>
                 <ul className="service-card-points">
                   {detail.points.map((point, pointIndex) => (
@@ -169,6 +204,8 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-    </InteriorPage>
+
+      <SiteFooter />
+    </main>
   );
 }

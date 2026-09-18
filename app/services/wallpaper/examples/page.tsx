@@ -1,11 +1,18 @@
-import type { Metadata } from "next";
 import { InteriorPage } from "../../../components/InteriorPage";
+import {
+  ServiceBreadcrumbs,
+  ServicePageLinks,
+} from "../../../components/ServicePageNavigation";
+import { createPageMetadata } from "../../../seo";
+import Image from "next/image";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Wallpaper & Interior Finish Options | Free State Curtain Parlour",
   description:
     "Explore wallpaper, custom wallpaper, feature wall, textured finish, paint finish, wood finish and wallpaper installation options from Free State Curtain Parlour.",
-};
+  path: "/services/wallpaper/examples",
+  image: "/showroom/wallpaper-installation.png",
+});
 
 const wallpaperOptions = [
   {
@@ -21,13 +28,13 @@ const wallpaperOptions = [
       "A stronger wall moment for rooms that need pattern, depth or a clear focal point.",
   },
   {
-    src: "/showroom/custom-wallpaper-bedroom.png",
+    src: "/showroom/custom-wallpaper-bedroom-photo.png",
     title: "Custom wallpaper",
     description:
       "Custom wallpaper planned around the room direction, scale, colour palette and final installation needs.",
   },
   {
-    src: "/showroom/showroom-gallery-06.jpeg",
+    src: "/showroom/wallpaper-installation.png",
     title: "Wallpaper installation",
     description:
       "Installation planned around wall size, repeat, joins, quantities and the final direction of the room.",
@@ -74,6 +81,7 @@ export default function WallpaperOptionsPage() {
     >
       <section className="page-section page-section-light service-examples-section">
         <div className="service-examples-inner">
+          <ServiceBreadcrumbs currentPath="/services/wallpaper/examples" />
           <div className="service-examples-heading">
             <p className="eyebrow light">Wall finishes</p>
             <h2>Choose the wall finish around the room, not in isolation.</h2>
@@ -82,7 +90,13 @@ export default function WallpaperOptionsPage() {
             {wallpaperOptions.map((option) => (
               <figure className="service-example-card" key={option.title}>
                 <div className="curtain-type-image">
-                  <img src={option.src} alt="" />
+                  <Image
+                    src={option.src}
+                    alt={`${option.title} example by Free State Curtain Parlour`}
+                    width={1200}
+                    height={1620}
+                    sizes="(max-width: 720px) 100vw, 33vw"
+                  />
                   <strong>{option.title}</strong>
                 </div>
                 <figcaption>
@@ -91,12 +105,7 @@ export default function WallpaperOptionsPage() {
               </figure>
             ))}
           </div>
-          <div className="service-examples-actions">
-            <a className="button button-primary" href="/services">
-              <span>Back to services</span>
-              <span aria-hidden="true">→</span>
-            </a>
-          </div>
+          <ServicePageLinks currentPath="/services/wallpaper/examples" />
         </div>
       </section>
     </InteriorPage>

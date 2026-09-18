@@ -1,6 +1,7 @@
 import { SiteFooter } from "./SiteFooter";
 import { SiteHeader } from "./SiteHeader";
 import { MobileMenu } from "./MobileMenu";
+import Image from "next/image";
 import type { ReactNode } from "react";
 
 type InteriorPageProps = {
@@ -30,7 +31,7 @@ export function InteriorPage({
           className ? ` ${className}` : ""
         }`}
       >
-        <img src={image} alt="" />
+        <Image src={image} alt="" fill priority sizes="100vw" />
         <div className="hero-shade" />
         <SiteHeader className="interior-site-header" />
         <div className="interior-hero-content">

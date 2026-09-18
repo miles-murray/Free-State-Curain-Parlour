@@ -1,5 +1,8 @@
-import type { Metadata } from "next";
-import { InteriorPage } from "../components/InteriorPage";
+import { MobileMenu } from "../components/MobileMenu";
+import { SiteFooter } from "../components/SiteFooter";
+import { SiteHeader } from "../components/SiteHeader";
+import { createPageMetadata } from "../seo";
+import Image from "next/image";
 
 const showroomImages = [
   {
@@ -13,9 +16,24 @@ const showroomImages = [
     className: "showroom-shot-tall",
   },
   {
+    src: "/showroom/showroom-new-textiles.jpeg",
+    alt: "Close-up of textured fabrics and upholstery samples in the showroom.",
+    className: "showroom-shot-small",
+  },
+  {
+    src: "/showroom/showroom-decor-vases-runner.jpeg",
+    alt: "Decorative glass vases, dried stems and patterned runner in the showroom.",
+    className: "showroom-shot-tall",
+  },
+  {
     src: "/showroom/showroom-real-main.jpeg",
     alt: "Main showroom view with decor shelving, rug and lighting.",
     className: "showroom-shot-wide",
+  },
+  {
+    src: "/showroom/showroom-new-lamp.jpeg",
+    alt: "Black table lamp displayed against patterned wallpaper in the showroom.",
+    className: "showroom-shot-tall",
   },
   {
     src: "/showroom/showroom-gallery-02.jpeg",
@@ -23,8 +41,23 @@ const showroomImages = [
     className: "showroom-shot-small",
   },
   {
+    src: "/showroom/showroom-bench-cushions.jpeg",
+    alt: "Carved wooden bench with cushions, curtains and showroom decor.",
+    className: "showroom-shot-tall",
+  },
+  {
     src: "/showroom/showroom-real-room-setting.jpeg",
     alt: "Room setting with curtains, sofa, cushions and lighting.",
+    className: "showroom-shot-tall",
+  },
+  {
+    src: "/showroom/showroom-leather-chair-plant.jpeg",
+    alt: "Leather chair beside a green plant inside the showroom.",
+    className: "showroom-shot-tall",
+  },
+  {
+    src: "/showroom/showroom-new-mirror.jpeg",
+    alt: "Large circular mirror displayed on wooden showroom flooring.",
     className: "showroom-shot-tall",
   },
   {
@@ -33,9 +66,19 @@ const showroomImages = [
     className: "showroom-shot-small",
   },
   {
+    src: "/showroom/showroom-new-decor-table.jpeg",
+    alt: "Decorative bowl and red vase displayed on a glass showroom table.",
+    className: "showroom-shot-wide",
+  },
+  {
     src: "/showroom/showroom-gallery-07.jpeg",
     alt: "Reception counter with pendant lights and patterned wall finish.",
     className: "showroom-shot-wide",
+  },
+  {
+    src: "/showroom/showroom-new-shelving.jpeg",
+    alt: "Decor shelving with vases, greenery and display pieces inside the showroom.",
+    className: "showroom-shot-tall",
   },
   {
     src: "/showroom/showroom-real-lighting.jpeg",
@@ -43,9 +86,29 @@ const showroomImages = [
     className: "showroom-shot-small",
   },
   {
+    src: "/showroom/showroom-cushion-stack-detail.jpeg",
+    alt: "Stacked patterned cushions displayed on a showroom rack.",
+    className: "showroom-shot-small",
+  },
+  {
+    src: "/showroom/showroom-new-carved-bench.jpeg",
+    alt: "Close-up of a carved wooden bench detail in the showroom.",
+    className: "showroom-shot-small",
+  },
+  {
     src: "/showroom/showroom-gallery-04.jpeg",
     alt: "Showroom entrance detail with light feature and decor shelving.",
     className: "showroom-shot-full",
+  },
+  {
+    src: "/showroom/showroom-new-vases.jpeg",
+    alt: "Decorative vases and cushions displayed inside the showroom.",
+    className: "showroom-shot-tall",
+  },
+  {
+    src: "/showroom/showroom-wallpaper-chair-corner.jpeg",
+    alt: "Showroom corner with botanical wallpaper, chair, candles and lighting.",
+    className: "showroom-shot-tall",
   },
   {
     src: "/showroom/showroom-gallery-09.jpeg",
@@ -87,28 +150,73 @@ const showroomImages = [
     alt: "Decor display with vases, furniture and lighting.",
     className: "showroom-shot-small",
   },
+  {
+    src: "/showroom/showroom-woven-mirror.png",
+    alt: "Round woven mirror with natural fringe displayed in the showroom.",
+    className: "showroom-shot-tall",
+  },
+  {
+    src: "/showroom/showroom-geometric-pendant-lights.png",
+    alt: "Geometric pendant lights illuminated above a showroom display.",
+    className: "showroom-shot-tall",
+  },
+  {
+    src: "/showroom/showroom-decorative-trims.png",
+    alt: "Decorative braids, fringes and trims arranged for selection.",
+    className: "showroom-shot-small",
+  },
+  {
+    src: "/showroom/showroom-clock-wall-display.png",
+    alt: "Large wall clock with timber slat detail and floating shelves in the showroom.",
+    className: "showroom-shot-wide",
+  },
+  {
+    src: "/showroom/showroom-green-armchairs.png",
+    alt: "Pair of green upholstered armchairs displayed with wallpaper, lighting and artwork.",
+    className: "showroom-shot-tall",
+  },
 ];
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Showroom | Free State Curtain Parlour",
   description:
     "See the Free State Curtain Parlour showroom in Westdene, Bloemfontein.",
-};
+  path: "/showroom",
+  image: "/showroom/showroom-real-main.jpeg",
+});
 
 export default function ShowroomPage() {
   return (
-    <InteriorPage
-      eyebrow="Inside the showroom"
-      title="Come see what we do."
-      intro="Room settings, fabrics, finishes, furniture and decor, seen together in real showroom light."
-      image="/showroom/showroom-gallery-02.jpeg"
-      className="showroom-hero"
-    >
-      <section className="page-section page-section-light showroom-image-section">
+    <main className="showroom-page">
+      <MobileMenu />
+      <div className="mobile-page-hero mobile-page-hero-showroom">
+        <div className="showroom-page-top">
+          <SiteHeader />
+        </div>
+
+        <section className="page-section page-section-light showroom-image-section mobile-page-hero-section">
+          <div className="showroom-gallery-intro">
+            <p className="eyebrow">Inside the showroom</p>
+            <h1>Come see what we do.</h1>
+            <p>
+              Room settings, fabrics, finishes, furniture and decor, seen together in
+              real showroom light.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <section className="page-section page-section-light showroom-image-section showroom-gallery-section">
         <div className="showroom-image-flow">
           {showroomImages.map((image) => (
             <figure className={image.className} key={image.src}>
-              <img src={image.src} alt={image.alt} />
+              <Image
+                src={image.src}
+                alt={image.alt}
+                width={1200}
+                height={1620}
+                sizes="(max-width: 720px) 100vw, 25vw"
+              />
             </figure>
           ))}
         </div>
@@ -180,6 +288,8 @@ export default function ShowroomPage() {
           </div>
         </div>
       </section>
-    </InteriorPage>
+
+      <SiteFooter />
+    </main>
   );
 }

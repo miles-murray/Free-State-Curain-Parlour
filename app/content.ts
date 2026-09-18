@@ -1,4 +1,5 @@
 export const primaryNav = [
+  { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
   { label: "Showroom", href: "/showroom" },
   { label: "Process", href: "/process" },
@@ -9,7 +10,6 @@ export const primaryNav = [
 ];
 
 export const sitePages = [
-  { label: "Home", href: "/" },
   ...primaryNav,
   { label: "Contact", href: "/contact" },
 ];
@@ -56,7 +56,7 @@ export const services = [
       "Refresh existing furniture or plan soft details with fabric advice, reupholstery, headboards, ottomans and trimmings considered around the room.",
     cta: "Learn about upholstery",
     href: "/services#upholstery-soft-furnishings",
-    image: "/showroom/upholstery-leather-chair-selected.jpeg",
+    image: "/showroom/upholstery-green-armchairs.png",
     position: "center center",
   },
   {
@@ -89,7 +89,7 @@ export const services = [
       "Plan wall units, sourced custom pieces and practical built-in ideas around the room's scale, finish, storage and display needs.",
     cta: "Learn about custom pieces",
     href: "/services#wall-units",
-    image: "/showroom/wall-units-shelves-lamp.jpeg",
+    image: "/showroom/wall-units-clock-display.png",
     position: "center center",
   },
 ];
@@ -110,7 +110,7 @@ export const homepageServices = [
       "Reupholstery, furniture revamps, leather products, scatter cushions, headboards, ottomans, trimmings and soft details that help the room feel layered and complete.",
     cta: "View upholstery",
     href: "/services#upholstery-soft-furnishings",
-    image: "/showroom/upholstery-leather-chair-selected.jpeg",
+    image: "/showroom/upholstery-green-armchairs.png",
     position: "center center",
   },
   {
@@ -146,7 +146,7 @@ export const homepageServices = [
       "Wall units for storage, display or media use, planned around the scale, wood finish, colour and practical needs of the room.",
     cta: "View wall units",
     href: "/services#wall-units",
-    image: "/showroom/wall-units-shelves-lamp.jpeg",
+    image: "/showroom/wall-units-clock-display.png",
     position: "center center",
   },
 ];
@@ -349,15 +349,15 @@ export const guidanceSteps = [
 
 export const gallery = [
   {
-    src: "/showroom/showroom-real-main.jpeg",
-    alt: "Free State Curtain Parlour showroom entrance with a console table, rug, lighting and decor displays",
-    label: "The Westdene showroom",
-    className: "gallery-wide",
-  },
-  {
     src: "/showroom/showroom-real-room-setting.jpeg",
     alt: "Styled showroom room setting with curtains, a sofa, bedding, rugs and lighting",
     label: "Curtains & soft furnishings",
+    className: "gallery-wide",
+  },
+  {
+    src: "/showroom/showroom-real-main.jpeg",
+    alt: "Free State Curtain Parlour showroom entrance with a console table, rug, lighting and decor displays",
+    label: "The Westdene showroom",
     className: "gallery-tall",
   },
   {
@@ -378,7 +378,7 @@ export const projects = [
   {
     title: "Curtain projects",
     summary:
-      "A placeholder set for finished curtain work, including custom curtains, hall curtains, stage curtains and electric curtain projects.",
+      "Custom curtain projects can include bedroom curtains, lounge curtains, hall curtains, stage curtains and electric or Wi-Fi operated curtain tracks.\n\nEach project starts with fabric direction, lining, fullness, heading style and the way the curtain needs to hang in the room.\n\nThe team helps clients compare textures, check light and privacy, plan rods or rails, confirm measurements and finish the curtain so it feels considered once installed.\n\nCurtain projects can also include the small practical decisions that affect the final result, from how the fabric stacks when open to how the heading sits once the curtain is dressed.\n\nThe aim is to make the window treatment feel made for the room, not simply added to it.",
     images: [
       "/showroom/curtains-fabrics-example-01.jpeg",
       "/showroom/curtains-fabrics-example-03.jpeg",
@@ -391,7 +391,7 @@ export const projects = [
   {
     title: "Blind installations",
     summary:
-      "A mock grouping for blind projects, from practical light control to supplier-made and electric blind installations.",
+      "Blind projects usually start with the practical needs of the room: privacy, glare, heat, window size and how much light the client wants to control.\n\nOptions can include Venetian, vertical, wooden, bamboo, blackout, outdoor and motorized blinds, measured and planned around the window.\n\nThe team checks how the window opens, where handles sit, how deep the recess is and whether the blind needs to clear tiles, frames or furniture.\n\nFabric, colour and texture are chosen with the room in mind so the blind works during the day and still feels neat when the room is settled at night.",
     images: [
       "/showroom/service-blinds.jpeg",
       "/showroom/service-blinds-generated.png",
@@ -403,7 +403,7 @@ export const projects = [
   {
     title: "Wallpaper & interior finishes",
     summary:
-      "A temporary project set for wallpaper, feature walls, textured finishes and room details that support the full interior direction.",
+      "Wallpaper and interior finish projects are chosen around the wall, the room and the furniture already in the space.\n\nSome rooms need a quiet texture, while others can carry a feature wall, a stronger pattern or a custom wallpaper direction.\n\nThe team helps compare colour, scale, repeat, surface finish and how the wall treatment will sit with curtains, blinds, upholstery and decor.\n\nA finish is also checked against the size of the wall, the amount of natural light and the pieces that will stand in front of it.\n\nThe goal is to make the surface feel connected to the rest of the room, whether the result is soft and layered or bold and decorative.",
     images: [
       "/showroom/feature-wall-bedroom.png",
       "/showroom/showroom-real-vignette.jpeg",
@@ -416,7 +416,7 @@ export const projects = [
   {
     title: "Upholstery & soft furnishings",
     summary:
-      "A placeholder group for reupholstery, headboards, ottomans, trimmings and fabric-led soft furnishing projects.",
+      "Upholstery and soft furnishing projects are built around fabric choice, everyday use and the pieces that already belong in the room.\n\nThis can include reupholstery, headboards, ottomans, cushions, quilts and trimmings chosen to suit the wider room direction.\n\nThe team considers texture, durability, colour, comfort and how each soft piece will sit with curtains, rugs, wallpaper and furniture.\n\nSmall details such as piping, trims, scatter cushion sizes and fabric combinations can change how finished the room feels.",
     images: [
       "/showroom/furniture-decor-example-01.jpeg",
       "/showroom/furniture-decor-example-02.jpeg",
@@ -429,7 +429,7 @@ export const projects = [
   {
     title: "Rugs, lighting & decor",
     summary:
-      "A mock category for the finishing layers: rugs, lamps, mirrors, lighting touches, decor pieces and final room details.",
+      "Rugs, lighting and decor projects sit in the final layer of the room, where scale, texture and placement make a big difference.\n\nThe showroom helps clients compare rugs, lamps, mirrors, decorative objects, LED touches and finishing pieces in real light.\n\nThese details are chosen to support the curtains, blinds, upholstery and furniture so the room feels finished rather than simply filled.\n\nA rug can ground the furniture, lighting can soften the mood and decor can bring rhythm, height and personality into the space.\n\nThe team helps clients choose pieces that belong together, so the final layer feels collected and considered.",
     images: [
       "/showroom/service-furniture-room-settings.jpeg",
       "/showroom/showroom-real-lighting.jpeg",
@@ -441,7 +441,7 @@ export const projects = [
   {
     title: "Wall units & custom pieces",
     summary:
-      "A temporary project area for wall units, display shelving, fitted storage, media units and sourced custom pieces.",
+      "Wall units and custom pieces are planned around storage, display, room scale and the way the space needs to be used.\n\nProjects can include display shelving, media units, fitted storage ideas and sourced pieces planned around proportion, finish and placement.\n\nThe team looks at what needs to be hidden, what should be displayed and how the piece will sit with curtains, furniture, lighting and wall finishes.\n\nPractical details such as height, depth, access, plug points and clearances are considered before the final direction is confirmed.",
     images: [
       "/showroom/wall-units-example-01.jpeg",
       "/showroom/wall-units-example-02.jpeg",
@@ -453,7 +453,7 @@ export const projects = [
   {
     title: "Full-room guidance",
     summary:
-      "A mock section for larger room-led projects where fabrics, finishes, wallpaper, rugs, lighting and installation all come together.",
+      "Full-room guidance is for clients who want help seeing how the whole space can come together before choosing individual pieces.\n\nThe process can bring curtains, blinds, wallpaper, upholstery, rugs, lighting, decor and installation decisions into one clearer direction.\n\nThe showroom gives clients a place to compare finishes in person, while the team helps shape the next steps around the room, the budget and the way the space should feel.\n\nThis kind of project is useful when there are many separate choices and the room needs one practical thread to hold them together.",
     images: [
       "/showroom/showroom-real-room-setting.jpeg",
       "/showroom/interior-guidance-dining-room.png",

@@ -1,34 +1,60 @@
-import type { Metadata } from "next";
-import { InteriorPage } from "../components/InteriorPage";
+import { MobileMenu } from "../components/MobileMenu";
+import { SiteFooter } from "../components/SiteFooter";
+import { SiteHeader } from "../components/SiteHeader";
+import { createPageMetadata } from "../seo";
+import Image from "next/image";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Workshop | Free State Curtain Parlour",
   description:
     "See the workshop behind Free State Curtain Parlour's curtain making, soft furnishings, custom details and finishing work in Bloemfontein.",
-};
+  path: "/workshop",
+  image: "/showroom/workshop-ai-placeholder.png",
+});
 
 const workshopAreas = [
   {
     title: "Fabric preparation",
-    text: "This is where selected fabrics move from showroom choice to practical work. Lengths are checked, marked, cut and prepared around the measurements for each room.",
+    mobileText:
+      "Selected fabrics are checked, measured, cut and prepared so the pattern, lining and finish follow the room plan.",
+    text: [
+      "This is where selected fabrics move from showroom choice to practical work. Lengths are checked, marked, cut and prepared around the measurements for each room.",
+      "The team checks the fabric direction, repeat, lining and finish before the work moves to sewing, so the finished piece follows the same plan agreed in the showroom.",
+      "Small practical details are resolved here too, from fabric handling to how the material will behave once it is hung, fitted or dressed in the room.",
+    ],
     image: "/workshop/workshop-fabric-preparation.jpeg",
     alt: "A workshop team member preparing patterned fabric on a cutting table.",
   },
   {
     title: "Sewing and making",
-    text: "Curtains, linings, headings and soft furnishings are made up with the finished space in mind, so the details work with the fabric, track and room.",
+    mobileText:
+      "Curtains, linings, headings and soft furnishings are made to suit the fabric, track and finished room.",
+    text: [
+      "Curtains, linings, headings and soft furnishings are made up with the finished space in mind, so the details work with the fabric, track and room.",
+      "This stage brings together the measurements, fabric choice and practical finish, with each piece made to suit the way it will be used every day.",
+    ],
     image: "/workshop/workshop-sewing-making.jpeg",
     alt: "A seamstress sewing fabric at a workshop sewing machine.",
   },
   {
     title: "Details and coordination",
-    text: "The workshop also supports the smaller finishing decisions: trims, cushions, custom details and the pieces that need to arrive together before installation.",
+    mobileText:
+      "Trims, cushions and custom details are checked together before installation.",
+    text: [
+      "The workshop also supports the smaller finishing decisions: trims, cushions, custom details and the pieces that need to arrive together before installation.",
+      "Those details are checked against the rest of the room so the finished work feels connected, not like separate pieces added at the end.",
+    ],
     image: "/workshop/workshop-details-coordination.jpeg",
     alt: "A workshop team member finishing patterned fabric details by hand.",
   },
   {
     title: "Ready for the room",
-    text: "Before anything leaves the workshop, finished work is checked so it is ready for handover or installation in the room it was made for.",
+    mobileText:
+      "Finished work receives a final check before handover or installation.",
+    text: [
+      "Before anything leaves the workshop, finished work is checked so it is ready for handover or installation in the room it was made for.",
+      "The final check looks at the finish, presentation and practical fit, so the work can move from the workshop back into the space with confidence.",
+    ],
     image: "/workshop/floral-curtains-finished-room.png",
     alt: "Finished floral curtains hanging in a completed room.",
   },
@@ -36,31 +62,66 @@ const workshopAreas = [
 
 export default function WorkshopPage() {
   return (
-    <InteriorPage
-      eyebrow="Workshop"
-      title="Inside the workshop."
-      intro="A simple look at the place where fabrics are prepared, curtains are made and finished work is checked before it goes into a home."
-      image="/workshop/workshop-hero-sewing-machine.jpeg"
-      className="workshop-page-hero"
-    >
+    <main className="showroom-page workshop-page">
+      <MobileMenu />
+      <div className="workshop-heading-hero">
+        <div className="showroom-page-top">
+          <SiteHeader />
+        </div>
+
+        <section className="page-section page-section-light workshop-story-page workshop-heading-section">
+          <div className="simple-page-intro">
+            <p className="eyebrow">Workshop</p>
+            <h1>Inside the workshop.</h1>
+            <p>
+              A simple look at the place where fabrics are prepared, curtains
+              are made and finished work is checked before it goes into a home.
+            </p>
+          </div>
+        </section>
+      </div>
+
       <section className="page-section page-section-light workshop-story-page workshop-intro-section">
         <div className="workshop-page-intro">
-          <p className="eyebrow">Behind the work</p>
-          <h2>
-            <span>A working space</span>
-            <span>behind the showroom.</span>
-          </h2>
           <figure className="workshop-intro-image">
-            <img
+            <Image
               src="/workshop/workshop-room-overview.jpeg"
               alt="Free State Curtain Parlour workshop with sewing stations, cutting tables and fabric storage."
+              width={1600}
+              height={1150}
+              sizes="(max-width: 720px) 100vw, 55vw"
             />
           </figure>
-          <p className="workshop-intro-copy">
-            The workshop is not a second showroom. It is the practical space
-            where selected fabric, details and measurements become finished
-            curtains for Bloemfontein homes.
-          </p>
+          <div className="workshop-intro-text">
+            <div className="workshop-intro-heading">
+              <p className="eyebrow">Behind the work</p>
+              <h2>
+                <span>A working space</span>
+                <span>behind the showroom.</span>
+              </h2>
+            </div>
+            <div className="workshop-intro-copy workshop-intro-copy-desktop">
+              <p>
+                The workshop is not a second showroom. It is the practical space
+                where selected fabric, details and measurements become finished
+                work for Bloemfontein homes.
+              </p>
+              <p>
+                This is where curtains are prepared, headings are made, linings
+                are checked and soft furnishing details are brought together
+                before they go back into the room.
+              </p>
+              <p>
+                It keeps the showroom choices connected to the making process:
+                what was chosen, what needs to fit, and what has to be ready for
+                installation or collection.
+              </p>
+            </div>
+            <p className="workshop-intro-mobile-copy">
+              Selected fabrics, measurements and finishing details are prepared
+              here before each piece is checked for installation or collection.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -80,13 +141,24 @@ export default function WorkshopPage() {
         <div className="workshop-story-grid">
           {workshopAreas.map((area) => (
             <article key={area.title}>
+              <div className="workshop-area-copy">
+                <h3>{area.title}</h3>
+                <div className="workshop-area-copy-desktop">
+                  {area.text.map((paragraph) => (
+                    <p key={paragraph}>{paragraph}</p>
+                  ))}
+                </div>
+                <p className="workshop-area-copy-mobile">{area.mobileText}</p>
+              </div>
               <figure>
-                <img src={area.image} alt={area.alt} />
-                <figcaption>
-                  <h3>{area.title}</h3>
-                </figcaption>
+                <Image
+                  src={area.image}
+                  alt={area.alt}
+                  width={1600}
+                  height={1240}
+                  sizes="(max-width: 720px) 100vw, 55vw"
+                />
               </figure>
-              <p>{area.text}</p>
             </article>
           ))}
         </div>
@@ -158,6 +230,8 @@ export default function WorkshopPage() {
           </div>
         </div>
       </section>
-    </InteriorPage>
+
+      <SiteFooter />
+    </main>
   );
 }

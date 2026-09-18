@@ -38,3 +38,11 @@ yarn-error.log*
 /.wrangler/
 /outputs/
 /work/
+
+# local preview and generated review artifacts
+/.playwright-mcp/
+/output/
+/tmp/
+/Codex Image*.png
+/public/modern-heading-font-options.html
+/public/modern-heading-font-options.png

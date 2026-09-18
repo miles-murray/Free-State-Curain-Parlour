@@ -1,33 +1,52 @@
-import type { Metadata } from "next";
-import { InteriorPage } from "../components/InteriorPage";
+import { MobileMenu } from "../components/MobileMenu";
+import { SiteFooter } from "../components/SiteFooter";
+import { SiteHeader } from "../components/SiteHeader";
 import { teamPeople } from "../content";
+import { createPageMetadata } from "../seo";
+import Image from "next/image";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Team & Roles | Free State Curtain Parlour",
   description:
     "Meet the customer-facing, financial, installation and specialist support roles behind Free State Curtain Parlour in Bloemfontein.",
-};
+  path: "/team",
+  image: "/team/team-hero-ai.png",
+});
 
 export default function TeamPage() {
   return (
-    <InteriorPage
-      eyebrow="Team & roles"
-      title="The people behind the finished room."
-      image="/team/team-hero-ai.png"
-    >
-      <section className="page-section page-section-light team-page-section">
-        <div className="team-page-intro">
-          <h2>Meet the team.</h2>
-          <p>
-            The people who help guide each room from first conversation to
-            finished detail.
-          </p>
+    <main className="showroom-page team-page">
+      <MobileMenu />
+      <div className="mobile-page-hero mobile-page-hero-team">
+        <div className="showroom-page-top">
+          <SiteHeader />
         </div>
+
+        <section className="page-section page-section-light team-page-section mobile-page-hero-section">
+          <div className="simple-page-intro team-page-intro">
+            <p className="eyebrow">Team & roles</p>
+            <h1>The people behind the finished room.</h1>
+            <p>
+              The people who help guide each room from first conversation to
+              finished detail.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <section className="page-section page-section-light team-page-section team-grid-section">
         <div className="team-page-grid">
           {teamPeople.map((person) => (
             <article className="role-card team-role-card" key={person.name}>
               <span className="team-role-label">{person.role}</span>
-              <img className="team-role-media" src={person.image} alt={person.alt} />
+              <Image
+                className="team-role-media"
+                src={person.image}
+                alt={person.alt}
+                width={1200}
+                height={1470}
+                sizes="(max-width: 720px) 100vw, 33vw"
+              />
               <div className="team-role-body">
                 <h2>{person.name}</h2>
               </div>
@@ -102,6 +121,8 @@ export default function TeamPage() {
           </div>
         </div>
       </section>
-    </InteriorPage>
+
+      <SiteFooter />
+    </main>
   );
 }

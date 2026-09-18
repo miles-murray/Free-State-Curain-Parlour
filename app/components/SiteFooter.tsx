@@ -1,13 +1,16 @@
+import Image from "next/image";
+
 export function SiteFooter() {
   return (
     <footer className="site-footer">
       <div className="footer-brand">
-        <img
+        <Image
           className="footer-logo"
           src="/fscp-logo-transparent.png"
           alt="Free State Curtain Parlour"
-          width="1627"
-          height="621"
+          width={1627}
+          height={621}
+          sizes="220px"
         />
       </div>
       <nav aria-label="Footer navigation">

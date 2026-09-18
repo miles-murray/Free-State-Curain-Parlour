@@ -1,12 +1,21 @@
+import { createPageMetadata } from "./seo";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 import { MobileMenu } from "./components/MobileMenu";
+import Image from "next/image";
 import {
   gallery,
   homepageServices,
   reviews,
   workshopSteps,
 } from "./content";
+
+export const metadata = createPageMetadata({
+  title: "Free State Curtain Parlour | Curtains, Blinds & Decor in Bloemfontein",
+  description:
+    "Visit Free State Curtain Parlour in Westdene, Bloemfontein for custom curtains, blinds, wallpaper, upholstery, wall units and interior decor advice.",
+  path: "/",
+});
 
 function splitWorkshopStep(step: string) {
   const match = step.match(/^([^,\s]+),?\s+(.+)$/);
@@ -22,10 +31,13 @@ export default function Home() {
     <main className="home-page">
       <MobileMenu />
       <section className="hero" aria-labelledby="home-title">
-        <img
+        <Image
           className="hero-image"
           src="/showroom/hero-interior.jpeg"
           alt="Free State Curtain Parlour showroom interior with decor shelving, lighting and rugs"
+          fill
+          priority
+          sizes="100vw"
         />
         <div className="hero-shade" />
 
@@ -33,11 +45,11 @@ export default function Home() {
 
         <div className="hero-content" id="top">
           <p className="eyebrow light">Westdene, Bloemfontein</p>
-          <h1 id="home-title">Where fabric, furniture and finishing touches meet.</h1>
+          <h1 id="home-title">Complete interiors, brought together in Bloemfontein.</h1>
           <p className="hero-lede">
-            From curtains, blinds and upholstery to wallpaper, rugs, lighting,
-            decor and wall units, our Bloemfontein showroom helps you bring the
-            whole room together.
+            Explore custom curtains, blinds, upholstery, wallpaper, rugs,
+            lighting and decor, with experienced interior guidance to help
+            every part of your room work beautifully together.
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="/services">
@@ -50,7 +62,6 @@ export default function Home() {
         </div>
 
         <div className="hero-foot">
-          <span>Curtains / Installation / Blinds / Wallpaper / Bespoke furniture / Wall units / Decor / Showroom guidance</span>
           <span className="heritage-mark">Established 1959</span>
         </div>
       </section>
@@ -81,10 +92,16 @@ export default function Home() {
               <source
                 media="(min-width: 1001px)"
                 srcSet="/showroom/whole-room-approach-desktop.jpeg"
+                width="1800"
+                height="1350"
               />
               <img
                 src="/showroom/whole-room-approach.jpeg"
                 alt="Decor, lighting and room details inside Free State Curtain Parlour"
+                width="1350"
+                height="1800"
+                loading="lazy"
+                decoding="async"
               />
             </picture>
           </div>
@@ -107,18 +124,17 @@ export default function Home() {
           </p>
         </div>
         <div className="service-grid">
-          {homepageServices.map((service, index) => (
+          {homepageServices.map((service) => (
             <article className="service-row" key={service.title}>
               <div className="service-panel">
-                <img
+                <Image
                   src={service.image}
-                  alt=""
+                  alt={`${service.title} service example from Free State Curtain Parlour`}
+                  fill
+                  sizes="(max-width: 720px) 100vw, 50vw"
                   style={{ objectPosition: service.position }}
                 />
                 <div className="service-overlay" />
-                <span className="service-number">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
                 <h3 className="service-image-title">{service.title}</h3>
               </div>
               <div className="service-copy">
@@ -150,7 +166,12 @@ export default function Home() {
         <div className="gallery-grid">
           {gallery.map((item) => (
             <figure className={item.className} key={item.src}>
-              <img src={item.src} alt={item.alt} />
+              <Image
+                src={item.src}
+                alt={item.alt}
+                fill
+                sizes="(max-width: 720px) 100vw, 50vw"
+              />
             </figure>
           ))}
         </div>
@@ -163,17 +184,19 @@ export default function Home() {
 
       <section className="workshop-section" id="process">
         <div className="workshop-shell">
-          <div className="workshop-rail">
-            <p className="eyebrow">Process</p>
-          </div>
           <div className="workshop-content">
             <figure className="workshop-media-band">
-              <img
-                src="/showroom/workshop-ai-placeholder.png"
-                alt="Temporary workshop scene with curtain fabrics, measuring tools and sewing equipment"
+              <Image
+                src="/workshop/workshop-room-overview.jpeg"
+                alt="Free State Curtain Parlour team making curtains in the workshop"
+                fill
+                sizes="(max-width: 720px) 100vw, 88vw"
               />
             </figure>
             <div className="workshop-copy">
+              <div className="workshop-rail">
+                <p className="eyebrow">Process</p>
+              </div>
               <h2>
                 <span>Measured, made and</span>
                 <span>finished for the room.</span>
@@ -192,12 +215,12 @@ export default function Home() {
                   );
                 })}
               </div>
+              <div className="workshop-actions">
+                <a className="text-link workshop-link" href="/process">
+                  View the process <span aria-hidden="true">→</span>
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="workshop-actions">
-            <a className="text-link workshop-link" href="/process">
-              View the process <span aria-hidden="true">→</span>
-            </a>
           </div>
         </div>
       </section>
@@ -240,7 +263,7 @@ export default function Home() {
                 aria-hidden={index >= reviews.length}
               >
                 <header className="review-author">
-                  <img src={review.avatar} alt="" />
+                  <Image src={review.avatar} alt="" width={52} height={52} sizes="52px" />
                   <div>
                     <strong>{review.name}</strong>
                     <span>{review.detail}</span>
@@ -324,6 +347,19 @@ export default function Home() {
             <a href="tel:+27514303474">051 430 3474</a>
             <a href="mailto:freestatecurtainparlour@gmail.com">
               freestatecurtainparlour@gmail.com
+            </a>
+          </div>
+          <div>
+            <h3>Socials</h3>
+            <a
+              className="visit-social-link"
+              href="https://www.facebook.com/search/top?q=free%20state%20curtain%20parlour%20and%20decor"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Free State Curtain Parlour on Facebook"
+            >
+              <span className="facebook-mark" aria-hidden="true">f</span>
+              <span>Facebook</span>
             </a>
           </div>
         </div>

@@ -1,11 +1,13 @@
-import type { Metadata } from "next";
 import { InteriorPage } from "../components/InteriorPage";
+import { createPageMetadata } from "../seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Contact | Free State Curtain Parlour",
   description:
     "Visit or contact Free State Curtain Parlour at 44 Second Avenue, Westdene, Bloemfontein.",
-};
+  path: "/contact",
+  image: "/showroom/showroom-entry.jpg",
+});
 
 export default function ContactPage() {
   return (
@@ -14,6 +16,7 @@ export default function ContactPage() {
       title="Free State Curtain Parlour."
       intro="Visit, call or email the showroom."
       image="/showroom/showroom-entry.jpg"
+      className="contact-hero"
     >
       <section className="page-section page-section-light contact-info-section">
         <div className="contact-info-grid">
